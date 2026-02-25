@@ -101,7 +101,7 @@ const kontroafocusu = useMediaQuery({ minWidth: 750 });
 
 
 
-const navigovanesapt = () => navigate("/Formularikceokko")
+const navigovanesapt = () => navigate("/Formularovacastposldena")
 
   const funkce = () => {
   const pocet = kvalita.length

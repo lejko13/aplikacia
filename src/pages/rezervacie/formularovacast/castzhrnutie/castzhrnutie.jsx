@@ -40,7 +40,7 @@ const Castzhrnutie = ({onClick2,onClick}) => {
        <div className='ovaldacaipanel'>
             <div className='buttonjetaotakze'  onClick={() =>  {setZobrazovanie("nah2la3d"),setOtvorenieposldenho(false)}}>Upravit</div>
 
-            {isMobile &&     
+              
             <div style={{position:"relative"}}>
                 <div className='buttonjetaotakze'
                 onClick={onClick2}
@@ -48,7 +48,7 @@ const Castzhrnutie = ({onClick2,onClick}) => {
                 {kvalita?.length > 0 && <div className='malykruzok2'>{kvalita.length}</div>}
                 
                 </div>
-              }
+              
        
           
         </div>

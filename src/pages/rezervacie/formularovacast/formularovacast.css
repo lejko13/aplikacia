@@ -1,5 +1,5 @@
 .formulariiikoko{
-    position: absolute;
+    position: relative;
     height: 100%;
     overflow: hidden;
     inset: 0;
@@ -84,6 +84,21 @@
 .ovaldacaipanel{
     background-color: var(--farba-main2);
 padding: 10px 10px;
+}
+.formulariiikoko{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    inset: 0;
+    flex-direction: column;
+    z-index: 500;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    /* border-radius: 12px; */
+    /* border: var(--border); */
+    /* background-color: pink; */
+    background-color: var(--farba-main2);
 }
 }
 

@@ -8,7 +8,7 @@
 }
 .tujescrollemeltneikcek{
     flex: 1;
-    /* background-color: aqua; */
+    background-color: aqua;
     overflow: auto;
       overscroll-behavior-y: contain;  
 }

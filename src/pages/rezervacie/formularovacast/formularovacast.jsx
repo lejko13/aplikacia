@@ -36,14 +36,14 @@ const Formularovacast = ({onClick,onClick2}) => {
 
         <div className='castekdejefomrularr'>
 
-
+{/* 
           {otvorenieposldenho &&             
           <div className='totojeuzfinalfnezobrazenie'>
 
             <Castzhrnutie
             onClick2 = {() => FORMULAR()}
             ></Castzhrnutie>
-            </div>}
+            </div>} */}
 
           <Providerform>
             <Platba></Platba>
@@ -56,9 +56,7 @@ const Formularovacast = ({onClick,onClick2}) => {
         <div className='ovaldacaipanel'>
             <div className='buttonjetaotakze'  onClick={onClick}>Späť</div>
 
-            {isMobile &&     
-            <>
-
+            
    <div style={{position:"relative"}}>
                 <div className='buttonjetaotakze'
                 onClick={onClick2}
@@ -69,8 +67,7 @@ const Formularovacast = ({onClick,onClick2}) => {
 
 
          
-              </>
-              }
+             
        
           
         </div>

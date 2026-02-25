@@ -226,6 +226,7 @@ return true
 
        <Formularovacast
                                     zmenamnn = {{height:"100%",position:"relative"}}
+                                    
 
 
                                     onClick = {() => {handleClick2(),navara()}}

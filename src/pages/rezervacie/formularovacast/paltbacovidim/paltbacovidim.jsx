@@ -219,7 +219,7 @@ const formattedTotal = total.toFixed(2);
              
                
            
-    {isMobile &&  <Tototodrzi 
+   <Tototodrzi 
         stilik = {{display:"none"}}
         hlvanytext = {"Prehlad ubytovania"} 
         textdole={"Tu je súhrn vášich pobytov."}>
@@ -263,7 +263,7 @@ const formattedTotal = total.toFixed(2);
            
 
                
-        </Tototodrzi> }    
+        </Tototodrzi> 
 
           <div className="cenykokocinko">
           <Tototodrzi 
