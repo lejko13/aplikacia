@@ -99,6 +99,9 @@ const kontroafocusu = useMediaQuery({ minWidth: 750 });
 
 
 
+     const handleClick32 = () => {
+        navigate(`/Formularovacastposldena`);
+    }
 
 
 
@@ -112,8 +115,9 @@ const kontroafocusu = useMediaQuery({ minWidth: 750 });
   }
   else{
     console.log("vic");
-    setZobrazovanie("nah2la3d")
+    // setZobrazovanie("nah2la3d")
     // setOtvorenie(true)
+    handleClick32()
     
   }
 }

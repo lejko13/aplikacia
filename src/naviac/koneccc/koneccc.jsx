@@ -86,8 +86,8 @@ console.log(prize);
 }
 
 
-//  const navigoavanie = () =>
-//      navigate("/Zhrnutie");
+ const navigoavanie = () =>
+     navigate("/Formularovacastposldena");
 
 
 
@@ -108,8 +108,8 @@ const kontralo = () => {
     }
     else if (kvalita.length > 0) {
   
-      setZobrazovanie("nah2la3d")
-      
+      // setZobrazovanie("nah2la3d")
+      navigoavanie()
     }
     
  

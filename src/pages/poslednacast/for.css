@@ -1,0 +1,33 @@
+.tujeformularfinaluzkoneccenkokot{
+    height: calc(100vh - 20px);
+    width: 100%;
+    /* padding: 20px; */
+    display: flex;
+    padding: 20px 10px 10px 10px;
+    background-color: blue;
+}
+.tujescrollemeltneikcek{
+    flex: 1;
+    /* background-color: aqua; */
+    overflow: auto;
+      overscroll-behavior-y: contain;  
+}
+
+
+@media (max-width: 750px) {
+  .tujescrollemeltneikcek {
+    flex: 1;
+    background-color: aqua;
+    overflow: visible;                /* žiadny vlastný scroll */
+    overscroll-behavior: auto;        /* scroll sa prenáša na rodiča/body */
+  }
+  .tujeformularfinaluzkoneccenkokot{
+    height: fit-content;
+    width: 100%;
+    min-height: 800px;
+  padding: 0px 0px 10px 0px;
+    display: flex;
+    background-color: blue;
+}
+  
+}

@@ -52,9 +52,10 @@ import ScrollToTop from './naviac/opravascrolu/opravascrolu'
 
 import Pokladna from './pages/pokladna/pokladna'
 import Formularikceokko from './pages/formularikceokko/formularikceokko'
+import Zhrnutie from './pages/zhrnutie/zhrnutie'
 
 
-
+import Formularovacastposldena from './pages/poslednacast/for'
 
 
 
@@ -267,6 +268,8 @@ const hideFooter =
             <Route path="/Detailpagee/:id" element={<Detailpagee />} />
             <Route path="/Pokladna" element={<Pokladna />} />
             <Route path="/Formularikceokko" element={<Formularikceokko />} />
+            <Route path="/Zhrnutiefinal" element={<Zhrnutie />} />
+             <Route path="/Formularovacastposldena" element={<Formularovacastposldena />} />
           
            
 
@@ -462,6 +465,8 @@ const hideFooter =
             <Route path="/Detailpagee/:id" element={<Detailpagee />} />
              <Route path="/Pokladna" element={<Pokladna />} />
             <Route path="/Formularikceokko" element={<Formularikceokko />} />
+             <Route path="/Zhrnutiefinal" element={<Zhrnutie />} />
+             <Route path="/Formularovacastposldena" element={<Formularovacastposldena />} />
            
 
           </Routes>

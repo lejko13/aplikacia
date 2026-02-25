@@ -356,23 +356,7 @@ return true
  }
 // 
 
-const funkce = () => {
-  const pocet = kvalita.length
 
-
-  if (pocet=== 0 ) {
-
-    automatika()
-    setKontrolaText("vypln")
-    console.log("Nula")
-  }
-  else{
-    console.log("vic");
-    setOtvorenie(true)
-    setAno(false)
-    
-  }
-}
   
 
 console.log(presun);
@@ -416,7 +400,32 @@ console.log(presun);
 
 
 const klik = () => navigate(`/Pokladna`);
+const funkce = () => {
+  const pocet = kvalita.length
+  if (doplnky) {
+     console.log("vic");
+    // setOtvorenie(true)
+    setAno(false)
+    klik()
+  }
 
+
+   else if (pocet=== 0 ) {
+
+    automatika()
+    setKontrolaText("vypln")
+    console.log("Nula")
+  }
+
+
+  else{
+    console.log("vic");
+    setOtvorenie(true)
+    setAno(false)
+    // klik()
+    
+  }
+}
 
 
   return (
@@ -457,7 +466,7 @@ const klik = () => navigate(`/Pokladna`);
 
 
   
-            {kvalita?.length > 0 && zobrazovanie === "nah2la3d"  && 
+            {/* {kvalita?.length > 0 && zobrazovanie === "nah2la3d"  && 
                                     <Formularovacast
                                     onClick = {() => {setZobrazovanie(""),
                                       navara()}}
@@ -470,7 +479,7 @@ const klik = () => navigate(`/Pokladna`);
                                     
                                     ></Formularovacast>
                                 
-                }
+                } */}
 
                   
              
@@ -643,10 +652,10 @@ const klik = () => navigate(`/Pokladna`);
 
 // console.log("kar");
                   funkce()
-                  klik()
+                  // klik()
               
                   
-                }}>Prejsť k pokladni</div>
+                }}>Prejsť k pokkokokoladni</div>
                 {kvalita?.length > 0 && <div className='malykruzok'>{kvalita.length}</div>}
                 
                 </div>
@@ -658,7 +667,7 @@ const klik = () => navigate(`/Pokladna`);
 
 
 
-              {isMobile &&  !doplnky &&   
+              {isMobile &&     
               <Oknocosavzsuva
               otvrenie = {otvrenie}
               >
