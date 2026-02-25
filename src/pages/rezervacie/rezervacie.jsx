@@ -402,19 +402,23 @@ console.log(presun);
 const klik = () => navigate(`/Pokladna`);
 const funkce = () => {
   const pocet = kvalita.length
-  if (doplnky) {
-     console.log("vic");
-    // setOtvorenie(true)
-    setAno(false)
-    klik()
-  }
 
 
-   else if (pocet=== 0 ) {
+   
+
+
+    if (pocet=== 0 ) {
 
     automatika()
     setKontrolaText("vypln")
     console.log("Nula")
+  }
+  
+  else if (doplnky) {
+     console.log("vic");
+    // setOtvorenie(true)
+    setAno(false)
+    klik()
   }
 
 

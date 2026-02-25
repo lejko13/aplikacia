@@ -44,4 +44,16 @@
   width: 100%;
 }
 
+.tusuudajecoakokoko{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--farba-biela);
+}
+.tubuetiebytt{
+  width: 100%;
+  height: auto;
+    background-color: var(--farba-biela);
+}
 }

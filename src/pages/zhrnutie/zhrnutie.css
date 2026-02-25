@@ -4,11 +4,11 @@
     /* padding: 20px; */
     display: flex;
     padding: 20px 10px 10px 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--farba-biela);
 }
 .tujescrollemeltneikcek2332{
     flex: 1;
-    background-color: aqua;
+    /* background-color: aqua; */
     overflow: auto;
       overscroll-behavior-y: contain;  
 }
@@ -17,7 +17,7 @@
 @media (max-width: 750px) {
   .tujescrollemeltneikcek2332 {
     flex: 1;
-    background-color: aqua;
+    /* background-color: aqua; */
     overflow: visible;                /* žiadny vlastný scroll */
     overscroll-behavior: auto;        /* scroll sa prenáša na rodiča/body */
   }
@@ -27,7 +27,7 @@
     min-height: 800px;
   padding: 0px 0px 10px 0px;
     display: flex;
-    background-color: blue;
+    /* background-color: blue; */
 }
   
 }

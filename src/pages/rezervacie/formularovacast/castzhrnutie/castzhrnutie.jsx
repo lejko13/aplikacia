@@ -7,18 +7,23 @@ import { useMediaQuery } from "react-responsive";
 import { MyContext } from '../../../../naviac/providertelefon/providertelefon'
 import { GlobalContext } from '../../../../naviac/reactcontext/reactcontext'
 import Platba from '../platba/platba'
+import { useNavigate } from 'react-router-dom';
 import Paltbacovidim from '../paltbacovidim/paltbacovidim'
 const Castzhrnutie = ({onClick2,onClick}) => {
 
     const { presun,setPresun,cena,setCena,kvalita,setKvalita,prize,setPrize,zobrazovanie,setZobrazovanie,otvrenie,setOtvorenie,automatika } = useContext(GlobalContext); 
     
-    
+      const navigate = useNavigate();
     
           const { suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,unikattne,setUnikatne,meno,dotadok,setDotadok,otazka,setOtazka,formData, setFormData,otvorenieposldenho,setOtvorenieposldenho} = useContext(MyContext);
 
 
      const isMobile = useMediaQuery({ maxWidth: 1200 });
   const isDesktop = useMediaQuery({ minWidth: 1201 });
+
+
+   const navigoavanie = () =>
+     navigate("/Formularovacastposldena");
   return (
     <div className='celkokokollooo'>
         <div className='tujescrollainfo'>
@@ -38,7 +43,8 @@ const Castzhrnutie = ({onClick2,onClick}) => {
 
 
        <div className='ovaldacaipanel'>
-            <div className='buttonjetaotakze'  onClick={() =>  {setZobrazovanie("nah2la3d"),setOtvorenieposldenho(false)}}>Upravit</div>
+            <div className='buttonjetaotakze'  onClick={() =>  navigoavanie()}>Upravit</div>
+            {/* <div className='buttonjetaotakze'  onClick={() =>  {setZobrazovanie("nah2la3d"),setOtvorenieposldenho(false)}}>Upravit</div> */}
 
               
             <div style={{position:"relative"}}>

@@ -4,6 +4,9 @@
     flex-direction: column;
     gap: 10px;
     width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    border: var(  --border);
     background-color: var(--farba-main2);
 }
 .tujescrollainfo {
@@ -19,4 +22,29 @@
 
 .tujescrollainfo::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
+}
+
+@media (max-width: 750px) {
+.tujescrollainfo {
+  flex: 1;
+  padding: 10px;
+  background-color: var(--farba-biela);
+  overflow: auto; /* povolí scrollovanie, keď obsah presahuje */
+  
+  /* skrytie scrollbaru v moderných prehliadačoch */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE a Edge */
+}
+.celkokokollooo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    border: none;
+    background-color: var(--farba-biela);
+}
+  
 }
