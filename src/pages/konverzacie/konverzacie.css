@@ -2,7 +2,7 @@
     width: 100%;
     padding: 20px 20px 20px 20px;
     height: 97.3vh; /* alebo 100vh, podľa potreby */
-    overflow-y: auto; /* scroll sa objaví, keď obsah presahuje výšku */
+    overflow-y: hidden; /* scroll sa objaví, keď obsah presahuje výšku */
     background-color: var(--farba-biela)
 }
 
@@ -64,7 +64,7 @@
   display: flex;
   gap: 10px;
   flex-direction: column;
-  overflow-y: auto;   /* vertikálny scroll */
+  overflow-y: hidden;   /* vertikálny scroll */
   overflow-x: hidden; /* bez horizontálneho */
 
   /* skrytie scrollbar */
@@ -110,11 +110,11 @@
 .tusascrolujuuzivatiela{
   flex: 1;
   display: flex;
-   overflow-y: auto;
+   overflow-y: hidden;
   flex-direction: column;
   /* gap:5px; */
 
-  background-color: var(--farba-biela);
+  background-color: red;
   /* background-color: aqua; */
    scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
@@ -210,10 +210,10 @@ height: calc(100vh - 258px);
   display: flex;
   gap: 10px;
   flex-direction: column;
-  overflow-y: auto;   /* vertikálny scroll */
+  overflow-y: hidden;  
   overflow-x: hidden; /* bez horizontálneho */
 background-color: var(--farba-main2);
-/* background-color: rgb(27, 27, 178); */
+background-color: rgb(27, 27, 178);
   /* skrytie scrollbar */
   scrollbar-width: none; /* pre Firefox */
   -ms-overflow-style: none; /* pre IE a Edge */
@@ -287,8 +287,8 @@ height: calc(100vh - 160px);
     padding: 0px 0px 40px 0px;
    height: calc(100vh - 130px);
 /* alebo 100vh, podľa potreby */
-    overflow-y: auto; /* scroll sa objaví, keď obsah presahuje výšku */
- /* background-color: rgb(204, 24, 24); */
+    overflow-y: hidden; /* scroll sa objaví, keď obsah presahuje výšku */
+ background-color: rgb(255, 255, 255);
 }
 
 .tubudechat{

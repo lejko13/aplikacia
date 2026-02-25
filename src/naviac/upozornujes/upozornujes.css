@@ -109,7 +109,7 @@ justify-content: start;
 
 @media (max-width: 750px) {
     .lajknute-container22{
-   width: calc(100% - 40px);
+   width: calc(100% - 20px);
         height: 60px;
         border-radius: var(--border-radius-maly);
     bottom: 70px;

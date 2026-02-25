@@ -115,13 +115,20 @@ const Profilswiper = ({textMobile,textTablet,textDesktop,data = [],malytext,stil
       }}
             >
 
-                {data.map((prev,index) => (
-                  <>
+                {data.map((prev,index) => {
 
-                 
-            <SwiperSlide  key={prev.id} virtualIndex={index}>
+                  console.log(prev);
+
+                  const lokacia = prev.location 
+                   
+                  console.log(lokacia);
+                  
+                    return (
+                        <SwiperSlide  key={prev.id} virtualIndex={index}>
       
                 <NahladPage
+
+                 kokokokonaupresneie = {{display:lokacia === "Šaľa"  ? "none" : "block"}}
                style={{
                       
                       padding:"0px"
@@ -161,8 +168,12 @@ const Profilswiper = ({textMobile,textTablet,textDesktop,data = [],malytext,stil
  
      
             </SwiperSlide>
-            </>
-                ))}
+
+                    )
+                 
+          
+         
+})}
             
                             
                                 

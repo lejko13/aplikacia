@@ -20,7 +20,7 @@ import Card from '../portalpop/portalpop'
 import Lajknute from '../lajknute/lajknute'
 import { Children } from 'react';
 
-const NahladPage = ({ nazov, klik22,location, hodnotenie, children,krajina, fotky = [],style, kontrola,prepinam ,apartman,setOtvorenie,setFarba,setQuery,otvorenie,zmaz,zmaz2}) => {
+const NahladPage = ({kokokokonaupresneie, nazov, klik22,location, hodnotenie, children,krajina, fotky = [],style, kontrola,prepinam ,apartman,setOtvorenie,setFarba,setQuery,otvorenie,zmaz,zmaz2}) => {
   const swiperRef = useRef(null);
   const[hover,setHover] = useState(false)
   const [poslednyLajk, setPoslednyLajk] = useState(null);
@@ -57,6 +57,9 @@ const NahladPage = ({ nazov, klik22,location, hodnotenie, children,krajina, fotk
          <div className='wrapperprecelok'
          onClick={() => {klik() ,setFilter(false)}}
          >
+          <div style={kokokokonaupresneie}>
+
+          
            <Ukazovatelko 
             style={{
               zIndex:20,
@@ -80,6 +83,7 @@ const NahladPage = ({ nazov, klik22,location, hodnotenie, children,krajina, fotk
   }}
            
             ><i class='bx bx-heart' ></i></Ukazovatelko>
+          </div>
           {/* <Pridanie
           style = {{zIndex:20}}
   

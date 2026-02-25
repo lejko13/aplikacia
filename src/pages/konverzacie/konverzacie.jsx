@@ -628,27 +628,7 @@ console.log(najdemchat);
  <div className='Konverzacie'>
           <div className='uvidim2'>
             <div className='infolistrespcah'>
-              {/* <div className='tujemenoemom'>
-
-
-                <Ludiakolonka
-                 srdeckourcuje = {{display:"none"}}
-                srdieckoko = {{display:"none"}}
-                 silooook = {{display:"none"}}
-                animovace = {{display:"none"}}
-                fotecakkklentak = {{
-                  height:"50px",
-                  width:"50px",   
-                }}
-                fotka={majitel[0].FOTKAMAJITAL}
-                teext1 = {majitel[0].klientMeno}
-                text3 = {majitel[0].klientPriezvisko}
-                text2 = {majitel[0].titul}
-                style = {{height:"100%",  padding:"0px", }}
-                onclickokoko = {() => navigate("/Profil")}
-                ></Ludiakolonka>
-              </div> */}
-
+             
 
               <div className='tusascrolujuuzivatiela'>
 {/* toto je chat pre dektop */}

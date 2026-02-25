@@ -158,8 +158,11 @@ height: calc(100vh - 130px);
 }
 }
 @media (max-width: 750px) {
+    .VYTVOERTETEXT{
+height: 350px
+}
  .obshauujuju{
-    height: fit-content;
+    height:100%;
     width: 100%;
     padding:10px 0px 0px 0px;
     display: flex;
