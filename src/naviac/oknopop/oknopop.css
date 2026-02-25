@@ -1,0 +1,165 @@
+.popouokonknomale2{
+    height: fit-content;
+    width: 350px;
+    top: 0px;
+ 
+    /* padding: 10px; */
+    left: 0px;
+    padding: 60px 0px 0px 0px;
+    display: flex;
+    position: absolute;
+    /* background-color: rgb(49, 49, 49); */
+}
+.definicemojamala3232{
+    flex: 1;
+    background-color: var(--farba-biela);
+    border: var(--border);
+    display: flex;
+    padding: 10px;
+    box-shadow: var(     --boxtien);
+    border-radius: var( --border-radius-maly);
+}
+.wrapercekkokoktiko{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.fotofotkakookopica{
+    height: 100%;
+    width: 100%;
+
+    background-color: aqua;
+    /* border: 1px solid pink; */
+       border-radius: var(--border-radius-maly);
+    object-fit: cover;
+}
+.horetextovacastikook{
+    display: flex;
+    gap: 5px;
+    font-size: var(  --font-size-base100);
+    color: var(--farba-cierna);
+}
+.doeltexovacast{
+    color: var(--farba-sivaText);
+    font-size: var( --font-size-small);
+}
+.konjsvnsjvsjkv{
+    height: 90px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* background-color: aqua; */
+    overflow: hidden;
+    border: var(--border);
+    border-radius: var(--border-radius-maly);
+}
+.jsbvahbsvha{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      /* border: var(--border); */
+    /* background-color: blue; */
+}
+.nvjnasvjka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: var(  --font-size-base2);
+     transition: var( --transition);
+     border-right: var(--border);
+    /* background-color: rgb(232, 255, 25); */
+}
+.nvjnasvjka:hover{
+     transition: var( --transition);
+     border-right: var(--border);
+ background-color: var(--farba-main2);
+}
+
+.nvjnasvjka2{
+     display: flex;
+    align-items: center;
+      gap: 5px;
+    justify-content: center;
+    font-size: var(  --font-size-base2);
+     transition: var( --transition);
+     /* border-right: var(--border); */
+    /* background-color: rgb(232, 255, 25); */
+}
+.nvjnasvjka2:hover{
+
+   background-color: var(--farba-main2);
+}
+.jsbvahbsvha32{
+    transition: var( --transition);
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: var(--border);
+    font-size: var(  --font-size-base2);
+    /* background-color: aqua; */
+}
+.jsbvahbsvha32:hover{
+    transition: var( --transition);
+    background-color: var(--farba-main2);
+}
+.texticekkokokookokriova{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+       border-radius: 12px;
+           transition: var(--transition);
+      font-size: VAR( --font-size-small);
+    background-color: blue;
+    color: var(--farba-cierna);
+}
+.lentakbuttomraodmoa{
+    height: 45px;
+color: white;
+    width: 100%;
+    transition: var(--transition);
+    font-size: VAR( --font-size-base2);
+  
+      outline: none;
+    border-radius: 12px;
+    border: none;
+    background-color: var(--farba-main);
+}
+.kopkoiavij {
+  font-size: var(--font-size-small);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: var( --transition);
+  color: var(--farba-sivaText);
+}
+.kopkoiavij:hover {
+ 
+  color: var(--farba-cierna);
+}
+
+.yellow-box {
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+  border-radius: 8px;
+  display: flex;
+}
+
+@media (max-width: 1190px) {
+.popouokonknomale2{
+  width: 310px;
+}
+}
+
+@media (max-width: 1000px) {
+.popouokonknomale2{
+    width: 270px;
+}
+}
+

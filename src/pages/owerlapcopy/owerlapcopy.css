@@ -1,0 +1,44 @@
+.Owerlap2{
+    position: fixed;
+      min-height: 100vh;  
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    /* position: relative; */
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    /* padding: 20px; */
+    right: 0;
+
+    width: 100%;
+     backdrop-filter: blur(10px);
+    background-color: var(  --farba-bielaEfekty)
+}
+.Owerlap::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* pre istotu */
+}
+
+/* Alternatívne: úplne zakázať scroll, ale stále scrollovateľné */
+.Owerlap {
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;      /* Firefox */
+}
+
+.obsahtOwerlap{
+    width: fit-content;
+
+    min-height: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding: var( --padding);
+    /* position: relative; */
+    /* padding: 20PX; */
+    display: flex;
+    /* background-color: aqua; */
+      
+  
+}

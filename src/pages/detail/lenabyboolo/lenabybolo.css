@@ -1,0 +1,10 @@
+.lnetakabybolo{
+height: calc(100vh - 125px);
+    width: 100%;
+    /* padding:20px ; */
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--farba-biela);
+    overflow: auto;
+}

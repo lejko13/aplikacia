@@ -1,0 +1,94 @@
+.notakkasitootljent{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: aqua; */
+    gap: 15PX;
+}
+.tootjelenvrhlcekokokllnoic{
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.notaktexicekhalvny{
+font-size: var(--fontspecialny);
+    color: var(--farba-cierna);
+   
+    /* white-space: nowrap; */
+}
+.tootlenvrchniciac{
+     background-color: VAR(--farba-biela);
+    border: var(--border);
+    border-radius: 12px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1;
+}
+.textCastmain90llpl{
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: var(--paddingdvojka); */
+    align-items: center;
+    /* background-color: rgb(47, 255, 0); */
+}
+.cislolennaukzasku{
+    font-size: 20px;
+    height: 40PX;
+    flex-shrink: 0;
+    width: 40PX;
+     display: flex;
+    align-items: center;
+    justify-content: CENTER;
+    background-color: VAR(--farba-biela);
+    border: var(--border);
+    border-radius: 12px;
+}
+ .TEXTICEKNEAOVICEK00pppmkmk{
+    font-family: var( --font-family);
+    font-size: var( --font-size-large);
+    color: var(--farba-cierna);
+    transition: var(  --transition);
+ }
+ .textpodhlavnuym3223323{
+    /* font-weight: 600; */
+    font-size: var(   --font-size-small);
+    
+    color: var(--farba-sivaText);
+    transition: var(  --transition);
+ }
+.totodrziakhejzejk{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 5PX;
+    /* background-color: aquamarine; */
+}
+.NOTOKOKMOOMOM{
+    padding: 0PX 0PX 0PX 40PX;
+     font-size: var(--font-size-small);
+    color: var(--farba-sivaText);
+    transition: var(--transition);
+}
+.horelenifrmaicenicine{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: auto;
+    /* background-color: aqua; */
+}
+.doleikonylennicvillo{
+    height: fit-content;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: end;
+    display: flex;
+}

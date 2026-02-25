@@ -1,0 +1,13 @@
+.Samostatnacast{
+    height: fit-content;
+    width: 100%;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    /* padding: 20px;
+    b
+    border-radius: 12px; */
+    /* background-color: var(--farba-biela) */
+}

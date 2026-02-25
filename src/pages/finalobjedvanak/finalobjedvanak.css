@@ -1,0 +1,22 @@
+.Nastavenia{
+    width: 100%;
+    background-color: greenyellow;
+    height: 100%;
+}
+.tusukkotinnyrtexty{
+    width: 100%;
+    background-color: red;
+    height: 600px;
+    flex-direction: row;
+    display: flex;
+}
+
+.lavastranalenzobrazenienvsetkoho{
+    flex: 1;
+    background-color: aqua;
+}
+.pravastrananzobrazenievsetkoo{
+    width: 500px;
+    background-color: beige;
+    height: 100%;
+}

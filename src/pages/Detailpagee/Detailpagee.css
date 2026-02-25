@@ -1,0 +1,217 @@
+.tujevsetkposlendee{
+ height: calc(100vh - 22px); /* výška obrazovky mínus 20px */
+
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    flex-direction: column;
+    background-color:var(--farba-biela)
+}
+.tujevesetkonicviac {
+    height: 100%;
+    width: 100%;
+        min-height: 0;  
+    background-color: var(--farba-main2);
+    border-radius: 12px;
+    border: var(--border);
+    /* umožní scrollovanie ak obsah presahuje výšku */
+    display: flex;
+    padding: 10px;
+}
+.texticekooookiktiti4{
+    color: var(--farba-sivaText);
+}
+
+.lentekdrhuhjevovnturru {
+    flex: 1;               /* zaberie zostávajúci priestor */
+    /*       veľmi dôležité pre scrollovanie vo flexboxe */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+  background-color: var(--farba-main2);
+
+    overflow-y: auto;      /* scroll len vo vnútri, nepretiahne rodiča */
+
+    /* skrytie scrollbaru */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.lentekdrhuhjevovnturru::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+/* Chrome, Edge, Safari */
+.lentekdrhuhjevovnturru::-webkit-scrollbar {
+    display: none;
+}
+
+.textCastmain5{
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: var(--paddingdvojka); */
+    align-items: center;
+    /* background-color: rgb(47, 255, 0); */
+}
+.VYTVOERTETEXT2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    /* background-color: aqua !important; */
+     color: var(--farba-main);
+  font-weight: 900;
+  display: flex;
+  gap: 10px;
+  font-size: var(  --fontspecialny);
+    /* background-color: var(--farba-biela); */
+}
+ .TEXTICEKNEAOVICEK4{
+    font-family: var( --font-family);
+    font-size: var( --font-size-large);
+    
+  
+    color: var(--farba-cierna);
+    transition: var(  --transition);
+ }
+ .TEXTICEKNEAOVICEK:hover{
+    cursor: pointer;
+    
+ }
+ .textpodhlavnuym4{
+       font-family: var( --font-family);
+    font-size: var(   --font-size-small);
+    font-weight: var(  --font-Hrubka-stred2)!important;
+    color: var(--farba-sivaText);
+    transition: var(  --transition);
+}
+.vytvorenireacas{
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    gap: 2.5px;
+    flex-direction: column;
+    width: 130px;
+}
+.horetextoxoo{
+width: 100%;
+/* background-color: rgb(0, 0, 0); */
+height: 50%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+}
+.doleetextoxoo{
+width: 100%;
+/* background-color: rgb(242, 170, 170); */
+height: 50%;
+align-items: center;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+.texticekooookiktiti{
+ font-size: var(    --font-size-base100);
+    transition: var(--transition);
+    color: var(--farba-cierna);
+      white-space: nowrap;   
+}
+.texticekooookiktiti3{
+ font-size: var(    --font-size-small);
+    transition: var(--transition);
+    color: var(--farba-sivaText);
+      white-space: nowrap;   
+}
+.texticekooookiktiti2{
+ font-size: var( --font-size-small);
+    transition: var(--transition);
+    color: var(--farba-sivaText);
+      white-space: nowrap; 
+}
+@media (max-width: 750px) {
+.tujevsetkposlendee{
+   height: calc(100vh - 140px);
+    width: 100%;
+    display: flex;
+    padding: 0px 20px 10px 20px ;
+    flex-direction: column;
+    /* background-color: rgb(205, 51, 51); */
+}
+}
+@media (max-width: 509px) {
+    .tujevesetkonicviac {
+    height: 100%;
+    width: 100%;
+        min-height: 0;  
+    background-color: pink;
+    border-radius: 12px;
+    border: none;
+    /* umožní scrollovanie ak obsah presahuje výšku */
+    display: flex;
+    padding: 0px;
+}
+
+.tujevsetkposlendee{
+   height: calc(100vh - 140px);
+    width: 100%;
+    display: flex;
+    padding: 0px 0px 10px 20px ;
+    flex-direction: column;
+    /* background-color: rgb(205, 51, 51); */
+}
+.textCastmain5{
+    height:fit-content;
+    display: flex;
+    padding: 0px 20px 0px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: var(--paddingdvojka); */
+    align-items: center;
+    /* background-color: rgb(47, 255, 0); */
+}
+
+.lentekdrhuhjevovnturru {
+    flex: 1;               /* zaberie zostávajúci priestor */
+    /*       veľmi dôležité pre scrollovanie vo flexboxe */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px 0px 0px 10px;
+  background-color: var(--farba-biela);
+
+    overflow-y: auto;      /* scroll len vo vnútri, nepretiahne rodiča */
+
+    /* skrytie scrollbaru */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+.vytvorenireacas{
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    gap: 2.5px;
+    flex-direction: column;
+    width: 120px;
+}
+}
+
+@media (max-width: 450px) {
+.tujevsetkposlendee{
+   height: calc(100vh - 130px);
+    width: 100%;
+    display: flex;
+    padding: 0px 0px 10px 20px ;
+    flex-direction: column;
+    /* background-color: rgb(205, 51, 51); */
+}
+}

@@ -1,0 +1,65 @@
+.dvaojkkaka{
+    display: flex;
+    overflow: hidden;
+    gap: 5px;
+    /* width: 100%; */
+    /* background-color: bisque; */
+    flex-direction: column;
+}
+.obashvovacastleokok{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    background-color: var(--farba-biela)!important;
+}
+.horeidnofnicvai{
+width: 100%;
+height: 30px;
+display: flex;
+justify-content: start;
+align-items: center;
+/* background-color: rgb(115, 115, 115); */
+font-size: var(--font-size-base69);
+  
+     color: var(--farba-sivaText);
+    /* text-decoration: underline; */
+}
+.tujemagiaavpireio {
+ height: 252px;
+ /* flex: 1; */
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto; /* umožní scroll */
+    
+    /* skryť scrollbar vo väčšine prehliadačov */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE a Edge */
+}
+
+.tujemagiaavpireio::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+
+
+
+ .obashvovacastleokok{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    /* background-color: aqua; */
+}
+@media (max-width: 659px) {
+     .obashvovacastleokok{
+     width: 100%;
+        /* background-color: blue; */
+     }
+}

@@ -1,0 +1,163 @@
+.testimonialcard2 {
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid #ddd; */
+  justify-content: space-between;
+
+  align-items: end;
+  background-color: var(--farba-biela);
+  padding: 10px;
+
+  border: var(--border);
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+/* .testimonial-card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+} */
+
+/* .testimonial-quote {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #ff0000;
+  font-size: 3rem;
+  color: rgba(0,0,0,0.1);
+} */
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hodnotentei{
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+color: var(--farba-sivaText);
+  /* background-color: aquamarine; */
+}
+
+.star.filled {
+  color: gold; /* žltá */
+}
+
+.star.empty {
+  color: var(--farba-sivaText); /* šedá */
+}
+
+.text000909 {
+  /* font-size: 1rem; */
+  
+  color: var(--farba-sivaText);
+ font-size: var( --font-size-base2);
+  /* background-color: #ffc1c1; */
+  height: fit-content;
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;  /* maximálne 3 riadky */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+.testimonial-author {
+  display: flex;
+  width: fit-content;
+  /* background-color: aqua; */
+  align-items: center;
+    
+  gap: 10px;
+}
+.testimonial-avatar{
+  /* background-color: red; */
+  /* padding: 10px; */
+  position: relative;
+}
+
+.testimonial-avatar img {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+
+  color: var(--farba-cierna); 
+  display: flex;
+  gap: 5px;
+  width: fit-content;
+  /* background-color: #facc15; */
+  margin: 0;
+}
+
+.author-role {
+  font-size: var( --font-size-base2);
+  color: var(--farba-sivaText);
+  margin: 0;
+}
+.tujetenzejaku{
+  height: 100%;
+  width: 160px;
+  gap: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+.textApartman {
+  display: flex;
+  cursor: pointer;
+  font-size: var(--font-size-small);
+  color: var(--farba-cierna);
+  white-space: nowrap;
+  transition: var(--transition);
+    text-decoration: underline;
+}
+.textApartman:hover {
+  text-decoration: underline;
+  color: var(--farba-sivaText);
+}
+
+.mojdoloiv {
+  display: flex;
+    white-space: nowrap;
+  font-size: var(--font-size-small);
+  color: var(--farba-sivaText);
+}
+
+
+@media (max-width: 750px) {
+.mojdoloiv {
+  display: none;
+    white-space: nowrap;
+  font-size: var(--font-size-small);
+  color: var(--farba-sivaText);
+}
+.tujetenzejaku{
+  height: fit-content;
+  width: fit-content;
+  gap: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  /* background-color: aqua; */
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+}

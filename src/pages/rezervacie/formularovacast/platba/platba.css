@@ -1,0 +1,37 @@
+.celookcotodrzim{
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(98, 255, 0); */
+}
+.vrcholvocast{
+    display: flex;
+    width: 100%;
+    /* background-color: aqua; */
+    gap: 10px;
+}
+.tusuudajecoakokoko{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.lentakonovymozneo{
+ display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+ 
+@media (max-width: 750px) {
+.lentakonovymozneo{
+  display: grid;
+  gap: 10px;
+  grid-template-columns:1fr ;
+  width: 100%;
+}
+
+}

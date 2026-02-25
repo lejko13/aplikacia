@@ -1,0 +1,27 @@
+.moj-overlap{
+    position: fixed;
+height: calc(100vh - 40px);
+width: 100%;
+    /* top: 40px; */
+ bottom: 0;
+    z-index: 99999;
+     backdrop-filter: blur(10px);
+     padding: 20px 10px;
+     gap: 20px;
+     display: flex;
+     flex-direction: column;
+     border-radius: 12px 12px 0px 0px;
+    background-color: var(--farba-biela);
+    /* background-color: rgb(0, 255, 34) */
+}
+.stredovypanelelel{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+}
+.obalicekcelhoe{
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    height: fit-content;
+}

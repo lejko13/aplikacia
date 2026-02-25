@@ -1,0 +1,139 @@
+.celkokokoko{
+    flex: 1;
+    display: flex;
+    gap: 5PX;
+    flex-direction: column;
+    background-color:var(--farba-biela);
+}
+.vrchtumatextyikpodnele{
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+    align-items: center;
+      display: grid;
+      justify-content: center;
+      
+      grid-template-columns: repeat(7, 1fr);
+      /* gap: 5px; */
+      color: var(--farba-cierna);
+      border-radius: 10px;
+    background-color: var(--farba-main2);
+    border: 1px solid var(--farba-siva);
+  
+    
+}
+.TUJEKALDENDAR23 {
+  display: grid;
+  overflow-y: auto; /* scroll bude fungovať */
+  height: 200px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: minmax(35px, auto);
+  gap: 1px;
+
+  /* skryť scrollbar */
+  background-color: VAR(--farba-siva);
+  scrollbar-width: none; /* pre Firefox */
+}
+.inkaaaao2332{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100% ;
+  /* width: 35px; */
+
+  width: 100%;
+
+  background-color: VAR(--farba-biela);
+  /* border: 1px solid red; */
+    border-top: none;
+  border-bottom: none;
+
+}
+.TUJEKALDENDAR23::-webkit-scrollbar {
+  display: none; /* pre Chrome, Safari a Edge */
+}
+.lenmalainkoann{
+  /* background-color: pink; */
+  height: 30px;
+  width: 30px;
+  border-radius: 99px;
+}
+.inkaaaao443443{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100% ;
+  /* width: 35px; */
+
+  width: 100%;
+
+  /* background-color: aqua; */
+  border-right: 1px solid var(--farba-siva);
+    border-top: none;
+  border-bottom: none;
+}
+
+@media (max-width: 660px) {
+  .TUJEKALDENDAR23 {
+  display: grid;
+  width: fit-content;
+  overflow-y: auto; /* scroll bude fungovať */
+  height: 200px;
+  grid-template-columns: repeat(7, 35px);
+  grid-auto-rows: minmax(30px, auto);
+    /* background-color: pink; */
+
+}
+
+.vrchtumatextyikpodnele{
+    /* width: 100%; */
+    width: fit-content;
+    height: 35px;
+      display: grid;
+      
+      grid-template-columns: repeat(7, 35px);
+      /* gap: 5px; */
+    /* background-color: pink */
+}
+
+.celkokokoko{
+    width: fit-content !important;
+    height: fit-content;
+    display: flex;
+    gap: 5PX;
+    flex-direction: column;
+    /* background-color:red */
+    /* background-color:var(--farba-biela); */
+}
+}
+
+@media (max-width: 350px) {
+  .inkaaaao{
+    height: 25PX;
+    width: 25PX;
+  }
+  .TUJEKALDENDAR23 {
+  display: grid;
+  width: fit-content;
+  overflow-y: auto; /* scroll bude fungovať */
+  height: 200px;
+  gap: 2px;
+  grid-template-columns: repeat(7, 30px);
+  grid-auto-rows: minmax(30px, auto);
+    /* background-color: pink; */
+
+}
+
+.vrchtumatextyikpodnele{
+    /* width: 100%; */
+    width: fit-content;
+    height: 35px;
+      display: grid;
+      
+      grid-template-columns: repeat(7, 30px);
+      gap: 2px;
+    /* background-color: pink */
+}
+}
+
+

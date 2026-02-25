@@ -1,0 +1,235 @@
+.containerMain{
+  height: 100%;
+  background-color: #007bff;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.tusazbrieraalennivia {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  /* margin: 10px 0px; */
+  gap: 10px;
+  padding: 10px 10px 0px 10px;
+  flex-direction: column;
+  /* border-radius: ; */
+  /* background-color: aquamarine !important; */
+  border-radius: 12px 12px 0px 0px;
+/* border: var(--border); */
+border-bottom: none;
+
+  /* Skrytie scrollbarov */
+  scrollbar-width: none; /* pre Firefox */
+  -ms-overflow-style: none; /* pre IE a Edge */
+}
+
+.tusazbrieraalennivia::-webkit-scrollbar {
+  display: none; /* pre Chrome, Safari, Opera */
+}
+
+/* Common box */
+.box {
+  max-height: fit-content;
+  background-color: var(--farba-main2);
+  border-radius:  0px 0px 12px 12px;
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
+  /* border-radius: 12px; */
+  overflow: hidden;
+  border: var( --border);
+}
+
+
+
+.boxHeader {
+  font-weight: 500;
+  font-size: var( --font-size-base100);
+  padding: 10px 10px;
+  /* border-bottom: var(--border); */
+  color: var(--farba-cierna);
+
+}
+
+/* Cart */
+.itemList {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* background-color: #222; */
+}
+
+.itemRow {
+  display: grid;
+  grid-template-columns: 60px 1fr 80px 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.itemName {
+  font-size: 13px;
+  font-weight: 500;
+  color: #222;
+}
+
+.itemOption {
+  font-size: 11px;
+  color: #666;
+  margin: 2px 0;
+}
+
+.itemQuantity {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 30px;
+  border: 1px solid #ddd;
+  /* border-radius: 6px; */
+  align-items: center;
+  text-align: center;
+}
+
+.qtyBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.qtyLabel {
+  font-weight: 500;
+}
+
+.itemPrice {
+  text-align: right;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Coupon */
+.couponForm {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  gap: 8px;
+ padding: 10px 10px;
+}
+
+.couponInput {
+padding: 10px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.couponInput:focus {
+  outline: none;      /* zruší modrý rámček */
+  box-shadow: none;   /* zruší tieň pri focus, ak by bol */
+}
+
+.couponBtn2 {
+  background-color: var(--farba-main);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Checkout */
+.summaryDetails {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ padding: 10px 10px;
+  
+}
+
+.totalPrice {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.checkoutFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  padding:10px;
+  gap: 10px;
+  /* height: 45px; */
+  background-color: var(--farba-biela)
+}
+
+
+
+.checkoutBtn {
+  background-color: var(--farba-main);
+  color: white;
+ height: 45px;
+  border: none;
+  
+  border-radius: 12px;
+  padding: 0px 18px;
+  font-size: var( --font-size-base69);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.boxcheckoutBox{
+   max-height: fit-content;
+   background-color: var(--farba-biela);
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
+  /* border-radius: 12px; */
+  overflow: hidden;
+
+  /* border: 1px solid black; */
+}
+.ttoodzricenuuu{
+  flex: 1;
+  display: flex;
+  align-self: stretch;
+align-items: center;
+  /* background-color: red; */
+  
+}
+
+.driztitexty{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+.formazeuzkuponapllikovany{
+  height: 58px;
+  width: 100%;
+  display: flex;
+   padding: 10px 10px;
+  /* background-color: #222; */
+}
+.ttoojetujenapsienzeuske{
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: var(--font-size-base2);
+  background-color: var(--farba-main);
+}
+@media (max-width: 1000px) {
+
+
+  .tusazbrieraalennivia {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  /* margin: 10px 0px; */
+  gap: 10px;
+  flex-direction: column;
+  background-color: rgb(123, 238, 23);
+
+  /* Skrytie scrollbarov */
+  scrollbar-width: none; /* pre Firefox */
+  -ms-overflow-style: none; /* pre IE a Edge */
+}
+}

@@ -1,0 +1,25 @@
+.kkokokoinoi{
+    height: fit-content;
+    flex-shrink: 0;
+    cursor: pointer;
+    padding: 5px;
+    gap: 10px;
+    transition: var(--transition);
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    /* background-color: black; */
+}
+.fotkkoklen{
+    width: 55px;
+        border-radius: 8px;
+        overflow: hidden;
+    background-color: aqua;
+    display: flex;
+    height: 30px;
+}
+.foktatata{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

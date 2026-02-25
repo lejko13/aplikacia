@@ -1,0 +1,297 @@
+.Lenkosik{
+    height: 260px;
+    
+    max-width:220px;
+
+ display: flex;
+ flex-direction: column;
+    top: 0px;
+    box-shadow: var(--boxtien);
+    gap: var( --gap-male);
+    border-radius: var( --border-radius-Vonku);
+    left: 20px;
+    padding: 10px;
+    background-color: var(--farba-biela);
+    /* background-color: green; */
+}
+
+.NahladSwiper .swiper-pagination-bullet {
+  background: var(--farba-main2)!important;
+  opacity: 1;
+}
+
+.NahladSwiper .swiper-pagination-bullet-active {
+  background:var(--farba-main) !important;
+}
+
+.fotkaNahladSwiper{
+ width: 100%;
+ box-shadow: var(--box-shadow);
+ height: 100%;
+ overflow: hidden;
+
+ /* padding: 30px; */
+  display: flex;
+  /* padding: 10px; */
+  border-radius: var(--border-radius-maly);
+    /* background-color:red */
+    
+}
+.textNahlad{
+    width: 100%;
+    
+    height: 40px;
+    /* background-color: blue; */
+}
+
+.obrasek{
+    width: 100%;
+    height: 100%;
+}
+.textHore{
+    width: 100%;
+gap: 5px;
+display: flex;
+justify-content: space-between;
+    /* background-color: red; */
+}
+.textDole{
+    justify-content: center;
+    align-items: center;
+
+        width: 100%;
+gap: 5px;
+display: flex;
+justify-content: space-between;
+
+    /* background-color: rgb(0, 255, 174); */
+    
+}
+.textLokacia {
+  font-size: var(--font-size-base2);
+  white-space: nowrap;
+  color: var(--farba-sivaText);
+}
+.slideSwipeer{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.obrazocekok{
+
+ border-radius: var(--border-radius-maly);
+    object-fit: cover;
+ height: 100%;
+    width: 100%;
+}
+.Nahlad .swiper-pagination-bullet {
+  background: var(--farba-main2)!important;
+  opacity: 1;
+}
+
+.Nahlad .swiper-pagination-bullet-active {
+  background:var(--farba-main) !important;
+}
+
+/* neaktívne bodky */
+
+.spikecakk{
+      width: 25px;
+height: 25px;
+right: 5px;
+border-radius: 999px;
+font-size: 22px;
+z-index: 10;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-color: var(--farba-main2);
+transition: var(--transition);
+
+}
+.spikecakk:hover{
+     background-color:var(  --farba-biela) ;
+}
+.spikecakk2{
+   width: 25px;
+height: 25px;
+left: 5px;
+border-radius: 999px;
+font-size: 22px;
+z-index: 10;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-color: var(--farba-main2);
+transition: var(--transition);
+}
+.spikecakk2:hover{
+     background-color:var(  --farba-biela) ; 
+}
+.textNazov{
+    font-size: var(    --font-size-base100);
+    transition: var(--transition);
+    color: var(--farba-cierna);
+      white-space: nowrap;   
+}
+.textNazov:hover{
+    cursor: pointer;
+    color: var(--farba-sivaText)
+
+}
+.wrapperprecelok{
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    display: flex;
+    /* background-color: aqua; */
+}
+.ikonainko{
+ color: var(--farba-sivaText)
+  }
+.obrazocekok2{
+box-shadow: var(--box-shadow);
+ border-radius: var(--border-radius-maly);
+    object-fit: contain;
+ max-height: 100%;
+height: 20vw;
+    width: 100%;
+}
+/* .zobrazujjemmee{
+    display: none;
+} */
+.zobrazujjemmee2222{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+  }
+.fotofotodoooooffo{
+  position: relative;
+  /* padding: 10px; */
+  /* background-color: aqua; */
+  display: "flex";
+  height: 100%;
+  width: 100%;
+}
+
+   .lajknute2222{
+     z-index: 100000;
+    position: fixed;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+     border: 1px solid var( --farba-siva);
+    width: 500px;
+    border-radius: var(--border-radius-Vonku);
+    background-color: var(--farba-biela);
+
+;
+box-shadow: var(--boxtien);
+ }
+
+
+ .swiperecekalenoo .swiper-pagination-bullet {
+  background-color: var(--farba-main2);
+  opacity: 1;
+
+}
+
+.swiperecekalenoo .swiper-pagination-bullet-active {
+  background-color: var(--farba-main);
+}
+
+@media (max-width: 1350px) {
+
+   .Lenkosik{
+    height: 220px;
+    
+    max-width:180px;
+ }
+
+ .zobrazujjemmee2222{
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 1100px) {
+  .ikonainko{
+   font-size: 13px;
+  }
+ .Nahlad{
+    height: 160px;
+    
+    width:140px;
+ display: flex;
+ flex-direction: column;
+    top: 0px;
+    gap: var( --gap-male);
+    border-radius: var( --border-radius-Vonku);
+    left: 20px;
+    padding: 10px;
+    background-color: var(--farba-biela);
+}
+
+  
+}
+@media (max-width: 750px) {
+  .ikonainko{
+   font-size: 13px;
+  }
+  .Nahlad{
+    height: 230px;
+}
+
+
+  
+}
+@media (max-width: 530px) {
+  .ikonainko{
+   font-size: 13px;
+  }
+  .Nahlad{
+    height: 230px;
+}
+
+.NahladSwiper{
+    height: 210px;
+    
+    max-width:180px;
+/* height: 20vw;
+width: 20vw; */
+ display: flex;
+ flex-direction: column;
+    top: 0px;
+    box-shadow: var(--boxtien);
+    gap: var( --gap-male);
+    border-radius: var( --border-radius-Vonku);
+    left: 20px;
+    padding: 10px;
+    background-color: var(--farba-biela);
+    /* background-color: green; */
+}
+
+  
+}
+
+
+
+@media (max-width: 680px) {
+ /* .zobrazujjemmee{
+    display: block;
+} */
+  
+}
+
+
+

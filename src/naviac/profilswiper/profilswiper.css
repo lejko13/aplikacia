@@ -1,0 +1,72 @@
+.MaincastSwiper{
+width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    height:100%;
+    /* padding: 10px 0px 0px 20px; */
+    /* border: 1px solid black; */
+    /* gap: var( --gap-little); */
+    background-color: var(--farba-biela);
+    /* background-color: red; */
+    /* padding: 10px; */
+    
+}
+.textCastmainSWIPER{
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: var(--paddingdvojka); */
+    padding: 0px 20px 10px 0px;
+    align-items: center;
+    /* background-color: rgb(47, 255, 0); */
+}
+.textpodhlavnuym{
+       font-family: var( --font-family);
+    font-size: var(   --font-size-small);
+    font-weight: var(  --font-Hrubka-stred2)!important;
+    color: var(--farba-sivaText);
+    transition: var(  --transition);
+}
+.swipereceobal32{
+flex: 1;
+/* background-color: rgb(255, 200, 0); */
+}
+
+ .pohybac{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    height: 55px;
+    /* background-color: rgb(255, 0, 0); */
+    width: fit-content
+ }
+ .TEXTICEKNEAOVICEK{
+    font-family: var( --font-family);
+    font-size: var( --font-size-large);
+    
+  
+    color: var(--farba-cierna);
+    transition: var(  --transition);
+ }
+ .TEXTICEKNEAOVICEK:hover{
+    cursor: pointer;
+    
+ }
+
+
+  @media (max-width: 750px) {
+.Maincast{
+    padding: 0px 0px 0px 20px;
+}
+}
+ @media (max-width: 450px) {
+.pohybac{
+    display: none;
+}
+/* .textpodhlavnuym{
+    display: none;
+} */
+}

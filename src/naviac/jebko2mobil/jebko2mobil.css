@@ -1,0 +1,390 @@
+.profilevnvjvnj23{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  overflow: auto;
+  justify-content: start;
+  /* box-shadow: var(--boxtien); */
+  /* border: var(--border); */
+  border-radius: 12px;
+  /* background-color: #666; */
+  gap: 10px;
+  border: none;
+  /* padding: 10px; */
+  /* background-color:red; */
+  /* background-color:red; */
+  /* box-shadow: 12px 12px 12px -20px rgba(0, 0, 0, 0.3); */
+
+
+}
+.tubudefottkanicviaccc{
+  height: fit-content;
+  padding: 20px 20px  10px 20px;
+  width: 100%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+
+}
+.noinokaalenivic{
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  height: 70px;
+  gap: 10px;
+  
+  display: flex;
+  position: relative;
+  border-radius: 12px;
+  background-color:var(--farba-main2);
+  border: var(--border);
+}
+
+.fotkacastlenooo{
+  height: 50px;
+    border: var(--border);
+  width: 50px;
+    border-radius: 12px;
+    overflow: hidden;
+  background-color: red;
+}
+.lattomnsns{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10PX;
+  /* background-color: red; */
+  justify-content: start;
+}
+.foteckkkadrziakcik{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  /* background-color: #1da1f2; */
+}
+.fotkanilentotoanoo{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.fotkadrziakkknic{
+  display: flex;
+  border-radius: 12px;
+    overflow: hidden;
+  
+  height: 70px;
+  width: 70px;
+  background-color: #1da1f2;
+
+}
+.inkonytusuuniclento{
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  gap: 5px;
+  display: flex;
+
+  /* background-color: rebeccapurple; */
+}
+.kruzzokick{
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: var( --transition);
+  border-radius: 99px;
+  background-color: var(--farba-biela);
+}
+.kruzzokick:hover{
+
+  background-color: var(--farba-main2);
+}
+.oballspkoko34 {
+flex: 1;
+  padding: 10px;
+  border: var(--border);
+  background-color: var(--farba-main2);
+  display: flex;
+  border-radius: 12px;
+flex-direction: column;
+overflow: hidden;
+gap: 10px;
+   /* Edge / IE */
+}
+.lentakkkokomonvb45{
+  /* flex: 1; */
+  height:230px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color: #1da1f2; */
+    overflow-y: auto;    
+  overflow-x: hidden;  
+
+
+  scrollbar-width: none;     
+  -ms-overflow-style: none;  
+
+}
+
+.oballspkoko::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.llkokokertmombutton{
+  display: none;
+
+
+  /* height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1da1f2;
+  border: 1px solid var(--farba-main); */
+}
+
+
+
+.profilevnvjvnj::-webkit-scrollbar{
+  display: none;               /* Chrome, Safari */
+}
+
+.profile-image222 {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  /* background-color: #0262f4; */
+  /* margin: 0 auto 1rem; */
+  overflow: hidden;
+
+  /* box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+.profile-info333 {
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  height: fit-content;
+  flex-direction: column;
+  /* background-color: #9c9c9c; */
+
+}
+
+.profile-name {
+  font-size: var( --font-size-base);
+  font-weight: 500;
+  color: var(--farba-cierna)
+  /* margin-bottom: 0.25rem; */
+}
+
+.profile-title {
+  font-size: var(  --font-size-small);
+
+  color: #666;
+  /* margin-bottom: 0.5rem; */
+}
+
+.profile-bio {
+  font-size: 0.85rem;
+  color: #777;
+  gap: 5px;
+  align-items: center;
+  justify-content: start;
+  height: fit-content;
+  /* background-color: #0262f4; */
+  display: flex;
+  flex-direction: row;
+  line-height: 1.4;
+  
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  /* background-color: #1a1a1a; */
+
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  background: #f0f2f5;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+ 
+}
+
+
+
+
+
+
+
+.cta-button {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  background: var(--farba-main);
+  color: white;
+
+  cursor: pointer;
+ 
+
+}
+.inkjbj{
+     width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  display: flex;
+  border-radius: 99px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: var(--farba-cierna);
+  background-color: var(--farba-biela)
+}
+
+.stats4 {
+  display: flex;
+  width: 100%;
+  padding: 0px 10px;
+  justify-content: space-between;
+
+  /* padding-top: 1rem; */
+  background-color: #1da1f2;
+  /* border-top: 1px solid #eee; */
+}
+
+.stat-item {
+  cursor: pointer;
+  text-align: center;
+}
+
+.stat-value {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.viunvien{
+    font-size: var(--font-size-base69);
+    /* background-color: rgb(255, 255, 255); */
+color: var(--farba-cierna);
+/* height: 45px; */
+    display: -webkit-box;        /* potrebné pre multi-line ellipsis */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;       /* maximálne 3 riadky */
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+  @media (max-width:950px) {
+    .profilevnvjvnj {
+width: 100%;
+    }
+  }
+  @media (max-width:750px) {
+
+
+    .noinokaalenivic{
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  height: 70px;
+  gap: 10px;
+  
+  display: flex;
+  position: relative;
+  border-radius: 12px;
+  background-color:var(--farba-main2);
+  border: var(--border);
+}
+
+.oballspkoko34 {
+flex: 1;
+  padding: 0px;
+  border: none;
+  /* background-color:red; */
+  /* margin: 20px; */
+  background-color:var(--farba-biela);
+  display: flex;
+  border-radius: 0px !important;
+flex-direction: column;
+overflow: hidden;
+gap: 15px;
+   /* Edge / IE */
+}
+
+.profilevnvjvnj23{
+  border-radius: 0px
+}
+.lentakkkokomonvb45{
+  /* flex: 1; */
+  height:230px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* background-color: #1da1f2; */
+  padding: 0px 10px;
+    overflow-y: auto;    
+  overflow-x: hidden;  
+
+
+  scrollbar-width: none;     
+  -ms-overflow-style: none;  
+
+}
+  }
+
+
+
+
+
+  @media (max-width:650px) {
+
+.skrymeej{
+    display: none;
+}
+  }
+  @media (max-width:450px) {
+
+.profile-image {
+      width: 70px;
+  height: 70px;
+}
+  }
+

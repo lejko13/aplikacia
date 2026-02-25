@@ -1,0 +1,88 @@
+.drziakokmoiVYBER{
+    /* background-color: pink; */
+    gap: 5px;
+    flex-direction: column;
+    /* position: relative; */
+    display: flex;
+    /* overflow: hidden; */
+    /* padding: 10px; */
+    width: 100%;
+}
+.inputkodoleleni {
+    height: 40px;
+    border: none;  
+    width: 100%;  
+    cursor: pointer;
+    padding: 10px;
+    border: var( --border);
+    border-radius: 12px;
+    color: var(--farba-cierna);
+    background-color: var(--farba-biela);     /* odstráni štandardný border */
+    outline: none;        /* odstráni modrý alebo iný outline pri focus */
+}
+
+/* voliteľne, aby sa border nezobrazil ani pri kliknutí */
+.inputkodoleleni:focus {
+    border: none;
+    /* transition: var(--transition); */
+    /* outline: none; */
+    box-shadow: none;    /* ak mal nejaký shadow pri focus */
+}
+.hviezdicakk{
+    color: var(--farba-main);
+    position: absolute;
+    top: 0px;
+    right: -8px;
+}
+.totodrizinpiuu{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    z-index: 120;
+    bottom: 0px;
+    overflow: hidden;
+    background-color: blue;
+}
+.lentakkokubuiniu{
+    position: absolute;
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    height: 180px;
+    z-index: 100;
+        border-radius: 0px 0px 12px 12px;
+    background-color: var(--farba-biela);
+}
+.tijeinputatext{
+    height: 60px;
+    /* padding: 10px; */
+    overflow: hidden;
+
+    background-color: red;
+}
+.celkocotodrizmihej{
+    /* overflow: hidden; */
+    position: relative;
+    /* margin-bottom: 100px; */
+    background-color: aqua;
+    /* padding: 10px; */
+    height: 40px;
+    
+}
+.tubudeobashokoko {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* background-color: aqua; */
+    
+    overflow: auto; /* umožní scrollovanie */
+    
+    /* skrytie scrollbarov */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.tubudeobashokoko::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}

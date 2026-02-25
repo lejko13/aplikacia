@@ -1,0 +1,8 @@
+.horebuzno{
+    font-Size:var( --font-size-base);
+    color:var(--farba-cierna)
+}
+.dole0pppptext {
+  font-size: var(--font-size-small);
+  color: var(--farba-sivaText);
+}

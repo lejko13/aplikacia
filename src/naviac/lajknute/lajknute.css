@@ -1,0 +1,99 @@
+.lajknute-container{
+    z-index: 3000;
+    position: fixed;
+    height: 70px;
+    bottom: 20px;
+    right: 20px;
+
+   padding: 10px;
+     border: 1px solid var( --farba-siva);
+    width: 340px;
+    border-radius: 12px;
+    background-color: var(--farba-biela);
+display: flex;
+box-shadow: var(--boxtien);
+flex-direction: row;
+}
+.kokorvbhjbvfhjes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: row;
+    /* background-color: blueviolet; */
+}
+.textovacastkokojnjk2{
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+/* background-color: brown; */
+}
+.textlentakkoko{
+    color: var(--farba-cierna);
+    text-decoration: underline;
+    font-size: var(  --font-size-base69);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.textlentakkoko:hover{
+    color: var(--farba-sivaText);
+    text-decoration: underline;
+}
+.fotkacastlololooko{
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-shrink: 0;
+    /* background-color: black; */
+}
+.zemointbutttin{
+    height: 100%;
+    align-items: center;
+justify-content: start;
+    display: flex;
+    /* background-color: aqua; */
+    width: fit-content ;
+    padding: 0px 10px ;
+}
+.fotototfooofooto{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+/* .polozkafotka{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(255, 151, 15);
+} */
+@media (max-width: 750px) {
+    .lajknute-container {
+   width: calc(100% - 40px);
+        height: 70px;
+        border-radius: var(--border-radius-maly);
+    bottom: 70px;
+
+    left: 50%;
+    
+    transform: translate(-50%);
+       
+    
+    }
+    
+}
+@media (max-width: 320px) {
+    .zemointbutttin{
+    height: 100%;
+    align-items: center;
+justify-content: start;
+    display: flex;
+    /* background-color: aqua; */
+    width: fit-content ;
+    padding: 0px 5px ;
+}
+
+}

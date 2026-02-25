@@ -1,0 +1,317 @@
+.celok32{
+  height: 100%;
+  /* height: calc(100vh - 25px); */
+    background-color: var(--farba-biela);
+    /* background-color: var(--farba-biela); */
+    width: 100%;
+    display: flex;
+gap: 10px;
+   flex-direction: column;
+    /* grid-template-rows: 1fr 1fr; */
+    padding: 0px 0px 20px 20px;
+}
+.wrappereceskkko{
+    flex-direction: column;
+    display: flex;
+  height: calc(100vh - 125px);
+    padding: 10px;
+    border: var(--border);
+    border-radius: 12px;
+    /* background-color: var(--farba-main2); */
+    background-color: var(--farba-biela);
+         
+    min-height: 0;
+}
+.totosasroclujeaz {
+
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  border-radius: 12px;
+  width: 100%;
+  padding: 10px;
+  border: var(  --border);
+  background-color: var(--farba-main2);
+
+  /* skrytie scrollbaru */
+     /* IE / Edge */
+}
+.lentakabytotamuzbolokonecne{
+scrollbar-width: none;
+background-color: pink;
+ width: 100%;        /* Firefox */
+  -ms-overflow-style: none;  
+    overflow: auto;
+}
+.totojewrappekokmmno {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+
+  /* skrytie scrollbarov */
+  -ms-overflow-style: none; /* IE, Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+
+.totojewrappekokmmno::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+.totosasroclujeaz::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
+
+.horekokt333{
+    /* background-color:red; */
+    /* padding: 20px ; */
+    /* background-color: var(--farba-biela); */
+    position: relative;
+width: 100%;
+    overflow: hidden;
+min-height: 0;
+/* padding: 10px !important; */
+/* background-color: pink; */
+height: 100%;
+gap: 10px;
+    padding: 20px 20px 0px 0px;
+    /* padding: ; */
+display: flex;
+
+}
+.tujepriateliaaa {
+    flex: 1;
+    /* background-color: aqua; */
+    gap: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+ 
+
+    /* skrytie scrollbarov */
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none;     /* IE / Edge */
+}
+.tujepriateliaaa222 {
+    flex: 1;
+    /* background-color: aqua; */
+    gap: 10px;
+    /* border-radius: 12px; */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    ;
+
+    /* skrytie scrollbarov */
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none;     /* IE / Edge */
+}
+.totojedolezitevelkmi{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--farba-main2);
+    backdrop-filter: blur(10px);
+}
+.tujepriateliaaa::-webkit-scrollbar {
+    display: none;                /* Chrome / Safari */
+}
+
+/* .skuskamooo{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    width: 10px;
+} */
+.textovacaskhiu344 {
+  width: 100%;
+    padding: 10px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 12px;
+    border: var( --border);
+      /* box-shadow: var(--box-shadow); */
+    /* background-color: red; */
+    background-color: var(--farba-main2);
+    /* background-color: var(--farba-main2); */
+}
+
+.containeonjcsncjksnjr {
+  width: 100%;
+  height: 100%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+}
+.textlenciioienkok{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.tusascrolujearenderujem{
+    /* background-color: aqua; */
+   flex: 1;
+      overflow: auto;
+         /* border-radius: 12px; */
+      flex-direction: column;
+      gap: 10px;
+display: flex;
+
+    scrollbar-width: none; /* pre Firefox */
+    -ms-overflow-style: none; /* pre IE 10+ */
+}
+.tusascrolujearenderujem::-webkit-scrollbar {
+    display: none; /* pre Chrome, Safari, Edge */
+}
+
+.dolekokt{
+    display: flex;
+    width: 100%;
+height: fit-content;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.okiinknakka{
+    position: absolute;
+    height: 18px;
+    width:18px;
+    font-size: 14px;
+    border-radius: 99px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    color: var(--farba-main);
+    top: -2px;
+    right: -2px;
+    background-color: var(--farba-biela);
+}
+
+.textCastmain5353{
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: var(--paddingdvojka); */
+    padding: 0px 0px 0px 10px;
+    align-items: center;
+    /* background-color: rgb(47, 255, 0); */
+}
+ .TEXTICEKNEAOVICEK{
+    font-family: var( --font-family);
+    font-size: var( --font-size-large);
+    
+  
+    color: var(--farba-cierna);
+    transition: var(  --transition);
+    
+ }
+ .textpodhlavnuym{
+     font-weight: 600;
+    font-size: var(   --font-size-small);
+    
+    color: var(--farba-sivaText);
+    transition: var(  --transition);
+}
+
+.vrcholecekokoksss45555{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  /* padding: 10px; */
+  justify-content: space-between;
+  /* background-color: rgb(0, 0, 0); */
+}
+.tujecahtttlaennicviaxxx{
+     flex: 1;
+  
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  overflow-y: auto;   /* vertikálny scroll */
+  
+
+  /* skrytie scrollbar */
+  scrollbar-width: none; /* pre Firefox */
+  -ms-overflow-style: none; /* pre IE a Edge */
+  /* background-color: pink; */
+}
+
+
+@media (max-width: 950px) {
+    .textovacaskhiu344{
+        display: none;
+    }
+
+
+
+
+
+}
+@media (max-width: 750px) {
+    .dolekokt{
+    display: flex;
+    width: 100%;
+height: fit-content;
+    padding: 0px 0px 0px 10px;
+    background-color: var(--farba-biela);
+}
+
+
+    .wrappereceskkko{
+    flex-direction: column;
+    display: flex;
+  height: calc(100vh - 125px);
+    padding: 0px;
+    border: none;
+    border-radius: 12px;
+    /* background-color: var(--farba-main2); */
+    /* background-color: red; */
+         
+    min-height: 0;
+}
+
+    .celok32{
+    background-color:var(--farba-biela);
+    padding: 0px 0px 20px 10px;
+    gap: 10px;
+      height: fit-content;
+}
+.textovacastkuhiuuui{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    padding: 0px 10px 0px 0px;
+     /* background-color: red; */
+}
+ .horekokt{
+    background-color: var(--farba-biela);
+    position: relative;
+   
+flex: 1;
+min-height: 0;
+gap: 20px;
+    padding: 0px 20px 0px 0px;
+display: flex;
+ /* display: NONE;  */
+
+}
+
+
+}

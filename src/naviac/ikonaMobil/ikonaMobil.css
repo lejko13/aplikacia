@@ -1,0 +1,33 @@
+.IkonaMobil{
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    border-radius: var( --border-radius-maly);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40px;
+    /* box-shadow: var(--box-shadow); */
+    color: var(--farba-sivaText);
+    /* background-color: rgb(54, 54, 54); */
+    position: relative;
+}
+.ikkoonnaa{
+    transition: var( --transition);
+    font-size: 25px;
+}
+.ikonaaaaloca{
+    /* display: none; */
+     white-space: nowrap; 
+    font-weight: 550;
+    transition: var( --transition);
+    font-size: var( --font-size-small2)
+}
+
+@media (max-width: 450px) {
+.ikkoonnaa{
+    transition: var( --transition);
+    font-size: 22px;
+}
+
+ }

@@ -1,0 +1,18 @@
+.drziazcelejapp{
+    height: fit-content;
+    display: flex;
+    width: 100%;
+    /* padding: 0px 0px 0px 20px; */
+    /* background-color: aqua; */
+}
+
+.kokottnejk{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+}
+.tkokokoektoe{
+    height: 40px;
+    width: 200px;
+    background-color: black;
+}

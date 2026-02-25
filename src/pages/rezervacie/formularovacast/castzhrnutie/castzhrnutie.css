@@ -1,0 +1,22 @@
+.celkokokollooo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: var(--farba-main2);
+}
+.tujescrollainfo {
+  flex: 1;
+  padding: 10px;
+  background-color: var(--farba-main2);
+  overflow: auto; /* povolí scrollovanie, keď obsah presahuje */
+  
+  /* skrytie scrollbaru v moderných prehliadačoch */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE a Edge */
+}
+
+.tujescrollainfo::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}

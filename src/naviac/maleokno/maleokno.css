@@ -1,0 +1,29 @@
+.Maleokno{
+    height: fit-content;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.tenvrhchobycajny{
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  gap:5px;
+  align-items: center;
+  padding: 0px 0px 20px 0px;
+  /* background-color: aqua; */
+    text-align: center;
+
+}
+.koktinaknonon{
+  width: 100%;
+  display: flex;
+padding: 20px 0px 0px 0px;
+  /* background-color: blue; */
+  justify-content: space-between;
+}

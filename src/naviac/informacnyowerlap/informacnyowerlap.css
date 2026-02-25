@@ -1,0 +1,9 @@
+.owerlapcosavysuva{
+    inset: 0;
+    position: fixed;
+    z-index: 9000;
+    /* background-color: var(--farba-biela); */
+      background-color: var(--farba-bielaEfekty);
+    /* background-color: black; */
+     backdrop-filter: blur(10px);
+}

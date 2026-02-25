@@ -1,0 +1,290 @@
+.Ludiakolonka{
+    height: 55px;
+    padding: 0px 10px;
+    width: 100%;
+    gap: 15px;
+    transition: var(--transition);
+    flex-shrink: 0;
+    cursor: pointer;
+    /* overflow: hidden; */
+    display: flex;
+  
+    align-items: center;
+
+    /* border: 1px solid; */
+    position: relative;
+    border-radius: var(--border-radius-maly);
+    /* background-color: rgb(169, 169, 186) !important; */
+}
+.takeoknocosazobrazuje32{
+    height: 100%;
+    width: 100%;
+    
+    flex-direction: row;
+opacity:1;
+display: flex;
+align-items: center;
+/* border: 1px solid red; */
+justify-content: start;
+   
+    border-radius: 11px;
+    transition: var( --transition);
+    /* left: 0px; */
+    inset: 0;
+    z-index: 100;
+    background-color: var(--farba-main2);
+    position: absolute;
+}
+.llojvrbvi434{
+    height: 100%;
+    width: 65px;
+    /* background-color: aqua; */
+}
+.fotofotofototecak{
+    height: 40px;
+    width: 40px;
+    display: flex;
+      position: relative;
+       /* border: 1px solid pink; */
+    /* overflow: hidden; */
+    /* border-radius: var(--border-radius-maly); */
+    /* background-color: rgb(215, 16, 16); */
+}
+.tujesrdeickolen{
+    position: absolute;
+    height: 22px;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 22px;
+    background-color: var(--farba-main2);
+    z-index: 1000;
+    border-radius: 99px;
+    color: var(--farba-main);
+}
+.llojvrbvi{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    transition: var(  --transition);
+     border-radius: var(--border-radius-maly);
+    /* background-color: aqua; */
+}
+.llojvrbvi:hover{
+  
+    background-color: var(--farba-bielaEfekty);
+}
+
+.textvoacastlenini{
+    color: var(--farba-main) !important;
+    transition: var( --transition);
+
+     text-decoration: underline;
+
+}
+.textvoacastlenini:hover{
+    text-decoration: none;
+    color: var(--farba-sivaText);
+    /* color: var(--farba-cierna) */
+}
+.fotofotkakookopica{
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(6, 6, 6) !important;
+    /* border: 1px solid pink; */
+       border-radius: var(--border-radius-maly);
+    object-fit: cover;
+}
+.horetextovacastikook{
+    display: flex;
+    gap: 5px;
+    font-size: var(  --font-size-base100);
+    color: var(--farba-cierna);
+}
+.doeltexovacast{
+    color: var(--farba-sivaText);
+    font-size: var( --font-size-small);
+}
+.popouokonknomale2{
+    height: fit-content;
+    width: 350px;
+    top: 0px;
+ 
+    /* padding: 10px; */
+    left: 0px;
+    padding: 60px 0px 0px 0px;
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    /* background-color: rgb(49, 49, 49); */
+}
+.definicemojamala{
+    flex: 1;
+    background-color: var(--farba-biela);
+    border: var(--border);
+    display: flex;
+    padding: 10px;
+    box-shadow: var(   --box-shadow);
+    border-radius: var( --border-radius-maly);
+
+}
+.wrapercekkokoktiko{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.texticekkokokookokriova{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+       border-radius: 12px;
+           transition: var(--transition);
+      font-size: VAR( --font-size-small);
+    background-color: blue;
+    color: var(--farba-cierna);
+}
+.konjsvnsjvsjkv{
+    height: 90px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* background-color: aqua; */
+    overflow: hidden;
+    border: var(--border);
+    border-radius: var(--border-radius-maly);
+}
+.jsbvahbsvha{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      /* border: var(--border); */
+    /* background-color: blue; */
+}
+.nvjnasvjka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: var(  --font-size-base2);
+     transition: var( --transition);
+     border-right: var(--border);
+     color: var(--farba-cierna);
+    /* background-color: rgb(232, 255, 25); */
+}
+.nvjnasvjka:hover{
+     transition: var( --transition);
+     border-right: var(--border);
+ background-color: var(--farba-main2);
+}
+
+.nvjnasvjka2{
+     display: flex;
+    align-items: center;
+      gap: 5px;
+    justify-content: center;
+    font-size: var(  --font-size-base2);
+     transition: var( --transition);
+         color: var(--farba-cierna);
+     /* border-right: var(--border); */
+    /* background-color: rgb(232, 255, 25); */
+}
+.nvjnasvjka2:hover{
+
+   background-color: var(--farba-main2);
+}
+.jsbvahbsvha32{
+    transition: var( --transition);
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: var(--border);
+    font-size: var(  --font-size-base2);
+    /* background-color: aqua; */
+    color: var(--farba-cierna);
+}
+.jsbvahbsvha32:hover{
+    transition: var( --transition);
+    background-color: var(--farba-main2);
+}
+
+.lentakbuttomraodmoa{
+    height: 45px;
+color: white;
+    width: 100%;
+    transition: var(--transition);
+    font-size: VAR( --font-size-base2);
+  
+      outline: none;
+    border-radius: 12px;
+    border: none;
+    background-color: var(--farba-main);
+}
+.lentakbuttomraodmoa:hover{
+   color: black;
+    background-color: var(--farba-main2);
+}
+.kopkoiavij {
+  font-size: var(--font-size-small);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: var( --transition);
+  color: var(--farba-sivaText);
+}
+.kopkoiavij:hover {
+ 
+  color: var(--farba-cierna);
+}
+.zobrazeniecistekamosi{
+    height: 25px;
+    width: 25px;
+    border-radius: 99px;
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    color:var(--farba-main);
+    right: 4px;
+    background-color: var(--farba-biela);
+    border: var(--border);
+}
+.zobrazeniecistekamosi2{
+    height: 25px;
+    width: 25px;
+    border-radius: 99px;
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    color:var(--farba-main);
+    right: 4px;
+    background-color: var(--farba-biela);
+    border: var(--border);
+}
+@media (max-width: 1190px) {
+.popouokonknomale2{
+  width: 310px;
+}
+}
+
+@media (max-width: 1000px) {
+.popouokonknomale2{
+    width: 270px;
+}
+}
+

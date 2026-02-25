@@ -1,0 +1,31 @@
+.Ikonypage{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: VAR(--gap-little);
+    padding:21px 19px;
+    border-radius: var(  --border-radius-maly);
+    /* background-color: red; */
+    height: 45px;
+   cursor: pointer;
+    transition: var(  --transition);
+}
+/* .Ikonypage:hover{
+ 
+    background-color: var( --farba-main2);
+ 
+} */
+.ikonavelkost{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+     color: var(--farba-sivaText);
+}
+.ikonatexcike {
+    white-space: nowrap;
+     transition: var(  --transition);
+    font-size: var(--font-size-base);
+  color: var(--farba-sivaText);
+}

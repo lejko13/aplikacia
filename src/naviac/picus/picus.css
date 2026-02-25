@@ -1,0 +1,369 @@
+.containerMainPicus{
+  height: 100%;
+ background-color: pink;
+ padding: 10px;
+  width: 100%;
+  display: flex;
+  /* padding: 10px; */
+  flex-direction: column;
+}
+.tusazbrieraalennivia {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+    /* padding: 0px 10px; */
+  /* margin: 10px 0px; */
+  gap: 10px;
+  
+  flex-direction: column;
+  background-color: var(--farba-main2);
+
+
+
+  /* Skrytie scrollbarov */
+  scrollbar-width: none; /* pre Firefox */
+  -ms-overflow-style: none; /* pre IE a Edge */
+}
+
+.tusazbrieraalennivia::-webkit-scrollbar {
+  display: none; /* pre Chrome, Safari, Opera */
+}
+
+/* Common box */
+.boxik {
+  max-height: fit-content;
+  background-color: var(--farba-main2);
+    padding: 0px 10px;
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
+  /* border-radius: 12px; */
+  /* border: var(  --border);
+  border-radius: 0px 0px 12px 12px; */
+  overflow: hidden;
+  border-top: var(--border);
+border-bottom: var(--border);
+}
+
+
+
+.boxHeaderik {
+  font-weight: 500;
+  font-size: var( --font-size-base100);
+  padding: 10px 0px;
+  /* border-bottom: var(--border); */
+  color: var(--farba-cierna);
+
+}
+
+/* Cart */
+.itemList {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* background-color: #222; */
+}
+
+.itemRow {
+  display: grid;
+  grid-template-columns: 60px 1fr 80px 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.itemName {
+  font-size: 13px;
+  font-weight: 500;
+  color: #222;
+}
+
+.itemOption {
+  font-size: 11px;
+  color: #666;
+  margin: 2px 0;
+}
+
+.itemQuantity {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 30px;
+  border: 1px solid #ddd;
+  /* border-radius: 6px; */
+  align-items: center;
+  text-align: center;
+}
+
+.qtyBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.qtyLabel {
+  font-weight: 500;
+}
+
+.itemPrice {
+  text-align: right;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Coupon */
+.couponFormik {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  gap: 8px;
+ padding: 10px 0px;
+}
+
+.couponInput {
+padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.couponInput:focus {
+  outline: none;      /* zruší modrý rámček */
+  box-shadow: none;   /* zruší tieň pri focus, ak by bol */
+}
+
+.couponBtn {
+    background-color: var(--farba-main);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Checkout */
+.summaryDetailiks {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ padding: 10px 0px;
+ /* margin: 0px 0px 10px 0px; */
+ /* background-color: red; */
+  
+ 
+}
+.summaryDetailiks2 {
+ display: flex;
+/* grid-template-rows: 50px 30px; */
+ background-color: var(--farba-main2);
+
+ /* gap: 10px; */
+ /* height: 200px; */
+ padding: 5px 0px 10px 0px;
+ }
+.tootjelenkanarozdelnie2{
+display: flex;
+/* gap: 10px; */
+flex-direction: column;
+width: 100%;
+flex-direction: column;
+  /* background-color: red; */
+  
+}
+.tujecenakoakotina{
+  /* background-color: rgb(197, 179, 179); */
+  display: flex;
+  justify-content: center;
+}
+.totalPrice {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.checkoutFooterik {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  /* padding:10px 0px; */
+  gap: 10px;
+  /* height: 45px; */
+  background-color: var(--farba-main2)
+}
+
+
+
+.checkoutBtn {
+  background-color: var(--farba-main);
+  color: white;
+ height: 45px;
+  border: none;
+  
+  border-radius: 12px;
+  padding: 0px 18px;
+  font-size: var( --font-size-base69);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.boxcheckoutBoxik{
+  /* margin: 10px 0px 0px 0px; */
+   max-height: fit-content;
+   background-color: var(--farba-main2);
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
+  /* border-radius: 12px; */
+  padding: 0px 10px 10px 10px;
+  /* border: var(  --border); */
+  border-top: none;
+  overflow: hidden;
+  border-radius: 0px 0px 12px 12px;
+
+
+  /* border: 1px solid black; */
+}
+.boxcheckoutBoxik2{
+  /* margin: 10px 0px 0px 0px; */
+   max-height: fit-content;
+   background-color: var(--farba-main2);
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
+  /* border-radius: 12px; */
+  padding: 0px 10px 10px 10px;
+  /* border: var(  --border); */
+  border-top: none;
+  overflow: hidden;
+  border-radius: 0px 0px 12px 12px;
+
+
+  /* border: 1px solid black; */
+}
+.ttoodzricenuuu{
+  flex: 1;
+  display: flex;
+  align-self: stretch;
+align-items: center;
+  /* background-color: red; */
+  
+}
+
+.driztitexty{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: var(--farba-main2); */
+
+  padding: 0px 0px 5px 0px;
+  width: 100%;
+  border-bottom: 1.5px dotted var(--farba-siva) !important; /* bodkovaná */
+  /* border-bottom: 2px dashed red; */ /* čiarkovaná alternatíva */
+
+}
+.driztitexty32{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: var(--farba-main2); */
+
+  padding: 5px 0px 5px 0px;
+  width: 100%;
+  border-bottom: 1.5px dotted var(--farba-siva)!important; /* bodkovaná */
+  /* border-bottom: 2px dashed red; */ /* čiarkovaná alternatíva */
+
+}
+@media (max-width: 1200px) {
+
+ 
+  .tusazbrieraalennivia {
+ padding: 10px;
+}
+}
+@media (max-width: 1000px) {
+
+
+  .tusazbrieraalennivia {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  
+  /* margin: 10px 0px; */
+  gap: 10px;
+  flex-direction: column;
+  /* background-color: rgb(133, 134, 131); */
+
+  /* Skrytie scrollbarov */
+  scrollbar-width: none; /* pre Firefox */
+  -ms-overflow-style: none; /* pre IE a Edge */
+  
+}
+
+}
+
+
+
+
+@media (max-width: 750px) {
+
+  /* .containerMain{
+    padding: 0px 20px 0px 20px;
+  } */
+
+  .tusazbrieraalennivia {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  /* margin: 10px 0px; */
+  gap: 10px;
+  flex-direction: column;
+  /* background-color: rgb(133, 134, 131); */
+  padding: 10px 10px;
+
+  /* Skrytie scrollbarov */
+  scrollbar-width: none; /* pre Firefox */
+  -ms-overflow-style: none; /* pre IE a Edge */
+  
+}
+.boxik {
+  max-height: fit-content;
+  /* background-color: #5f5f5f; */
+    padding: 0px 10px;
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
+  /* border-radius: 12px; */
+  overflow: hidden;
+}
+
+
+.boxcheckoutBoxik{
+   max-height: fit-content;
+   background-color: var(--farba-main2);
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
+  /* border-radius: 12px; */
+  padding: 0px 10px 10px 10px;
+  overflow: hidden;
+
+  /* border: 1px solid black; */
+}
+
+.driztitexty{
+ 
+
+  padding: 0px 0px 5px 0px;
+  
+
+}
+.tootjelenkanarozdelnie{
+display: flex;
+gap: 10px;
+flex-direction: column;
+  background-color: var(--farba-main2);
+  
+}
+
+}
+
+
+@media (max-width: 600px) {
+.ttoodzricenuuu{
+  flex: 1;
+  display: flex;
+  align-self: stretch;
+align-items: end;
+  /* background-color: red; */
+  
+}
+}

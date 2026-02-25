@@ -1,0 +1,123 @@
+.box2 {
+  background-color: var(--farba-biela);
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.05); */
+  border-radius: 12px;
+  flex-shrink: 0;
+
+  border: var(--border);
+  overflow: hidden;
+}
+.boxHeader23 {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+  border-bottom:var(--border);
+  /* color: #333; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* background-color: rgb(85, 20, 20); */
+}
+.abytobolorovnoajtentext{
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  color: var(--farba-sivaText);
+
+align-items: center;
+  width: fit-content;
+  /* background-color: #b0b0b0; */
+
+
+}
+
+.drzaknafotkunicvic{
+  height: 60px;
+  flex-shrink: 0;
+  cursor: pointer;
+  width: 60px;
+  overflow: hidden;
+  border-radius: 10px;
+  /* background-color: black; */
+}
+.kruzocekknicvia{
+  height: 100%;
+  width: 20px;
+  display: flex;
+  border-radius: 99px;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--farba-main2);
+  color: var(--farba-sivaText);
+}
+.tujejednaikona{
+  width: fit-content;
+  display: flex;
+  /* padding: 10px; */
+  gap: 10px;
+  height: 20px;
+  /* background-color: black; */
+}
+
+.itemList2{
+    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: var(--farba-cierna);
+  gap: 10px;
+  /* background-color: #d32d2d; */
+}
+.itemName2{
+  font-size: var(--fontspecialny);
+  color: var(--farba-cierna);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.itemRowikoo{
+  /* background-color: rgb(92, 220, 92); */
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  /* width: 100%; */
+ 
+}
+.itemPrice{
+  /* background-color: aqua; */
+}
+.itemPrice22{
+  display: flex;
+  justify-content: center;
+  font-size: var(  --font-size-base2);
+align-items: center;
+  /* background-color: aqua; */
+  white-space: nowrap;
+}
+
+.drzaiikovnaonv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+}
+
+
+
+
+ @media (max-width:370px) {
+  .itemName2{
+  font-size: var(--font-size-base100);
+  color: var(--farba-cierna);
+  white-space: nowrap;
+}
+
+.drzaknafotkunicvic{
+  height: 45px;
+  flex-shrink: 0;
+  width: 45px;
+  overflow: hidden;
+  border-radius: 10px;
+  /* background-color: black; */
+}
+ }

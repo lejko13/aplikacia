@@ -1,0 +1,242 @@
+.Nakup{
+    width: 100%;
+    height: fit-content;
+    color: var(--farba-cierna);
+    display: flex;
+    border-radius: 12px;
+    flex-shrink: 0;
+    border: var( --border);
+
+    /* padding: 10px; */
+position: relative;
+    background-color: var(--farba-biela);
+}
+/* totojeowerpalnnakliknete */
+.totojeowerpalnnakliknete{
+    position: absolute;
+       
+    inset: 0;
+     /* border: var( --border); */
+     border-radius: 12px;
+     backdrop-filter: blur(12px);
+    background-color: var(  --farba-bielaBlur);
+    z-index: 5;
+}
+
+
+.flexopgap {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 20px;
+  /* background-color: aqua; */
+  right: 10px;
+  z-index: 2;
+}
+/* totojeowerpalnnakliknete */
+.textceklencos2{
+    width: 100%;
+   
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     gap: 15px;
+     position: relative;
+    /* background-color: rgb(31, 29, 29); */
+    height: fit-content;
+    /* background-color: aqua; */
+}
+
+ .TEXTICEKNEAOVICEK45{
+    font-family: var( --font-family);
+    cursor: pointer;
+    font-size: var( --font-size-large);
+    
+  
+     color: var(--farba-cierna);
+    transition: var(  --transition);
+ }
+.horepocet2{
+height: fit-content;
+border-radius: var(--border-radius-maly);
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(163, 49, 49); */
+    /* overflow: hidden; */
+    flex-direction: column;
+    border:  var( --border);
+    /* box-sizing: border-box; */
+    /* background-color: aqua; */
+}
+.celkokokokolloksdrzak{
+    background-color: var(--farba-biela);
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+}
+.lenwrapprecekournun{
+    /* flex: 1; */
+    display: flex;
+    position: relative;
+    /* padding: 30px; */
+    /* flex-direction: row; */
+    /* overflow: auto; */
+    padding: 20px;
+    /* width: 100%; */
+    min-width: 0;
+    background-color: aqua;
+    border-radius: 12px 12px 0px 0px;
+    /* height: 200px; */
+    /* padding: 10px; */
+    gap: 10px; /* medzera medzi fotkami */
+}
+/* .greenBox {
+  width: 500px;
+  height: 200px;
+  flex-shrink: 0;
+  background-color: green;
+} */
+
+.drziakfotkyyylennicvi{
+    height: 100px;
+    display: flex;
+    width: 100px;
+    border: 1px solid black;
+    flex-shrink: 0; /* dôležité */
+    background-color: blue;
+}
+.fotkakkakakkaka{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.texticekkolaa{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+     color: var(--farba-main);
+  font-weight: 900;
+  display: flex;
+  gap: 10px;
+  font-size: var(  --fontspecialny);
+}
+/*  */
+
+.stlikotohocotamjeaako{
+    width: 100%;
+    height: 100%;
+    display: flex;
+justify-content: end;
+    flex-direction: column;
+    /* background-color: rgb(128, 255, 0); */
+   
+
+}
+.stornolen{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+    background-color: var(--farba-main2);
+    font-size: var( --font-size-small);
+}
+.prezreitponuku{
+     height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+     color: white;
+    border-radius: 8px;
+
+    background-color: var(--farba-main);
+    font-size: var(  --fontspecialny);
+     cursor: pointer;
+      transition: var(  --transition);
+}
+.prezreitponuku:hover{
+      color: var(--farba-cierna);
+    background-color: var(--farba-main2);
+    
+}
+.wrapperlennhaha{
+    height: 100%;
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.malytextlenicko{
+    width: 100%;
+    height: 20px;
+     color: var(--farba-sivaText);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    /* background-color: aqua; */
+    font-size: var(--font-size-small);
+   
+    transition: var(  --transition);
+}
+.ponukalenoko{
+ cursor: pointer;
+}
+.ponukalenoko:hover{
+   text-decoration: underline;
+}
+@media (max-width: 1350px) {
+.wrapperlennhaha{
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    
+}
+}
+@media (max-width: 750px) {
+    .Nakup{
+    width: 100%;
+    height: fit-content;
+    color: var(--farba-cierna);
+    display: flex;
+    border-radius: 12px;
+     border: var( --border) !important;
+
+
+    /* padding: 10px; */
+position: relative;
+    background-color: var(--farba-biela);
+}
+
+
+}
+
+@media (max-width: 800px) {
+  .TEXTICEKNEAOVICEK45{
+    font-family: var( --font-family);
+    font-size: var(  --font-size-base4);
+    
+  
+     color: var(--farba-cierna);
+    transition: var(  --transition);
+ }
+
+}
+

@@ -1,0 +1,27 @@
+.celocekkkk{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    height: 50px;
+    flex-shrink: 0;
+    /* background-color: blueviolet; */
+
+}
+.ikonaceenk{
+    width: 45px;
+    height: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--farba-cierna);
+    /* background-color: aqua; */
+}
+.textovacast{
+    flex: 1;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--farba-biela);
+}

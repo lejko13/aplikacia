@@ -1,0 +1,13 @@
+.Oknocosavzsuva{
+ inset: 0;
+
+ /* margin: 10PX; */
+    position: absolute;
+    /* padding: 10px; */
+    display: flex;
+    opacity: 1;
+    
+    z-index: 100;
+    /* padding: 10px; */
+    background-color:var(--farba-main2);
+}

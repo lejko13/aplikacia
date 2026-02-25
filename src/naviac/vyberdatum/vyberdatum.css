@@ -1,0 +1,260 @@
+.drziakokmoiVYBER{
+    /* background-color: pink; */
+    gap: 5px;
+    flex-direction: column;
+    /* position: relative; */
+    display: flex;
+    /* overflow: hidden; */
+    /* padding: 10px; */
+    width: 100%;
+}
+.inputkodoleleni22 {
+    height: 40px;
+    border: none;  
+    width: 100%;  
+    cursor: pointer;
+    padding: 10px;
+    border: var( --border);
+    border-radius: 12px;
+    color: var(--farba-cierna);
+    background-color: var(--farba-biela);     /* odstráni štandardný border */
+    outline: none;        /* odstráni modrý alebo iný outline pri focus */
+}
+
+/* voliteľne, aby sa border nezobrazil ani pri kliknutí */
+.inputkodoleleni:focus {
+    /* border: none; */
+    /* transition: var(--transition); */
+    /* outline: none; */
+    box-shadow: none;    /* ak mal nejaký shadow pri focus */
+}
+.hviezdicakk{
+    color: var(--farba-main);
+    position: absolute;
+    top: 0px;
+    right: -8px;
+}
+.totodrizinpiuu{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    z-index: 120;
+    bottom: 0px;
+    overflow: hidden;
+    /* background-color: blue; */
+}
+.inputkodoleleni22::placeholder {
+  color: var(--farba-sivaText); /* farba placeholdera */
+  opacity: 1; /* aby bola presne tá farba, nie polopriehľadná */
+}
+.lentakkokubuiniuDATUM{
+    position: absolute;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* flex-direction: row; */
+    padding: 10px 10px 10px 10px;
+    height: 290px;
+    z-index: 100;
+        border-radius: 0px 0px 12px 12px;
+    background-color: var(--farba-biela);
+}
+.sirkapotvrdeneizecoajak{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+.dizajnnnnn{
+   height: 40px;
+    cursor: pointer;
+    padding: 0PX 16PX;
+    border-radius: 12PX;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: VAR(--farba-main);
+    font-size: var(--font-size-base69);
+}
+.dizajnnnnn2{
+   height: 40px;
+    cursor: pointer;
+    padding: 0PX 16PX;
+    border-radius: 12PX;
+    display: flex;
+    color: var(--farba-cierna);
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: VAR(--farba-main2);
+    font-size: var(--font-size-base69);
+}
+.texotytusuniviv{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tijeinputatext{
+    height: 60px;
+    /* padding: 10px; */
+    overflow: hidden;
+
+    /* background-color: red; */
+}
+.celkocotodrizmihej{
+    /* overflow: hidden; */
+    position: relative;
+    /* margin-bottom: 100px; */
+    /* background-color: rgb(87, 167, 167); */
+    /* padding: 10px; */
+    height: 40px;
+}
+.square-pink {
+  height: 30px;
+  width: 30px;
+  right: -30px;
+  top: 0px;
+  /* background-color: pink; */
+  position: absolute;
+}
+.tubudeobashokoko2 {
+    width: fit-content;
+    height: 100%;
+    padding: 10px;
+    border: var( --border);
+    border-radius: 12px;
+    background-color: var(--farba-main2);
+    display: flex;
+    /* gap: 10px; */
+    position: relative;
+    /* position: relative; */
+    flex-direction: row;
+    /* background-color: aqua; */
+    
+    overflow: auto; /* umožní scrollovanie */
+    
+    /* skrytie scrollbarov */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.tubudeobashokoko::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+
+
+
+
+/* picekt */
+.novyDtum{
+    width: 350px;
+    height: 100%;
+    gap: 10px;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(208, 208, 208);
+}
+.tuvyberasdatum{
+    height: 20px;
+    justify-content: space-between;
+    /* background-color: rgb(47, 147, 147); */
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.ovladanie{
+    height: 100%;
+    width: 80px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* background-color: burlywood; */
+}
+.kruhzocekoko{
+    height: 20px;
+    width: 20px;
+     display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    border-radius: 99px;
+    background-color: var(--farba-main);
+}
+.tujedatummmnicviac{
+flex: 1;
+/* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+display: grid; */
+display: flex;
+flex-direction: column;
+/* background-color: blue; */
+}
+
+.tusutextyanicviac{
+    width: 100%;
+    height: 20px;
+    /* background-color: blueviolet; */
+}
+.tusadejemagia{
+    flex: 1;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+display: grid;
+
+/* background-color: aqua; */
+}
+.datumovacast{
+    /* background-color: pink; */
+    overflow: hidden;
+    width: 150px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.rokvacast{
+   /* background-color: red; */
+    overflow: hidden;
+    width: 80px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.tusazbierakvsektok {
+  flex: 1;
+  /* border-radius: 12px; */
+  /* background-color: aquamarine; */
+  gap: 10px;
+  overflow: auto;
+
+  flex-direction: column;
+  display: flex;
+
+  /* Skryť scroll bar v rôznych prehliadačoch */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.tusazbierakvsektok::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+.tumapujemjakaco{
+    width: 100%;
+    height: fit-content;
+    font-size: var(--font-size-base69);
+    flex-shrink: 0;
+    background-color: var(--farba-biela);
+    padding: 5px;
+    color: var(--farba-sivaText);
+    cursor: pointer;
+    border-radius: 10px;
+    border: var( --border);
+    
+    transition: var( --transition);
+}

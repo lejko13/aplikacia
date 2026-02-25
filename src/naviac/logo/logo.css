@@ -1,0 +1,7 @@
+.leouspechy {
+  color: var(--farba-main);
+  font-weight: 900;
+  display: flex;
+  gap: 10px;
+  font-size: 25px;
+}

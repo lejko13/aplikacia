@@ -1,0 +1,40 @@
+
+.strednyobsahinput{
+flex: 1;
+gap: 20px;
+display: flex;
+flex-direction: column;
+ background-color: var(--farba-biela)
+}
+.vraperecekosti{
+    gap: 20px;
+display: flex;
+background-color: var(--farba-biela);
+flex-direction: column;
+}
+
+.VRCHLOECEKOSTIKI{
+    display: flex;
+    flex-direction: column;
+    gap: 10PX;
+}
+.tusuikony{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    height: fit-content;
+}
+.inputikceoksti{
+    padding: 20px;
+    height: 45px;
+    border-radius: var(--border-radius-maly);
+    border: 1px solid  var(--farba-siva);
+    
+    width: 100%;
+}
+.inputikceoksti:focus {
+  outline: none;
+  /* border: none; */
+  box-shadow: none;
+}

@@ -1,0 +1,44 @@
+.Tujelogikatempalte{
+    height:fit-content;
+    width: 500PX;
+    padding:  20px !important;
+    gap: 20px;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    background-color: var(--farba-biela);
+    /* background-color: rgb(226, 159, 91); */
+    box-shadow: var( --boxtien);
+    border-radius: var(  --border-radius-Vonku);
+}
+.vrhocelcekokokt{
+    /* background-color: red; */
+    display: flex;
+    height: 45px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.strednyobsah{
+
+flex: 1;
+ /* background-color: aquamarine; */
+}
+.spodokecekostkos{
+    height: 60px;
+    /* height: fit-content; */
+    display: flex;
+    width: 100%;
+justify-content: space-between;
+    background-color: blueviolet;
+}
+
+
+@media (max-width: 530px) {
+.Tujelogikatempalte{
+       gap: 10px;
+}
+    .vrhocelcekokokt{
+        height: 20px;
+    }
+}

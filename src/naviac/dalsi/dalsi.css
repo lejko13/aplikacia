@@ -1,0 +1,71 @@
+.Dalsi{
+    height: 45px;
+    padding: 0px 10px;
+    width: fit-content;
+    gap:10px;
+    flex-direction: row;
+    cursor: pointer;
+    display: flex;
+
+    /* background-color: blueviolet; */
+}
+.fotkeckako{
+    position: relative;
+    height: 45px;
+    width: 45px;
+    /* overflow: hidden; */
+    display: flex;
+    border-radius: 12px;
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+.fototto{
+    object-fit: cover;
+    height: 45px;
+    width: 45px;
+        border-radius: 12px;
+}
+.hovercover{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+      border-radius: 12px;
+      cursor: pointer;
+transition: var(  --transition);
+}
+.hovercover:hover{
+   background-color: var( --farba-bielaEfekty)
+}
+.idkn-niceo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: fit-content;
+  /* background-color: red; */
+}
+.meno-priezvisko{
+    font-size: var(--font-size-base4);
+  display: flex;
+  gap: 5px;
+  color: var(--farba-cierna);
+}
+
+.lleezzasmpmmp{
+  height: 22px;
+  width: 22px;
+  top: -5px;
+  color: var(--farba-main);
+  right: -5px;
+  position: absolute;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--farba-biela);
+}
+@media (max-width: 750px) {
+.Dalsi{
+    padding: 0px;
+}
+}

@@ -1,0 +1,54 @@
+.drziakokmoi0ajkk{
+    /* background-color: pink; */
+    gap: 5px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.inputkodoleleni00pp {
+    height: 40px;
+    border: none;    
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    display: flex;
+    border: var( --border);
+
+    align-items: center;
+    border-radius: 12px;
+    font-size: var(  --font-size-small);
+    color: var(--farba-sivaText);
+    justify-content: start;
+    background-color: var(--farba-biela);     /* odstráni štandardný border */
+    outline: none;        /* odstráni modrý alebo iný outline pri focus */
+}
+
+.obalnainputiikppp{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    /* background-color: rgb(145, 42, 59); */
+}
+.inokanaodsrdaenini{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    top: 10px;
+    justify-content: center;
+    right: 10px;
+    font-size: 15px;
+      border: var( --border);
+    
+    border-radius: 999px;
+    position: absolute;
+    cursor: pointer;
+    color: var(--farba-sivaText);
+    background-color: var(--farba-main2);
+}
+.hviezdicakk{
+    color: var(--farba-main);
+    position: absolute;
+    top: 0px;
+    right: -8px;
+}

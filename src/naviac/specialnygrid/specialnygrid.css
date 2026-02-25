@@ -1,0 +1,18 @@
+.specialnyGridicek{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: column;
+    background-color: var(--farba-biela);
+    /* background-color: aqua; */
+}
+.obshahhspecialnyGridicek {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    height: fit-content;
+    /* background-color: blue; */
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      grid-auto-rows: minmax(100px, auto);
+}

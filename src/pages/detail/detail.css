@@ -1,0 +1,385 @@
+.zakladnoveho{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+}
+.celkooooom{
+    min-height: 100vh;
+    padding: 0px  20px 20px 20px;
+    display: flex;
+    background-color: var(--farba-biela)
+}
+.obsahhhhkoiij{
+    /* background-color: rgb(8, 8, 255); */
+flex: 1;
+gap: 10px;
+display: flex;
+flex-direction: column;
+padding: 0px 0px 20px 0px;
+}
+.fotofotookotkiky{
+    height: fit-content;
+    /* max-height: 600px; */
+    width: 100%;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    /* background-color: blanchedalmond; */
+}
+.lavastranahalvna {
+    border-radius: 12px;
+    overflow: hidden;
+     display: flex;
+    /* background-color: rgb(0, 0, 0); */
+    aspect-ratio: 1 / 0.95; /* štvorcový tvar */
+}
+/* .swiper-wrapper{
+    width: 100%;
+    background-color: RED;
+} */
+.LISKOT{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.lavastranahalvna2 {
+    /* border-radius: 12px; */
+    overflow: hidden;
+   position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    /* background-color: rgb(255, 255, 255); */
+    aspect-ratio: 1 / 0.95; /* štvorcový tvar */
+}
+.oblanaswiper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    /* background-color: aquamarine; */
+}
+.ikonnka{
+    height: 30px;
+    width: 30px;
+     display: flex;
+  font-size: 17px;
+  color: var(--farba-cierna);
+  border-radius: 99px;
+  justify-content: center;
+  align-items: center;
+    background-color: var(--farba-main2);
+}
+.fleximakogot {
+  width: fit-content;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+  display: flex;
+  gap: 5px;
+}
+.spikecakk23{
+    position: absolute;
+    height: 30px;
+    z-index: 100;
+    width: 30px;
+    /* background-color: rgb(11, 11, 11); */
+}
+.spikecakk232{
+    position: absolute;
+}
+.vnutorprefotku{
+      border-radius: 12px;
+      position: relative;
+      overflow: hidden;
+    /* background-color: blueviolet; */
+}
+.lenpaelnahoer{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(74, 74, 76); */
+
+}
+.lentakkokokoookjhbh{
+  width:100%; height:fit-content; 
+  background:rgb(255, 255, 255);
+  display:-webkit-box; 
+  color: var(--farba-sivaText);
+  -webkit-line-clamp:5;
+  -webkit-box-orient:vertical; overflow:hidden;
+}
+.lentotoko{
+     top: 50%;
+  transform: translateY(-50%);
+     z-index:100;
+  position: absolute;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--farba-main2);
+  height: 30px;
+  width: 30px;
+  border-radius: 99px;
+  color: var(--farba-cierna);
+}
+/*  */
+.fotakrazanavzdy{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.razraz{
+    border-radius: 12px;
+    /* background-color: rgb(138, 138, 138); */
+}
+.tusulinkyikony{
+    width: 100%;
+    height: fit-content;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.tusadajucari{
+    /* background-color: black; */
+ height: 1130px;
+ /* padding:10px 0px 0px 0px; */
+ display: flex;
+ gap: 10px;
+ /* flex-direction: row; */
+    width: 100%;
+}
+.tujeobsahhhova{
+    flex: 1;
+    /* padding: 10px; */
+    /* border-radius: 12px; */
+    display: flex;
+flex-direction: column;
+gap: 10px;
+    /* border: var(--border); */
+    background-color: var(--farba-biela);
+    width: 90px;
+    /* background-color: var(--farba-main2); */
+}
+.tusurecenzieee {
+  border: var(--border);
+  border-radius: 12px;
+  width: 100%;
+  background-color: var(--farba-main2);
+  height: 300px;
+  padding: 10px;
+  gap: 10px;
+
+
+}
+.mobilsystemobjednevka{
+    height: fit-content;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+              /* Chrome, Safari */
+
+.tujescroolkokoksfs{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: aqua; */
+    overflow: auto;
+
+  /* skrytie scrollbarov */
+  scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;
+
+}
+.panelcosahyb{
+/* width: 26vw; */
+height: 100%;
+width: 370px;
+display: flex;
+border-radius: 12px;
+padding: 10px;
+  border: var(--border);
+background-color: var(--farba-main2);
+/* background-color: var(--farba-biela); */
+}
+.obalnahyby{
+    height: fit-content;
+    position: sticky;
+    top: 90px;
+    display: flex;
+    width: 100%;
+    /* background-color: black; */
+}
+
+
+.moznosandakokopojde{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.ivsvivfhj{
+   
+   display: flex;
+
+   /* aspect-ratio: 1/1; */
+   background-color: blueviolet;
+   /* padding: 10px; */
+   position: relative;
+}
+
+.tototoceledrziii{
+     /* aspect-ratio: 1/1; */
+     
+    background-color: var(--farba-biela)
+}
+.ttotobudewrapper{
+      /* aspect-ratio: 1/1; */
+    background-color: rgb(255, 255, 255)!important; 
+ 
+  height: 100% !important;
+    width: 100% !important;
+    /* padding: 20px; */
+    display: flex;
+}
+.fotakrazanavzdy2{
+      aspect-ratio: 1/1;
+      height:100% !important;
+    width: 100% !important;
+    padding: 0px 0px 0px 0px;
+    object-fit: cover;
+}
+
+
+
+.tujetextovacastkokokopoj{
+     position: absolute;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px 10px 10px;
+    width: 100%;
+    z-index: 20;
+    border-radius: 12px 12px 0px 0px;
+    bottom: 0px;
+
+    background-color: var(--farba-biela);
+    /* background-color: rgb(125, 234, 16); */
+}
+.obsahovacasttttt{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   padding: 0px;
+    height: fit-content;
+    /* background-color: aqua; */
+}
+.nutttoj{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   gap: 5px;
+    height: fit-content;
+}
+.lentextnicviac {
+  color: var(--farba-sivaText);
+  font-size: var(--font-size-base69);
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.usmerenie{
+   width: calc(100vw - 40px);
+  /* max-width: 90vw; */
+   box-shadow: var(--boxtien);
+   border-radius: 12px;
+   height: 145px !important;
+  height: fit-content;
+  box-sizing: border-box;
+  overflow: hidden;
+    display: flex;
+
+    background-color: transparent;
+}
+.silededejeden{
+    
+     width: 100% !important;
+     background-color:var(--farba-biela);
+    height:fit-content;
+    display: flex 
+}
+.lnetakabybolo{
+height: calc(100vh - 125px);
+    width: 100%;
+    /* padding:20px ; */
+    display: flex;
+    /* background-color: aqua; */
+    overflow: auto;
+}
+.textovacasoklenniviv{
+    color: var(--farba-cierna);
+    font-size: var(--font-size-base100);
+    text-align: center;
+}
+
+.sipwerpreludiii{
+    height: 100%;
+    width: 100%;
+    background-color: var(--farba-main2);
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    border-radius: 12px;
+    border: var( --border);
+    flex-direction: column;
+    overflow: auto;
+
+    /* skrytie scrollbarov */
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none;     /* IE / Edge */
+}
+
+.sipwerpreludiii::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari */
+}
+@media (max-width: 1050px) {
+    .tusadajucari{
+   height: fit-content;
+    }
+
+/* .lavastranahalvna2 {
+    display: none;
+} */
+
+}
+@media (max-width: 750px) {
+   .celkooooom{
+    min-height: 100vh;
+    padding: 0px;
+    display: flex;
+    background-color: var(--farba-biela)
+}
+.fotakrazanavzdy{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+
+}
+
+

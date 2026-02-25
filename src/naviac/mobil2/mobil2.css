@@ -1,0 +1,31 @@
+
+.horeElemenet2{
+     height: 100%;
+    padding: 12px 10px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+ justify-content: center;
+
+  border-radius: var(--border-radius-maly);
+ box-shadow:var(--boxtien);
+     background-color: var(--farba-biela)
+
+}
+@media (max-width: 650px) {
+
+    /* .texticokkk{
+        display: none;
+    } */
+.tabulececeko2{
+    width: 190px;
+}
+}
+
+/* @media (max-width: 470px) {
+.horeElemenet2{
+    display: none;
+}
+ 
+} */

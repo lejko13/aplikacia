@@ -1,0 +1,50 @@
+.Hybemkomponent{
+    height: 65PX;
+    border-radius: 12px;
+    padding: 20PX;
+    background-color: brown;
+    width: 100%;
+}
+.kokovnej{
+
+    /* background-color: pink; */
+}
+
+
+.mojlkjnjkntext {
+  /* color: pink; */
+  /* background-color: green; */
+  width: 450px;
+  height: fit-content;
+  display: block;       /* alebo inline-block */
+  text-align: left;     /* zarovnanie textu na ľavú stranu */
+  word-break: break-word; /* zalomenie slov */
+  white-space: normal;  /* umožní zalamovanie */
+}
+
+@media (max-width: 580px) {
+
+.mojlkjnjkntext {
+  /* color: pink; */
+  /* background-color: green; */
+  width: 300px;
+  height: fit-content;
+  display: block;       /* alebo inline-block */
+  text-align: left;     /* zarovnanie textu na ľavú stranu */
+  word-break: break-word; /* zalomenie slov */
+  white-space: normal;  /* umožní zalamovanie */
+}
+}
+@media (max-width: 420px) {
+
+.mojlkjnjkntext {
+  /* color: pink; */
+  /* background-color: green; */
+  width: 190px;
+  height: fit-content;
+  display: block;       /* alebo inline-block */
+  text-align: left;     /* zarovnanie textu na ľavú stranu */
+  word-break: break-word; /* zalomenie slov */
+  white-space: normal;  /* umožní zalamovanie */
+}
+}

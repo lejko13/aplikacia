@@ -1,0 +1,17 @@
+.drazaktentoceleh{
+    background-color: red;
+    gap: 10px;
+    display: flex;
+    width: fit-content;
+}
+
+@media (max-width: 900px) {
+ .drazaktentoceleh{
+   display: none;
+}
+  
+}
+
+
+
+

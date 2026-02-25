@@ -1,0 +1,89 @@
+.formulariiikoko{
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    inset: 0;
+    flex-direction: column;
+    z-index: 500;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    /* border-radius: 12px; */
+    /* border: var(--border); */
+    /* background-color: pink; */
+    background-color: var(--farba-main2);
+}
+.castekdejefomrularr{
+    flex: 1;
+    display: flex;
+    overflow: auto;
+    padding: 10px ;
+    /* background-color: red; */
+    /* background-color: var(--farba-main2); */
+
+    /* skrytie scrollbarov */
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none;     /* IE / Edge */
+}
+
+.castekdejefomrularr::-webkit-scrollbar{
+    display: none;                /* Chrome, Safari */
+}
+
+.ovaldacaipanel{
+    /* width: 100%;
+    background-color: aqua; */
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.spatbutttlcido{
+    cursor: pointer;
+    height: 45px;
+    width: fit-content;
+    padding: 0px 18px;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    /* background-color: pink; */
+}
+.malykruzok2{
+     height: 23px;
+    border-radius: 99px;
+    width: 23px;
+    top: -5px;
+    right: -0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    font-size: 11px;
+    color: white;
+    border: 3px solid var(--farba-main2);
+    background-color: var(--farba-main)
+}
+
+
+.totojeuzfinalfnezobrazenie{
+  position: absolute;
+ inset: 0;
+  z-index: 1000;
+  
+  background-color: aqua;
+}
+
+
+
+@media (max-width: 750px) {
+ .castekdejefomrularr{
+    padding: 10px ;
+}
+.ovaldacaipanel{
+    background-color: var(--farba-main2);
+padding: 10px 10px;
+}
+}
+

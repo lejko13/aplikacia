@@ -1,0 +1,23 @@
+.polozka{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    transition: VAR(  --transition);
+    width: 100%;
+    gap: var(--gap-malicka);
+    height: 45px;
+    flex: 0 0 auto;
+    padding:  0px 13px;
+    position: relative;
+    border: 1px solid var(--farba-biela);
+    border-radius: var(--border-radius-maly);
+   /* background-color: red; */
+  
+}
+.polozka:hover{
+    cursor: pointer;
+    border: 1px solid var(--farba-siva);
+   background-color: var(--farba-main2);
+   
+}

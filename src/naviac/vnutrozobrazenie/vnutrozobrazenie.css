@@ -1,0 +1,35 @@
+.Vnutrozobrazenie{
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 0px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    /* background-color: pink; */
+}
+.dokpicceekk{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: aqua; */
+    
+}
+.hodnotenie-box {
+  display: flex;
+  gap: 5px;
+  /* background-color: aqua; */
+  align-items: center;
+}
+
+.hodnotenie-text {
+  font-size: var(--font-size-base4);
+}
+.ikonoinink{
+    font-size: 12px;
+  
+    flex-direction: row;
+    color: gold;
+}

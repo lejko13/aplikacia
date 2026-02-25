@@ -1,0 +1,62 @@
+.Fotkapage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    border-radius: 12px;
+
+    overflow: auto;
+
+    /* skrytie scrollbaru */
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE / Edge */
+}
+
+.Fotkapage::-webkit-scrollbar{
+    display: none;              /* Chrome, Safari */
+}
+.kontainerkoko{
+    display: grid;
+
+    width: 100%;
+    height: 100%;
+     align-items: center;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.foteckakak{
+    /* height: 100px; */
+    min-width: 0;
+    /* min-height: 0; */
+    aspect-ratio: 1/1;
+    border-radius: 12px;
+    display: flex;
+    /* border: 1px solid white;
+    background-color: black; */
+}
+.fototoofotokoko{
+       border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 750px) {
+
+.kontainerkoko{
+    display: grid;
+
+    width: 100%;
+    height: 100%;
+     align-items: center;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: 1fr ;
+ 
+
+}
+}

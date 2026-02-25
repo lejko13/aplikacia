@@ -1,0 +1,152 @@
+.lentaknazacianokok{
+    position: absolute;
+    width: fit-content;
+    /* overflow: hidden; */
+    z-index: 150;
+    padding: 0px 10px 10px 10px!important;
+    height: 310px;
+
+    display: flex;
+    border-radius: 0px 0px 15px 15px;
+    /* background-color:rgb(255, 0, 43) */
+    background-color:var(--farba-biela)
+}
+.halvnyobsah{
+width: 350px;
+gap: 5px;
+/* background-color: black; */
+height: 100%;
+display: flex;
+position: relative;
+flex-direction: column;
+}
+.tujelemalaikokna{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    z-index: 100;
+    top: 0px;
+
+    right: -50px;
+    /* background-color: rgb(255, 0, 0); */
+}
+.ovaldanienicien{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(88, 88, 215); */
+}
+.textovacastikokok{
+    /* background-color: rgb(37, 37, 36); */
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 10PX;
+}
+
+.ovaladanie{
+    height: 100%;
+    width: 50px;
+    display: flex;
+ align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /* background-color: brown; */
+}
+.bodka{
+    height: 20px;
+    width: 20px;
+    border-radius: 22px;
+    font-size: 19px;
+    color: white;
+    transition: var(--transition);
+    background-color: var(--farba-main);
+}
+.bodka:hover{
+    background-color: var(--farba-main2);
+}
+.tusudatumi{
+    flex: 1;
+    display: flex;
+    /* background-color: blueviolet; */
+}
+.lentexnatext{
+    cursor: pointer;
+    transition: var(--transition);
+    background-color: var(--farba-main);
+    font-size: var(--font-size-base69);
+  
+     color: var(--farba-biela);
+     height: 100%;
+     display: flex;
+     border-radius: 12px;
+     justify-content: center;
+     align-items: center;
+     border: var(--border);
+     padding: 0px 20px;
+    /* text-decoration: underline; */
+}
+.lentexnatext:hover{
+      color: var(--farba-cierna);
+        background-color: var(--farba-main2);
+      text-decoration: none;
+   
+}
+.icon-quarter {
+  width: 20px;
+
+  height: 20px;
+}
+
+@media (max-width: 1000px) {
+.halvnyobsah{
+width: 320px;
+gap: 5px;
+/* background-color: black; */
+height: 100%;
+display: flex;
+position: relative;
+flex-direction: column;
+}
+}
+
+@media (max-width: 340px) {
+.tujelemalaikokna{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    z-index: 100;
+    top: 0px;
+
+
+    right: -50px;
+/* background-color: aquamarine; */
+}
+.icon-quarter {
+  width: 15px;
+
+  height: 15px;
+}
+}
+@media (max-width: 310px) {
+.tujelemalaikokna{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    z-index: 100;
+    top: 0px;
+
+    right: -50px;
+/* background-color: aquamarine; */
+}
+.icon-quarter {
+  width: 10px;
+
+  height: 10px;
+}
+}
+
+
+

@@ -1,0 +1,98 @@
+.testimonial-card {
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 12px;
+  /* border: 1px solid #ddd; */
+  background-color: var(--farba-biela);
+  padding: 10px;
+
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+/* .testimonial-card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+} */
+
+/* .testimonial-quote {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #ff0000;
+  font-size: 3rem;
+  color: rgba(0,0,0,0.1);
+} */
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hodnotentei{
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+color: var(--farba-sivaText);
+  /* background-color: aquamarine; */
+}
+
+.star.filled {
+  color: gold; /* žltá */
+}
+
+.star.empty {
+  color: var(--farba-sivaText); /* šedá */
+}
+
+.text {
+  font-size: 1rem;
+  
+  color: var(--farba-sivaText);
+ font-size: var( --font-size-base2);
+  /* background-color: #ffc1c1; */
+  height: fit-content;
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;  /* maximálne 3 riadky */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+.testimonial-author {
+  display: flex;
+  cursor: pointer;
+  width: fit-content;
+  /* background-color: aqua; */
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+
+  color: var(--farba-cierna); 
+  display: flex;
+  gap: 5px;
+  width: fit-content;
+  /* background-color: #facc15; */
+  margin: 0;
+}
+
+.author-role {
+  font-size: var( --font-size-base2);
+  color: var(--farba-sivaText);
+  margin: 0;
+}

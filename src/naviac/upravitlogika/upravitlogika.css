@@ -1,0 +1,54 @@
+
+.strednyobsahinput{
+flex: 1;
+gap: 20px;
+display: flex;
+flex-direction: column;
+ background-color: rgb(255, 24, 24);
+}
+.vraperecekosti2{
+    gap: 20px;
+display: flex;
+background-color: var(--farba-biela);
+/* background-color: rgb(255, 0, 0); */
+flex-direction: column;
+}
+
+.flex-column-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: var(--farba-biela);
+}
+.flex-text-small {
+  color: var(--farba-sivaText);
+  display: flex;
+  gap: 5px;
+  font-size: var(--font-size-small);
+}
+.VRCHLOECEKOSTIKI{
+    display: flex;
+    flex-direction: column;
+    gap: 10PX;
+}
+.tusuikony{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    height: fit-content;
+}
+.inputikceoksti{
+    padding: 20px;
+    height: 45px;
+    border-radius: var(--border-radius-maly);
+    border: 1px solid  var(--farba-cierna);
+    width: 100%;
+    color: var(--farba-cierna);
+    background-color:  var(--farba-biela);
+}
+.inputikceoksti:focus {
+  outline: none;
+  /* border: none; */
+  box-shadow: none;
+}

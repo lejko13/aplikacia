@@ -1,0 +1,26 @@
+.Klikacka{
+    height: 30PX;
+    width: 30PX;
+    display: flex;
+    transition: var(--transition);
+    align-items: center;
+    color: var(--farba-cierna);
+    cursor: pointer;
+    font-size: var( --font-size-small);
+    background-color: var(--farba-main2);
+    border: var(--border);
+    justify-content: center;
+    border-radius: 99px;
+}
+@media (max-width: 660px) {
+  .Klikacka{
+    height: 27PX;
+    width: 27PX;
+  }
+}
+@media (max-width: 340px) {
+  .Klikacka{
+    height: 22PX;
+    width: 22PX;
+  }
+}

@@ -1,0 +1,30 @@
+.drziakokmoi{
+    /* background-color: pink; */
+    gap: 5px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.inputkodoleleni00pp4455 {
+    height: 40px;
+    border: none;    
+    padding: 10px;
+    display: flex;
+    border: var( --border);
+    align-items: center;
+    border-radius: 12px;
+    font-size: var(  --font-size-small);
+    color: var(--farba-cierna);
+    justify-content: start;
+    background-color: var(--farba-biela);     /* odstráni štandardný border */
+    outline: none;        /* odstráni modrý alebo iný outline pri focus */
+}
+
+
+.hviezdicakk{
+    color: var(--farba-main);
+    position: absolute;
+    top: 0px;
+    right: -8px;
+}

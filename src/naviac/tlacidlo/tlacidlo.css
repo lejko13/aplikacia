@@ -1,0 +1,31 @@
+.Tlacidlo{
+    height: 45PX;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 0px 0px 0px 10px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    position: relative;
+    gap: 10px;
+    transition: var(--transition);
+    /* background-color: rgb(0, 255, 149); */
+}
+.Tlacidlotlacidlo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: var(--farba-cierna);
+    font-size: 21px;
+    /* background-color: aqua; */
+}
+.Tlacidlo:hover{
+    background-color: var(  --farba-main2);
+    cursor: pointer;
+}
+.snowboard{
+    color: var(--farba-cierna);
+    font-size: var(  --font-size-base69);
+}

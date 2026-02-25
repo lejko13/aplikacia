@@ -1,0 +1,43 @@
+.lllopponikomjnsx{
+    height: 10px;
+    border-radius: 999px;
+    width: 10px;
+    flex-wrap: wrap;   
+    flex-shrink: 0;
+    background-color: var(--farba-main);
+}
+.tumamtexttovucast{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+      
+    /* width: 400px; */
+    height: fit-content;
+    align-items: start;
+        white-space: normal;   /* toto musí byť normal */
+    /* background-color: rgb(11, 204, 8); */
+}
+
+.tutojetextlenrespinakmo{
+    
+    /* background-color: red; */
+    display: flex;
+    gap:15px;
+    /* width: 400px; */
+
+        font-size: var(--fontspecialny);
+    color: var(--farba-cierna);
+    /* white-space: nowrap; */
+    flex-wrap: wrap;   
+
+    align-items: center;
+}
+.tumampadddinghej{
+    /* padding: 0px 0px 0px 25px; */
+    color: var(--farba-sivaText);
+    transition: var(--transition);
+    /* background-color: aqua; */
+  white-space: normal;   /* toto musí byť normal */
+    font-size: var(--font-size-base2);
+    font-size: var(--font-size-base69);
+}

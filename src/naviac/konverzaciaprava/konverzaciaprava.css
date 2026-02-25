@@ -1,0 +1,77 @@
+.Konverzaciaprava{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    /* background-color: rgb(224, 222, 227); */
+}
+.castfotkaaaPRAVA{
+     /* height: 100%; */
+    width: 30px;
+    display: flex;
+    position: relative;
+    /* background-color: aqua; */
+    /* padding: 10px; */
+}
+.hoverinkaakoolennicvivi{
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: var( --transition);
+    cursor: pointer;
+}
+.hoverinkaakoolennicvivi:hover{
+ position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(  --farba-bielaEfekty);
+}
+
+.casttexticeokPRAVA{
+ height: 100%;
+  padding: 10px;
+    /* flex: 1; */
+    border-radius: var( --border-radius-maly);
+    max-width: 200px;
+      word-wrap: break-word;
+  overflow-wrap: break-word;
+    width: fit-content;
+     color: var(--farba-cierna);
+  font-size: var( --font-size-base2);
+    background-color: var(--farba-biela)
+    
+}
+
+
+.lenikonnanananna{
+height: 30px;
+border-radius: 99px;
+overflow: hidden;
+display: flex;
+background-color: blue;
+width: 30px;
+}
+.fotekcastkleenona3232{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* background-color: black; */
+}
+
+@media (max-width: 900px) {
+ .casttexticeokPRAVA{
+    max-width: 140px;
+ }
+}
+
+@media (max-width: 750px) {
+ .casttexticeokPRAVA{
+    max-width: 240px;
+ }
+}
+@media (max-width: 600px) {
+ .casttexticeokPRAVA{
+    max-width: 180px;
+ }
+}

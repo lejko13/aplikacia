@@ -1,0 +1,390 @@
+.Rezervacie{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.zoznamicek{
+    height: 500px;
+    width: 200px;
+    background-color: aquamarine;
+}
+.snadtopude{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(25, 220, 109);
+}
+.buttonnaodstarenie{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
+
+
+/* cnaivniv */
+.celokutokimjn{
+height: calc(100vh - 24px);
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    background-color: var(--farba-biela)
+}
+.obashutujekonecnce{
+   flex: 1;
+   gap: 10px;
+   display: flex;
+   flex-direction: column;
+   /* background-color: black; */
+}
+.wrappericekoko{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    min-height: 0;
+    /* background-color: blue; */
+}
+
+.tusahybeko{
+    width: 400px;
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    background-color: rgb(83, 35, 35);
+
+}
+.tusazbiera{
+  flex: 1;
+  position: relative;
+  padding: 10px;
+      gap: 10px;
+      position: relative;
+  border-radius: 12px;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+   box-sizing: border-box; /* dôležité */
+
+  border: var(--border);
+  overflow: hidden;
+  /* box-sizing: content-box; */
+background-color: var(--farba-main2)
+  /* background-color: var(--farba-main2); */
+
+     /* Edge, IE */
+}
+.popupvysuvanie{
+    height: 100px;
+    position: absolute;
+    z-index: 150;
+    background-color: aqua;
+    width: 100Px;
+}
+
+
+
+.tujetoceellelel{
+  
+    /* padding: 10px; */
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    /* margin-: 10px; */
+      border-radius: 12px;
+  overflow: auto;
+  flex-direction: column;
+    scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;
+  padding-bottom: 135px;
+    /* background-color: var(--farba-main2) */
+    background-color: var(--farba-main2)
+}
+
+.tusazbiera::-webkit-scrollbar{
+  display: none;              /* Chrome, Safari */
+}
+
+.taktomaleoknoko{
+    height: fit-content;
+    width: 100%;
+    /* padding: 10px; */
+    justify-content: end;
+    flex-direction: row;
+    opacity: 1;
+    display: flex;
+    
+    /* background-color: aqua; */
+}
+
+.buttonjetaotakze{
+    height: 45px;
+    cursor: pointer;
+    padding: 0PX 16PX;
+    border-radius: 12PX;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: VAR(--farba-main);
+    font-size: var(--font-size-base69);
+}
+.malykruzok{
+    height: 23px;
+    border-radius: 99px;
+    width: 23px;
+    top: -5px;
+    right: -0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    font-size: 11px;
+    color: white;
+    border: 3px solid var(--farba-biela);
+    background-color: var(--farba-main)
+}
+.flex-border-box {
+  /* border: 1px solid; */
+  width: fit-content;
+  display: flex;
+  flex: 1;
+}
+
+
+.textCastmain900{
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: var(--paddingdvojka); */
+    align-items: center;
+    /* background-color: rgb(47, 255, 0); */
+}
+
+ .TEXTICEKNEAOVICEK909{
+    font-family: var( --font-family);
+    font-size: var( --font-size-large);
+     color: var(--farba-cierna);
+    transition: var(  --transition);
+ }
+ .textpodhlavnuym909{
+     /* font-weight: 600; */
+    font-size: var(   --font-size-small);
+    
+    color: var(--farba-sivaText);
+    transition: var(  --transition);
+}
+
+@media (max-width: 1350px) {
+.tusahybeko{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    /* background-color: brown; */
+
+}
+}
+
+@media (max-width: 1350px) {
+.tujetoceellelel{
+    background-color: var(--farba-main2) !important;
+     padding-bottom: 175px;
+}
+
+
+}
+
+@media (max-width: 1290px) {
+.tujetoceellelel{
+     background-color: var(--farba-main2)
+}
+.malykruzok{
+    height: 23px;
+    border-radius: 99px;
+    width: 23px;
+    top: -5px;
+    right: -0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    font-size: 11px;
+    color: white;
+    border: 3px solid var(--farba-main2);
+    background-color: var(--farba-main)
+}
+
+.tujetoceellelel{    
+  padding-bottom: 180px;
+}
+}
+@media (max-width: 1200px) {
+   .tusazbiera{
+
+  /* border: none; */
+
+}
+}
+
+@media (max-width: 1080px) {
+
+ 
+
+.tujetoceellelel{    
+  padding-bottom: 180px;
+}
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+.tujetoceellelel{
+    background-color: var(--farba-main2)
+}
+
+.tujetoceellelel{    
+  padding-bottom: 180px;
+}
+}
+
+
+
+
+@media (max-width: 750px) {
+
+
+  .tusazbiera{
+width: 100%;
+  position: relative;
+  padding: 10px;
+      gap: 10px;
+
+      /* min-height: 500px !important; */
+      position: relative;
+  border-radius: 12px; 
+  display: flex;
+  flex-direction: column;
+   box-sizing: border-box; 
+
+  border: none;
+  overflow: hidden;
+ 
+  background-color: rgb(0, 0, 0);
+
+     /* Edge, IE */
+     padding: 0px 0px 0px 0px;
+     height: fit-content;
+}
+
+ .tujetoceellelel{    
+  padding-bottom: none;
+  background-color: rgb(222, 245, 7) !important;
+  padding: 0PX;
+  gap: 10px;
+  height: fit-content !important;
+  border: none;
+  /* display: none; */
+  
+}
+
+  
+    .celokutokimjn{
+height:800;
+    display: flex;
+    padding: 8px 10px 10px 10px;
+    width: 100%;
+    
+    background-color:red
+}
+
+
+
+
+
+
+.taktomaleoknoko{
+    height: fit-content;
+    width: 100%;
+    /* padding: 10px; */
+    justify-content: end;
+    flex-direction: row;
+    opacity: 1;
+    display: flex;
+    
+    background-color: aqua;
+
+} 
+
+}
+
+
+
+
+@media (max-width: 559px) {
+
+
+
+
+
+
+
+
+.tujetoceellelel{    
+  padding-bottom: 190px!important;
+  background-color: pink!important;
+  /* padding: 10px; */
+  height: 90px !important;
+  gap: 30px;
+  
+}
+.taktomaleoknoko{
+  padding: 0px 0px 0px 0px;
+}
+
+.malykruzok{
+    height: 23px;
+    border-radius: 99px;
+    width: 23px;
+    top: -5px;
+    right: -0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    font-size: 11px;
+    color: white;
+    border: 3px solid var(--farba-biela);
+    background-color: var(--farba-main)
+}
+}
+
+
+@media (max-width: 450px) {
+
+    .celokutokimjn{
+height: fit-content;
+    display: flex;
+    padding: 0px 10px ;
+    width: 100%;
+    background-color:red
+}
+.tusazbiera{
+    /* background-color: pink; */
+
+
+      /* border: none; */
+      padding: 0px;
+      /* padding: 10px 10px 10px 10px; */
+}
+
+
+}

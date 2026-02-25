@@ -1,0 +1,16 @@
+.Navrh{
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+}
+.tujebuttoneznacicoako{
+    height: 45px;
+    width: 100%;
+    color: white;
+    border: none;
+    font-size: var(--font-size-base100);
+    border-radius: 12px;
+    background-color: var(--farba-main)
+}

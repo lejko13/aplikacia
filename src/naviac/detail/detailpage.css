@@ -1,0 +1,12 @@
+.Detailpage{
+    height: 2000px;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    background-color: aqua;
+}
+.hlavanacast{
+    height: 40px;
+    width: 200px;
+    background-color: black;
+}

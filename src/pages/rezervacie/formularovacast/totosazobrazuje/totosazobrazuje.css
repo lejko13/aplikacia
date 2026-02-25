@@ -1,0 +1,46 @@
+.drziakokmoi{
+    /* background-color: pink; */
+    gap: 5px;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+/* .inputkodoleleni {
+    height: 40px;
+    border: none;    
+    padding: 10px;
+    border: var( --border);
+    border-radius: 12px;
+    color: var(--farba-cierna);
+    background-color: var(--farba-biela);   
+    outline: none;        
+}
+
+
+.inputkodoleleni:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;    
+} */
+.hviezdicakk{
+    color: var(--farba-main);
+    position: absolute;
+    top: 0px;
+    right: -8px;
+}
+
+.inputkodolelenkokokoi{
+      height: 40px;
+      font-size: var( --font-size-small);
+    border: none;    
+    padding: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: var( --border); */
+    border-radius: 12px;
+    color: white ;
+    border: 1px solid var(--farba-main);
+    background-color: var(--farba-biela);     /* odstráni štandardný border */
+    outline: none;        /* odstráni modrý alebo iný outline pri focus */
+}

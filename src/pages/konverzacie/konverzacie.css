@@ -1,0 +1,305 @@
+.Konverzacie {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    height: 97.3vh; /* alebo 100vh, podľa potreby */
+    overflow-y: auto; /* scroll sa objaví, keď obsah presahuje výšku */
+    background-color: var(--farba-biela)
+}
+
+.uvidim2{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap:10px;
+  flex-direction: row;
+  background-color: var(--farba-biela)
+} 
+.infolistrespcah{
+  height: 100%;
+  width: 350px;
+  gap: 10px;
+ display: flex;
+ flex-direction: column;
+  /* background-color: antiquewhite; */
+}
+.vrcholecekokoksss{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  justify-content: space-between;
+  /* background-color: rgb(0, 0, 0); */
+}
+.maeloknoinstagramove{
+  height: 100%;
+  width: fit-content;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+  /* background-color: aqua; */
+}
+.vrcholecekokoksss2{
+  width: 100%;
+  height: fit-content;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(0, 0, 0); */
+  
+}
+.bielyobalcekokokok{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+ 
+  border-radius: var(--border-radius-maly);
+  flex-direction: row;
+  height: 50px;
+  background-color: var(--farba-biela);
+}
+.teujetexovacastkokok {
+  flex: 1;
+ 
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  overflow-y: auto;   /* vertikálny scroll */
+  overflow-x: hidden; /* bez horizontálneho */
+
+  /* skrytie scrollbar */
+  scrollbar-width: none; /* pre Firefox */
+  -ms-overflow-style: none; /* pre IE a Edge */
+}
+
+.teujetexovacastkokok::-webkit-scrollbar {
+  display: none; /* pre Chrome, Safari a Edge */
+}
+.tubudechat{
+  flex: 1;
+  gap: 10px;
+  border-radius: var(  --border-radius-maly);
+  background-color: var(--farba-main2);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  border: var(--border);
+  flex-direction: column;
+}
+
+.bodeckaaaaaakok {
+  height: 15px;
+  transition: var(--transition);
+  width: 15px;
+  border: 2px solid var(--farba-biela);
+  top: -5px;
+  right: -5px;
+  
+  background-color: red;
+  position: absolute;
+  border-radius: 99px;
+}
+.tujemenoemom{
+  height: 60px;
+  width: 100%;
+  /* background-color: black; */
+}
+
+.tusascrolujuuzivatiela{
+  flex: 1;
+  display: flex;
+   overflow-y: auto;
+  flex-direction: column;
+  /* gap:5px; */
+
+  background-color: var(--farba-biela);
+  /* background-color: aqua; */
+   scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+
+.inputekckokokodsvnasdj{
+  flex: 1;
+  background-color: var(--farba-biela);
+  border: none;
+  outline: none;
+  color: var(--farba-cierna);
+}
+.inputekckokokodsvnasdj:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+}
+
+
+.wrapper89090 {
+  height: 100%;
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  background-color: var(--farba-biela);
+}
+
+
+
+.lenwrappernacelycahmobilw{
+   width: 100%;
+height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  /* background-color: aqua; */
+}
+.horeeedoelnicvi{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.malepismenko{
+  text-decoration: underline;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.malepismenko:hover{
+  text-decoration: none;
+}
+
+.tubudechat2{
+ width: 100%;
+height: 100%;
+  gap: 10px;
+  border-radius: var(  --border-radius-maly);
+ /* background-color:pink; */
+ background-color: var(--farba-main2);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  border: var(--border);
+  flex-direction: column;
+}
+
+.vrcholecekokoksss{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  justify-content: space-between;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+
+.teujetexovacastkokok2 {
+/* max-height: 500px; */
+/* height: 5vh; */
+height: calc(100vh - 258px);
+
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  overflow-y: auto;   /* vertikálny scroll */
+  overflow-x: hidden; /* bez horizontálneho */
+background-color: var(--farba-main2);
+/* background-color: rgb(27, 27, 178); */
+  /* skrytie scrollbar */
+  scrollbar-width: none; /* pre Firefox */
+  -ms-overflow-style: none; /* pre IE a Edge */
+}
+
+.teujetexovacastkokok2::-webkit-scrollbar {
+  display: none; /* pre Chrome, Safari a Edge */
+}
+
+.kruzeocekomaly{
+height: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+width: 22px;
+border-radius: 99px;
+color: var(--farba-sivaText);
+background-color: var(--farba-main2);
+}
+@media (max-width: 1190px) {
+.infolistrespcah{
+    width: 270px;
+}
+}
+
+@media (max-width: 1000px) {
+.infolistrespcah{
+    width: 220px;
+}
+}
+
+
+@media (max-width: 750px) {
+  .Konverzacie{
+    padding: 0px 10px 0px 10px !important;
+    /* background-color: aqua; */
+height: calc(100vh - 160px);
+  }
+.uvidim2 {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+   height: fit-content;
+/* alebo 100vh, podľa potreby */
+    overflow-y: hidden; /* scroll sa objaví, keď obsah presahuje výšku */
+ /* background-color: rgb(204, 24, 24); */
+}
+
+.tubudechat{
+ display: none;
+}
+.infolistrespcah{
+    width: 100%;
+}
+.tujemenoemom{
+  display: none;
+}
+
+}
+
+
+@media (max-width: 450px) {
+
+  .Konverzacie{
+    padding: 0px 20px 90px 20px;
+    /* background-color: aqua; */
+ height: fit-content
+  }
+.uvidim2 {
+    width: 100%;
+    padding: 0px 0px 40px 0px;
+   height: calc(100vh - 130px);
+/* alebo 100vh, podľa potreby */
+    overflow-y: auto; /* scroll sa objaví, keď obsah presahuje výšku */
+ /* background-color: rgb(204, 24, 24); */
+}
+
+.tubudechat{
+ display: none;
+}
+.infolistrespcah{
+    width: 100%;
+}
+.tujemenoemom{
+  display: none;
+  
+}
+
+}

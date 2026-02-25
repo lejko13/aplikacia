@@ -1,0 +1,67 @@
+.Ludiakolonka{
+    height: 55px;
+    padding: 0px 10px;
+    width: 100%;
+    gap: 15px;
+    transition: var(--transition);
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+  
+    align-items: center;
+
+    /* border: 1px solid; */
+    border-radius: var(--border-radius-maly);
+    /* background-color: rgb(169, 169, 186); */
+}
+.fotofotofototecak{
+    height: 40px;
+    width: 40px;
+    display: flex;
+      position: relative;
+       /* border: 1px solid pink; */
+    /* overflow: hidden; */
+    /* border-radius: var(--border-radius-maly); */
+    /* background-color: rgb(215, 16, 16); */
+}
+.llojvrbvi{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+        z-index: 110;
+    transition: var(  --transition);
+     border-radius: var(--border-radius-maly);
+    /* background-color: aqua; */
+}
+.llojvrbvi:hover{
+  
+    background-color: var(--farba-bielaEfekty);
+}
+.fotofotkakookopica{
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-color: aqua;
+    /* border: 1px solid pink; */
+       border-radius: var(--border-radius-maly);
+    object-fit: cover;
+}
+.horetextovacastikook{
+    display: flex;
+    gap: 5px;
+    font-size: var(  --font-size-base100);
+    color: var(--farba-cierna);
+}
+.doeltexovacast{
+    color: var(--farba-sivaText);
+    font-size: var( --font-size-small);
+}
+.popouokonknomale{
+    height: 200px;
+    width: 400px;
+    top: 0px;
+    opacity: 0.5;
+    left: 12px;
+    position: absolute;
+    background-color: rgb(49, 49, 49);
+}
