@@ -70,8 +70,8 @@ height: calc(100vh - 24px);
   border: var(--border);
   overflow: hidden;
   /* box-sizing: content-box; */
-background-color: var(--farba-main2)
-  /* background-color: var(--farba-main2); */
+/* background-color: var(--farba-biela) */
+  background-color: var(--farba-main2);
 
      /* Edge, IE */
 }
@@ -152,7 +152,7 @@ background-color: var(--farba-main2)
   width: fit-content;
   display: flex;
   flex: 1;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   height: 100%;
 }
 
@@ -267,12 +267,12 @@ background-color: var(--farba-main2)
 width: 100%;
   position: relative;
   padding: 10px;
-      gap: 10px;
+      gap: 0px;
       /* height: 100% !important; */
 
       /* min-height: 500px !important; */
       position: relative;
-  border-radius: 12px; 
+  border-radius: 0px; 
   display: flex;
   flex-direction: column;
    box-sizing: border-box; 
@@ -280,7 +280,7 @@ width: 100%;
   border: none;
   overflow: hidden;
  
-  background-color: rgb(50, 48, 48);
+  /* background-color: rgb(50, 48, 48); */
 
      /* Edge, IE */
      padding: 0px 0px 0px 0px;
@@ -292,15 +292,16 @@ width: 100%;
   width: fit-content;
   display: flex;
   flex: 1;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   height: fit-content;
 }
 
  .tujetoceellelel{    
   padding-bottom: none;
-  background-color: rgb(222, 245, 7) !important;
+  background-color: var(--farba-biela) !important;
   padding: 0PX;
   gap: 10px;
+  border-radius: 0px;
   height: fit-content !important;
   border: none;
   /* display: none; */
@@ -317,7 +318,7 @@ height:fit-content;
     padding: 8px 10px 10px 10px;
     width: 100%;
     
-    background-color:red
+    /* background-color:red */
 }
 
 
@@ -334,7 +335,7 @@ height:fit-content;
     opacity: 1;
     display: flex;
     
-    background-color: aqua;
+    background-color: var(--farba-biela);
 
 } 
 
@@ -354,7 +355,7 @@ height:fit-content;
 
 .tujetoceellelel{    
   padding-bottom: 190px!important;
-  background-color: pink!important;
+  /* background-color: pink!important; */
   /* padding: 10px; */
   height: 90px !important;
   gap: 30px;
@@ -390,7 +391,7 @@ height: fit-content;
     display: flex;
    padding: 8px 10px 10px 10px;
     width: 100%;
-    background-color:red
+    /* background-color:red */
 }
 .tusazbiera{
     /* background-color: pink; */

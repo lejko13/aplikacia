@@ -659,7 +659,7 @@ const funkce = () => {
                   // klik()
               
                   
-                }}>Prejsť k pokkokokoladni</div>
+                }}>Prejsť k pokladni</div>
                 {kvalita?.length > 0 && <div className='malykruzok'>{kvalita.length}</div>}
                 
                 </div>

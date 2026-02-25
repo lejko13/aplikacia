@@ -1,7 +1,7 @@
 .containerMainPicus{
   height: 100%;
- background-color: pink;
- padding: 10px;
+ background-color: var(--farba-biela);
+ /* padding: 10px; */
   width: 100%;
   display: flex;
   /* padding: 10px; */
