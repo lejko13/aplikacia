@@ -118,9 +118,7 @@ const finalna = useMediaQuery({ maxWidth: 750 });
 
 
 
-const hideFooter =
-  location.pathname === "/Upozornenia" ||
-  location.pathname === "/Konverzacie";
+const hideFooter = location.pathname === "/Konverzacie";
 
 
  

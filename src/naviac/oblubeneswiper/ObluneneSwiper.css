@@ -61,8 +61,9 @@
 
 
   @media (max-width: 750px) {
-.Maincast{
-    padding: 0px 0px 0px 20px;
+.Maincast4{
+gap: 10px;
+ 
 }
 .textCastmain4{
     height:fit-content;

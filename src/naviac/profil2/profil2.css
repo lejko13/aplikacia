@@ -1,7 +1,7 @@
 .celok32{
   height: 100%;
   /* height: calc(100vh - 25px); */
-    background-color: var(--farba-biela);
+    /* background-color: var(--farba-biela); */
     /* background-color: var(--farba-biela); */
     width: 100%;
     display: flex;
@@ -9,6 +9,7 @@ gap: 10px;
    flex-direction: column;
     /* grid-template-rows: 1fr 1fr; */
     padding: 0px 0px 20px 20px;
+    background-color: aqua;
 }
 .wrappereceskkko{
     flex-direction: column;
@@ -288,8 +289,9 @@ height: fit-content;
 }
 
     .celok32{
-    background-color:var(--farba-biela);
-    padding: 0px 0px 20px 10px;
+    background-color:pink;
+    /* background-color:var(--farba-biela); */
+    padding: 0px 0px 20px 0px;
     gap: 10px;
       height: fit-content;
 }
@@ -297,7 +299,7 @@ height: fit-content;
     height: fit-content;
     width: 100%;
     display: flex;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
      /* background-color: red; */
 }
  .horekokt{

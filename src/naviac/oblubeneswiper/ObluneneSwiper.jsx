@@ -54,6 +54,7 @@ const malo           = useMediaQuery({ minWidth: 1001, maxWidth: 1294 }); // 100
 const malo2          = useMediaQuery({ maxWidth: 1000 });
 const malo3          = useMediaQuery({ maxWidth: 550 });     
 const malo4         = useMediaQuery({ maxWidth: 480 });   
+const malo5         = useMediaQuery({ maxWidth: 750 });   
   //  useEffect(() => {
   //   const handleResize = () => {
   //     setOffset(window.innerWidth >= 1100 ? 20 : 20);
@@ -190,7 +191,7 @@ useEffect(() => {
             </div> */}
         </div>
        
-       <div className='swipereceobal4' style={{padding:"0px 0px 0px 20px"}}
+       <div className='swipereceobal4' style={{ padding: malo5 ? "0px 0px 0px 10px" : "0px 0px 0px 20px" }}
   
        >
 

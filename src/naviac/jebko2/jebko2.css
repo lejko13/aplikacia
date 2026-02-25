@@ -126,11 +126,11 @@ gap: 10px;
 }
 .lentakkkokomonvb45{
   /* flex: 1; */
-  height:250px !important;
+  height:fit-content !important;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  /* background-color: #1da1f2; */
+  background-color: #1da1f2;
     overflow-y: auto;    
   overflow-x: hidden;  
 

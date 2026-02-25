@@ -87,8 +87,10 @@ width: 100%;
 
 
   @media (max-width: 750px) {
-.Maincast{
-    padding: 0px 0px 0px 20px;
+.Maincast5{
+   
+    gap: 10px !important;
+   
 }
 }
  @media (max-width: 450px) {

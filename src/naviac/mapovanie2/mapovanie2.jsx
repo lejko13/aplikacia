@@ -322,7 +322,7 @@ useEffect(() => {
 }, [subor2.length,subor2, malodotadtocen, malo,malo2,malo3,malo4]);
 
 
-
+const malo5         = useMediaQuery({ maxWidth: 750 });   
 
   return (
     <>
@@ -341,7 +341,7 @@ useEffect(() => {
             
         </div>
        
-       <div className='swipereceobal2'>
+       <div className='swipereceobal2' style={{ padding: malo5 ? "0px 0px 0px 10px" : "0px 0px 0px 20px" }}>
         <Swiper
           onSwiper={(swiper) => (swiperRef.current = swiper)}
           modules={[Navigation, Pagination, Autoplay, Mousewheel, Virtual]}
