@@ -114,7 +114,7 @@
   flex-direction: column;
   /* gap:5px; */
 
-  background-color: red;
+  /* background-color: red; */
   /* background-color: aqua; */
    scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE 10+ */
@@ -213,7 +213,7 @@ height: calc(100vh - 258px);
   overflow-y: hidden;  
   overflow-x: hidden; /* bez horizontálneho */
 background-color: var(--farba-main2);
-background-color: rgb(27, 27, 178);
+/* background-color: rgb(27, 27, 178); */
   /* skrytie scrollbar */
   scrollbar-width: none; /* pre Firefox */
   -ms-overflow-style: none; /* pre IE a Edge */
@@ -251,11 +251,12 @@ background-color: var(--farba-main2);
   .Konverzacie{
     padding: 0px 10px 0px 10px !important;
     /* background-color: aqua; */
-height: calc(100vh - 160px);
+height:fit-content;
   }
 .uvidim2 {
     width: 100%;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    /* padding: 20px; */
    height: fit-content;
 /* alebo 100vh, podľa potreby */
     overflow-y: hidden; /* scroll sa objaví, keď obsah presahuje výšku */
@@ -274,32 +275,3 @@ height: calc(100vh - 160px);
 
 }
 
-
-@media (max-width: 450px) {
-
-  .Konverzacie{
-    padding: 0px 20px 90px 20px;
-    /* background-color: aqua; */
- height: fit-content
-  }
-.uvidim2 {
-    width: 100%;
-    padding: 0px 0px 40px 0px;
-   height: calc(100vh - 130px);
-/* alebo 100vh, podľa potreby */
-    overflow-y: hidden; /* scroll sa objaví, keď obsah presahuje výšku */
- background-color: rgb(255, 255, 255);
-}
-
-.tubudechat{
- display: none;
-}
-.infolistrespcah{
-    width: 100%;
-}
-.tujemenoemom{
-  display: none;
-  
-}
-
-}

@@ -71,6 +71,7 @@ odpovedww = {sets}
             </div>
             <Linka></Linka>
             <div className='doleikonylennicvillo'>
+              
 
                  <div style={{display:"flex",gap:"5px"}}>
         <Ukazovatelko

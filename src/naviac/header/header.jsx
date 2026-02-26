@@ -378,7 +378,7 @@ style={{
 
           style={{
             padding:animacia ? "0px 0px 10px 10px" : "0px 0px 0px 10px",
-            border:animacia ? "var(--border)" : "none"
+            border:animacia ? "var(--border)" : "1px solid var(--farba-biela)"
 
           }}
           >

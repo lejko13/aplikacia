@@ -25,7 +25,7 @@ const Navigaciamobil = ({otvorenie,setOtvorenie,hoverheader,sethoverheader,input
        const { pocetOblubene, setPocetOblubene, filter, setFilter,presun } = useContext(GlobalContext);
 
 
-   const { portal, setPortal,animacia,setAnimacia,mobil,setMobil,rezim,setRezim,open,setOpen,obsah,setObsah,ulozit,setUlozit} = useContext(MyContext);
+   const {setSuborOpen,setObsahOpen, portal, setPortal,animacia,setAnimacia,mobil,setMobil,rezim,setRezim,open,setOpen,obsah,setObsah,ulozit,setUlozit} = useContext(MyContext);
    
    const navigate = useNavigate();
 
@@ -75,6 +75,15 @@ setOpen(true),setObsah("detail"),setFarba(5),setUlozit("ulozit")
   
 }
 
+const centrum = () => {
+    navigate("/Centrum"),setMobil(false)
+}
+
+  const formular = () => {
+  setSuborOpen(true),setMobil(false),
+  setObsahOpen("formular")
+}
+
   return (
     <>
     {textmaly &&  <AnimatePresence>
@@ -120,8 +129,9 @@ setOpen(true),setObsah("detail"),setFarba(5),setUlozit("ulozit")
 {/* tujetocelel */}
             <Tlacidlo
                      stiloko = {{display:"none"}}
-            ikona={<i class='bx bx-world'></i>}
-            text = {"Jazyky a mena"}
+            ikona={<i class='bx bx-info-circle'></i>}
+            onClick={() => centrum()}
+            text = {"Centurm pomoci"}
             ></Tlacidlo>
 
       
@@ -146,6 +156,7 @@ setOpen(true),setObsah("detail"),setFarba(5),setUlozit("ulozit")
                       stiloko = {{display:"none"}}
             //  zobrazenie = {{display:"none"}}
             ikona={<i class='bx bx-log-out' ></i>}
+            onClick={() => formular()}
             text = {"Odhlásiť sa"}
             ></Tlacidlo>
 

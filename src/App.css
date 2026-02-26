@@ -135,6 +135,7 @@ overscroll-behavior-x: hidden;
   position: fixed;
   z-index: 100;
   width: 100%;
+  z-index: 100;
   height: fit-content;
   background-color: aqua;
 

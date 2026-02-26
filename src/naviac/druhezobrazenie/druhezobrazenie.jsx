@@ -5,7 +5,9 @@ import Tempaltenaodpoced from '../tempaltenaodpoced/tempaltenaodpoced'
 import Ukazovatelko from '../ukazovatelko/ukazovatelko'
 import { color } from 'framer-motion';
 
-const Druhezobrazenie = ({pat,sets,stiri,halvny,dalsi,cislo,farba,jeden,dva,trie}) => {
+import Biela3322 from '../../naviac/biela3322/biela3322'
+
+const Druhezobrazenie = ({obrazok,textpvacast,pat,sets,stiri,halvny,dalsi,cislo,farba,jeden,dva,trie}) => {
 
     // 950
 
@@ -18,25 +20,38 @@ const Druhezobrazenie = ({pat,sets,stiri,halvny,dalsi,cislo,farba,jeden,dva,trie
 
        
         <div className='tootlenvrchniciac'>
-            <div className='horelenifrmaicenicine'>
+
+          <Biela3322
+          style = {{backgroundColor:"var(--farba-main)"}}
+          farbaobrazok3232 = {{display:"none"}}
+
+           obrazok = {obrazok}
+                  textpvacast = {textpvacast}
+
+
+          ></Biela3322>
+              <Linka></Linka>
+            <div className='horelenifrmaicenicine3232322'>
+              <div className='sckrolovatelnacstikca'>
+
 <Tempaltenaodpoced
 odpoved = {"Odpoveď:"}
 odpovedww = {jeden}
 ></Tempaltenaodpoced>
-    {/* <Linka></Linka> */}
+    
 
 <Tempaltenaodpoced
 odpoved = {"Prečo:"}
 odpovedww = {dva}
 ></Tempaltenaodpoced>
 
-    {/* <Linka></Linka> */}
+
 <Tempaltenaodpoced
 odpoved = {"Čo urobiť:"}
 odpovedww = {trie}
 ></Tempaltenaodpoced>
 
-    {/* <Linka></Linka> */}
+ 
 <Tempaltenaodpoced
 odpoved = {"Čo urobiť:"}
 odpovedww = {stiri}
@@ -46,13 +61,9 @@ odpovedww = {stiri}
 odpoved = {"Čo urobiť:"}
 odpovedww = {pat}
 ></Tempaltenaodpoced>
-{/* 
-<Tempaltenaodpoced
-odpoved = {"Čo urobiť:"}
-odpovedww = {sets}
-></Tempaltenaodpoced> */}
 
 
+</div>
 
 
 
@@ -60,6 +71,12 @@ odpovedww = {sets}
             </div>
             <Linka></Linka>
             <div className='doleikonylennicvillo'>
+               <span style={{
+                fontSize:"var(--font-size-base)",
+                color:"var(--farba-main)",
+                fontWeight:700
+              }}>LOGO</span> 
+
 
                  <div style={{display:"flex",gap:"5px"}}>
         <Ukazovatelko

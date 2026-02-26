@@ -108,18 +108,18 @@ flex: 1;
     width: 100%;
     /* background-color: pink ; */
     background-color: var(--farba-biela) ;
-  height: calc(100vh - 190px);
+  height: fit-content;
     display: flex;
     gap: 10px;
-    padding:0px 20px 10px 20px ;
+    padding:0px 0px 0px 0px ;
     flex-direction: column;
 }
 
 .ttotojelenwraperr{
     width:360px;
-    border: var(  --border);
-    border-radius: 12px;
-    background-color: var(--farba-main2);
+    border: none;
+    border-radius: 0px;
+    background-color: var(--farba-biela);
     padding: 10px;
     height: 100%;
     display: flex;

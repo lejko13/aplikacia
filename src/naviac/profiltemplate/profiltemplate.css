@@ -1,7 +1,7 @@
 .celok32{
   height: 100%;
   /* height: calc(100vh - 25px); */
-    background-color: red;
+    /* background-color: red; */
     /* background-color: var(--farba-biela); */
     width: 100%;
     display: flex;

@@ -59,10 +59,16 @@ import Formularovacastposldena from './pages/poslednacast/for'
 
 
 
+import { GlobalContext } from './naviac/reactcontext/reactcontext'
+
 function App() {
     
   
 
+  const { pocetOblubene, setPocetOblubene, filter, setFilter,owerlap,seTeraz,teraz ,popokno,setPopokno,
+         lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene,mala,setMala,novicek,novicek2,referencielplpl
+  
+        } = useContext(GlobalContext);
   
 
 
@@ -118,7 +124,7 @@ const finalna = useMediaQuery({ maxWidth: 750 });
 
 
 
-const hideFooter = location.pathname === "/Konverzacie";
+// const hideFooter = location.pathname === "/Konverzacie";
 
 
  
@@ -277,10 +283,10 @@ const hideFooter = location.pathname === "/Konverzacie";
 {/* <div style={{width:"100%",height:"500px", backgroundColor:"red"}}></div> */}
 
 
-{!hideFooter &&   <Footer
+<Footer
          setDomov = {setDomov}
         ></Footer>
- }
+ 
      
 
        
@@ -438,6 +444,7 @@ const hideFooter = location.pathname === "/Konverzacie";
             lavasipka = {lavasipka}  
             pravasipka = {pravasipka}  
               otvorenie = {otvorenie}
+              scrollToTop = {scrollToTop}
             setOtvorenie = {setOtvorenie}/>} />
 
             <Route path="/Rezervacie" element={<Rezervacie />} />
@@ -468,6 +475,12 @@ const hideFooter = location.pathname === "/Konverzacie";
            
 
           </Routes>
+
+          <Footer
+
+          scrollToTop = {scrollToTop}
+         setDomov = {setDomov}
+        ></Footer>
            </AnimatePresence>
         </div>
 

@@ -16,6 +16,7 @@ import Overlapiceko from '../../naviac/mobilnyoweraal/mobilnyoweraal'
 import Informacnyowerla from '../../naviac/informacnyowerlap/informacnyowerla'
 
 import Druhezobrazenie from '../../naviac/druhezobrazenie/druhezobrazenie'
+import { color } from 'framer-motion';
 
 const Nastavenia = () => {
   const [farba,setFarba] = useState(1)
@@ -26,6 +27,7 @@ const Nastavenia = () => {
 
   const najdeny =  Kategorie.find(item => item.ide ===  klik )
 
+  const finalna = useMediaQuery({ maxWidth: 750 });
 
 
   console.log(najdeny.otazky);
@@ -71,6 +73,13 @@ console.log(farbaklik);
 
           <div className='totopotrebujemnasivuu'>
             <Druhezobrazenie
+
+            //  obrazok = {"polozka.id"}
+            //       textpvacast = {"polozka.nazov"}
+             obrazok = {finalneNajdeny.id}
+                  textpvacast = {finalneNajdeny.nazov}
+
+
                halvny = {finalneNajdeny.komplet}
             dalsi = {finalneNajdeny.varovnySignal}
             cislo = {finalneNajdeny.id}
@@ -99,11 +108,18 @@ console.log(farbaklik);
 </>}
       
 
+
+
+
       <div className='tusukkotinnyrtext32332y'>
         <div className='ttotojelenwraperr'>
               <div className='tumamotakzy'>
                 {Kategorie.map((item,index) => 
                 <Upravitdole
+                style = {{
+                  color: rendereovany ? "var(--farba-cierna)" : "var(--farba-sivaText)",
+                  fontSize:rendereovany ? "var( --font-size-base4)" : "var( --font-size-small)"
+                }} 
                 upravitdole ={item.nazov}
                 >
                   {item.otazky.map((polozka) => <Biela
@@ -117,12 +133,12 @@ console.log(farbaklik);
                     color:hover === polozka.id ? "white" : farbaklik === polozka.id ? "white" : "var(--farba-sivaText)"}}
                   obrazok = {polozka.id}
                   textpvacast = {polozka.nazov}
+
+                  
                   ></Biela> )}
                 </Upravitdole>)}
 
-                {/* <Upravitdole
-                upravitdole = "kokoko"
-                ></Upravitdole> */}
+                
         
         </div>
       </div>
@@ -156,8 +172,8 @@ console.log(farbaklik);
 
       </div>
  
-        
-<Footer></Footer>
+
+
      
     </Templatepage>
   )

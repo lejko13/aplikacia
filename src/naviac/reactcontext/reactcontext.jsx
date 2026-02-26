@@ -174,6 +174,10 @@ const[rozdiel,setRozdiel] = useState(null)
 
 
 const novicek = useRef()
+const novicek2 = useRef()
+
+
+const referencielplpl = useRef()
   return (
     <GlobalContext.Provider value={{ pocetOblubene,setPocetOblubene,filter,setFilter,teraz,seTeraz,popokno,setPopokno,informacie,hodnotenie,setInfo,scrollToRef,
       majitel,otazky,ceny,setCeny,doplnok,
@@ -182,9 +186,9 @@ const novicek = useRef()
       lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene,mala,setMala,
       kontorla,setKontrola,kontorlaText,setKontrolaText,automatika,lentakoko,setLentakoko,
       pravda,setpravda,penaze,setPenaze,pocitam2,setPocitam2,otocene, setOtocene,cena,setCena,kvalita,setKvalita,prize,setPrize,
-      zobrazovanie,setZobrazovanie,otvrenie,setOtvorenie,novicek,
+      zobrazovanie,setZobrazovanie,otvrenie,setOtvorenie,novicek,novicek2,
       dene,setDene,mesiace,setMesiace,roky,setRoky,
-      prvydatum,setPrvydatum,druhydatum,setDruhydatum,rozdiel,setRozdiel,ano,setAno
+      prvydatum,setPrvydatum,druhydatum,setDruhydatum,rozdiel,setRozdiel,ano,setAno,referencielplpl
       }}>
       {children}
     </GlobalContext.Provider>

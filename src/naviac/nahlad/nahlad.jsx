@@ -10,6 +10,8 @@ import Hodnotenie from '../hodnotenie/hodnotenie';
 import Ukazovatelko from '../ukazovatelko/ukazovatelko'
 import { useNavigate } from 'react-router-dom';
 
+import { MyContext } from '../providertelefon/providertelefon'
+
 import Pridanie from '../pridanie/pridanie'
 
 import { useContext } from "react";
@@ -25,6 +27,11 @@ const Nahlad = ({ nazov, klik22,location, hodnotenie, children,krajina, fotky = 
   const[hover,setHover] = useState(false)
   const [poslednyLajk, setPoslednyLajk] = useState(null);
     const navigate = useNavigate();
+
+
+     const { portal, setPortal,animacia,setAnimacia,mobil,setMobil,rezim,setRezim,open,setOpen,obsah,setObsah,ulozit,setUlozit} = useContext(MyContext);
+
+
    const { pocetOblubene, setPocetOblubene, filter, setFilter,owerlap,seTeraz,teraz ,popokno,setPopokno,
     lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene
    } = useContext(GlobalContext);
@@ -54,7 +61,7 @@ const klik = () => navigate(`/Detail/${apartman.id}`);
         <div className='fotkaNahlad'>
          {!kontrola &&  
          <div className='wrapperprecelok'
-         onClick={() => {klik() ,setFilter(false)}}
+         onClick={() => {klik() ,setFilter(false),setMobil(false)}}
          >
            <Ukazovatelko 
             style={{
@@ -70,6 +77,7 @@ const klik = () => navigate(`/Detail/${apartman.id}`);
     e.stopPropagation();   
     console.log(popokno); 
     klik22()  
+    setMobil(false)
     lajkujem()        // zastaví bublanie
     // setPocetOblubene(prev => prev + 1); 
 

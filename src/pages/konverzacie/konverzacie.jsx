@@ -808,7 +808,7 @@ console.log(najdemchat);
                                                 onMouseLeave={handleMouseLeave}
                                                 onClick={() => setFarba(item.id)}
                                                 style={{
-                                                  zIndex: 110,
+                                                  zIndex: 100,
                                                   border: borderColor,
                                                   backgroundColor: isActive ? "var(--farba-zelena)" : "var(--farba-cervena)",
                                                 }}
@@ -825,7 +825,7 @@ console.log(najdemchat);
                 }
             
 {/* toto je chat pre mobil */}    
-                <div></div>
+                {/* <div></div> */}
               </div>
 
             </div>

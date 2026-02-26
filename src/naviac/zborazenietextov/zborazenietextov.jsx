@@ -71,6 +71,11 @@ odpovedww = {sets}
             </div>
             <Linka></Linka>
             <div className='doleikonylennicvillo'>
+              <div> <span style={{
+                fontSize:"var(--font-size-base)",
+                color:"var(--farba-main)",
+                fontWeight:700
+              }}>LOGO</span> </div>
 
                  <div style={{display:"flex",gap:"5px"}}>
         <Ukazovatelko

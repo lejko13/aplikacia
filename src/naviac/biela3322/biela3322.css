@@ -1,0 +1,50 @@
+.biellla{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    transition: var( --transition);
+    color: var(--farba-sivaText);
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 14px;
+    border: var(--border);
+    background-color: var(--farba-biela);
+}
+.drzicikkkokmm{
+    /* background-color: red; */
+    font-size: 17px;
+    align-items: center;
+
+    display: flex;
+    gap:15px;
+}
+
+.textteexrtbase2 {
+  font-size: var(  --font-size-base69);
+  color: var(--farba-cierna);
+}
+.abytoboolovsreder3323{
+   align-items: center;
+
+    display: flex;
+
+    color: var(--farba-cierna);
+    /* background-color: aqua; */
+}
+
+@media (max-width: 750px) {
+    .biellla{
+    box-shadow: var( --box-shadow);
+        background-color: var(--farba-biela);
+}
+.drzicikkkokmm{
+    /* background-color: red; */
+    font-size: 18px;
+    align-items: center;
+
+    display: flex;
+    gap:15px;
+}
+}

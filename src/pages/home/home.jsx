@@ -29,14 +29,17 @@ import Maincastoblubene from '../../naviac/maincastoblubene/maincastoblubene'
 import useBreakpoint from '../../naviac/hook/breakpoint'
 import { useMediaQuery } from "react-responsive";
 import Maincastmensie from '../../naviac/maincastmenise/maincastmensie'
-const Home = ({domov,lavasipka,pravasipka, setDomov,otvorenie,setOtvorenie}) => {
+const Home = ({domov,lavasipka,pravasipka, setDomov,otvorenie,setOtvorenie,scrollToTop}) => {
    
     const { pocetOblubene, setPocetOblubene, filter, setFilter,owerlap,seTeraz,teraz ,popokno,setPopokno,
-       lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene,mala,setMala,novicek
+       lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene,mala,setMala,novicek,novicek2
+
       } = useContext(GlobalContext);
  
   const isMobile = useMediaQuery({ maxWidth: 750 });
   const isDesktop = useMediaQuery({ minWidth: 750 });
+
+
 
 //   console.log(novicek);
 //   console.log(novicek.current);
@@ -60,7 +63,7 @@ const Home = ({domov,lavasipka,pravasipka, setDomov,otvorenie,setOtvorenie}) => 
       ikona ={ <i className="bx bx-heart"></i>}
       ></Card>
      
-{domov === "domov" &&   <div className='vrch' ref={novicek}>
+{domov === "domov" &&   <div className='vrch' ref={isMobile ? novicek2 : novicek}>
 
 
 
@@ -493,11 +496,7 @@ textDesktopMALY = "Objavte exkluzívne apartmány, luxusné vily a prémiové re
          <Maincast></Maincast> */}
       </div>
 
-{isDesktop &&    <div class="flex-footer-wrap">
-        <Footer
-         setDomov = {setDomov}
-        ></Footer>
-      </div>}
+
 
     
 

@@ -420,7 +420,7 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
     <div className='celok32'>
       {isMobile && <div className='textCastmain5353'>
           <div>
-            <span className='TEXTICEKNEAOVICEK' > Profil pouzivatela {meno}</span>
+            <span className='TEXTICEKNEAOVICEK' > Profil pouzivatela {meno} {meno2}</span>
             <p className='textpodhlavnuym'> Objavte detaily poozivatela {meno} {meno2}</p>
             </div>
            

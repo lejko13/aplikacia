@@ -19,6 +19,7 @@ font-size: var(--fontspecialny);
     /* white-space: nowrap; */
 }
 .tootlenvrchniciac{
+     /* background-color: pink; */
      background-color: VAR(--farba-biela);
     border: var(--border);
     border-radius: 12px;
@@ -48,6 +49,7 @@ font-size: var(--fontspecialny);
     justify-content: CENTER;
     background-color: VAR(--farba-biela);
     border: var(--border);
+    color: var(--farba-cierna);
     border-radius: 12px;
 }
  .TEXTICEKNEAOVICEK00pppmkmk{
@@ -80,6 +82,7 @@ font-size: var(--fontspecialny);
 .horelenifrmaicenicine{
     flex: 1;
     display: flex;
+    max-height: 700px;
     flex-direction: column;
     gap: 20px;
     overflow: auto;
@@ -89,6 +92,50 @@ font-size: var(--fontspecialny);
     height: fit-content;
     width: 100%;
     /* background-color: red; */
-    justify-content: end;
+    justify-content: space-between;
     display: flex;
+}
+
+
+.biellla23232 {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--farba-sivaText);
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 14px;
+    border: var(--border)
+}
+
+
+@media (max-width: 750px) {
+ .horelenifrmaicenicine3232322{
+    /* flex: 1; */
+      height: calc(100vh - 280px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* overflow: auto; */
+    /* background-color: rgb(255, 255, 255); */
+}
+.sckrolovatelnacstikca {
+ flex: 1;
+  /* background-color: aqua; */
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  /* Chrome, Edge, Safari */
+  scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none;    /* IE */
+}
+
+.sckrolovatelnacstikca::-webkit-scrollbar {
+  display: none;               /* Chrome, Safari */
+}
 }

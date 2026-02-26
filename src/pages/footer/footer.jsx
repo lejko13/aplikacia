@@ -10,12 +10,12 @@ import { GlobalContext } from '../../naviac/reactcontext/reactcontext'
 
 
 import { Link, useNavigate } from "react-router-dom";
-const Footer = ({ setDomov }) => {
+const Footer = ({ setDomov,scrollToTop }) => {
    const navigate = useNavigate();
 
      
        const { pocetOblubene, setPocetOblubene, filter, setFilter,owerlap,seTeraz,teraz ,popokno,setPopokno,
-          lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene,mala,setMala,novicek
+          lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene,mala,setMala,novicek,novicek2
          } = useContext(GlobalContext);
 
   const[hover,setHover] = useState(null)
@@ -32,10 +32,14 @@ const text = {
 }
 
   const isMobile = useMediaQuery({ maxWidth: 900 });
+
+  const mobilcek = useMediaQuery({ maxWidth: 750 });
+
   const isDesktop = useMediaQuery({ minWidth: 901 });
 
   const koko = useMediaQuery({ maxWidth: 1000 });
   const koko2 = useMediaQuery({ minWidth: 1100 });
+
 
 
 
@@ -44,7 +48,23 @@ const handleClick = () => {
     behavior: "smooth",
     block: "start",
   })
+  scrollToTop()
+  
 }
+
+const handleClick2 = () => {
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth" // plynulé scrollovanie
+  })
+}
+
+
+console.log(novicek2);
+
+
+
 
 const openInstagram = () => {
   window.open("https://www.instagram.com/leofudaly/", "_blank");
@@ -62,8 +82,12 @@ const openInstagram = () => {
                 <span style={text}>Hlavné stránky webu</span>
                 <div className='odkazisaem'>
                   <p className='textsposokfooter'
-                  onClick={() =>    
-                          {navigate("/"),handleClick(),setDomov("domov")}}
+                  onClick={() =>{
+                    if (mobilcek) {
+                    handleClick2(),setDomov("domov"),navigate("/")
+                  }else 
+                    navigate("/"),handleClick(),setDomov("domov")
+                }}
                   >Domov</p>
                   <p className='textsposokfooter'
                   onClick={() =>    
@@ -95,13 +119,28 @@ const openInstagram = () => {
                   <div className='odkazisaem'>
                   <p className='textsposokfooter'
 
-                    onClick = {() => {navigate("/"),setDomov("S bazénom"),setAnimacia(false)}}
+                    onClick = {() => {
+                       if (mobilcek) {
+                         navigate("/"),handleClick2(),setDomov("S bazénom"),setAnimacia(false)
+                       }
+                      navigate("/"),handleClick(),setDomov("S bazénom"),setAnimacia(false)
+                    }}
                   >S bazénom</p>
                   <p className='textsposokfooter'
-                  onClick = {() => {navigate("/"),setDomov("Vidiek"),setAnimacia(false)}}
+                  onClick = {() => {
+                     if (mobilcek) {
+ navigate("/"),setDomov("Vidiek"),handleClick2(),setAnimacia(false)
+
+                     }
+                    navigate("/"),setDomov("Vidiek"),handleClick(),setAnimacia(false)}}
                   >Vidiek</p>
                   <p className='textsposokfooter'
-                  onClick = {() => {navigate("/"),setDomov("Pre dvoch"),setAnimacia(false)}}
+                  onClick = {() => {
+                     if (mobilcek) {
+ navigate("/"),setDomov("Vidiek"),handleClick2(),setAnimacia(false)
+
+                     }
+                    navigate("/"),setDomov("Pre dvoch"),handleClick(),setAnimacia(false)}}
                   >Pre dvoch</p>
                   {/* <p className='textsposokfooter'
                     onClick = {() => {navigate("/"),setDomov(" Prémiové"),setAnimacia(false)}}

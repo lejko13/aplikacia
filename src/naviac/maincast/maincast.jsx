@@ -11,6 +11,10 @@ import { useContext } from "react";
 import { GlobalContext } from '../reactcontext/reactcontext'
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+
+import { MyContext } from '../providertelefon/providertelefon'
+
+
 import Hodnotenie from '../../naviac/hodnotenie/hodnotenie'
 import Ukazovatelko from '../../naviac/ukazovatelko/ukazovatelko'
 import Nahlad  from '../../naviac/nahlad/nahlad'
@@ -25,6 +29,12 @@ const Maincast = ({textMobile,textTablet,textDesktop,data = [],malytext,stilikak
    const { pocetOblubene, setPocetOblubene, filter, setFilter,owerlap,seTeraz,teraz ,popokno,setPopokno,
       lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene,mala,setMala 
      } = useContext(GlobalContext);
+
+
+
+
+
+      const { portal, setPortal,animacia,setAnimacia,mobil,setMobil,rezim,setRezim,open,setOpen,obsah,setObsah,ulozit,setUlozit} = useContext(MyContext);
 
   const { isMobile,isTablet,isDesktop } = useBreakpoint();
   const swiperRef = useRef(null);
@@ -134,6 +144,7 @@ const Maincast = ({textMobile,textTablet,textDesktop,data = [],malytext,stilikak
                 
                 klik22={() => {
                 setKontext(prev => !prev);
+                setMobil(false)
                 setTextdo(prev);
 
                   setOblubene(stary => {
@@ -149,11 +160,8 @@ const Maincast = ({textMobile,textTablet,textDesktop,data = [],malytext,stilikak
                   })
 
                
-                // setTextdo({
-                //             name: prev.name,
-                //             krajina: prev.krajina,
-                //          fotka: prev.fotky[0]
-                //           });
+         
+             
                 ;}}
                 zmaz = {{display: "none"}}
                 style={{

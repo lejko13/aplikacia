@@ -33,7 +33,7 @@
     /* gap: clamp(5px, 5vw, 50px); min 10px, max 30px, prispôsobenie podľa šírky obrazovky */
 }
 .obalzecoaako{
-    height: 350px !important;
+    height: 360px !important;
     z-index: 5000;
      border: 1px solid var( --farba-siva);
     padding: 10px 10px;

@@ -1128,8 +1128,7 @@ odpoved1 = {clovek.byvanieotazky[0].odpoved1}
       </div>
     </div>
 
-  <Footer>
-    </Footer> 
+  
      
 
     </Templatepage>
