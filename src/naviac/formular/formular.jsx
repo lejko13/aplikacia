@@ -1,10 +1,20 @@
-import React, { useRef,useEffect } from 'react';
+import React, { useState, useEffect, useRef,useContext } from 'react';
 
 import './formular.css' // externý CSS súbor
 
 
+import Posldenyuzfakt from './posldenyuzfakt/posldenyuzfakt'
 
+import { MyContext } from '../providertelefon/providertelefon'
+import { GlobalContext } from '../reactcontext/reactcontext'
 const Form = ({setSuborOpen,setObsahOpen}) => {
+
+
+    const { lajknute,texdo,setTextdo,kontext,setKontext,mala,setMala,  kontorla,setKontrola,kontorlaText,setKontrolaText,automatika } = useContext(GlobalContext);
+     const { suborOpen,obsahOpen,zobraziekamosa,setZobraziekamosa,
+         ukazkameno,setUkazkameno,ukazkamenoODSTRANENEI,setUkazkamenoODSTRANENIE,vypisovaniechyby,setVypisovaniechyby
+     } = useContext(MyContext);
+
 
   const referencia = useRef(null);
   useEffect(() => {
@@ -30,37 +40,53 @@ if (referencia.current && !referencia.current.contains(e.target)) {
 console.log(referencia);
   return (
     <div className="form-wrapper" ref={referencia}>
+    
       <form className="form">
-        <p className="title">Register</p>
-        <p className="message">Signup now and get full access to our app.</p>
+        <span className="title">Prihlasit sa</span>
+        <p className="message">Zaregistruj sa teraz a získaj plný prístup k našej aplikácii</p>
 
         <div className="flex">
-          <label>
-            <input className="input" type="text" placeholder required />
-            <span>Firstname</span>
-          </label>
-          <label>
-            <input className="input" type="text" placeholder required />
-            <span>Lastname</span>
-          </label>
+            <Posldenyuzfakt
+            textice = {"Meno"}
+            ></Posldenyuzfakt>
+
+          <Posldenyuzfakt
+                  textice = {"Priezvisko"}
+          ></Posldenyuzfakt>
         </div>
 
         <label>
-          <input className="input" type="email" placeholder required />
-          <span>Email</span>
+            <Posldenyuzfakt
+                  textice = {"Email"}
+          ></Posldenyuzfakt>
         </label>
         <label>
-          <input className="input" type="password" placeholder required />
-          <span>Password</span>
+          <Posldenyuzfakt
+                  textice = {"Heslo"}
+          ></Posldenyuzfakt>
+          
         </label>
         <label>
-          <input className="input" type="password" placeholder required />
-          <span>Confirm password</span>
+           <Posldenyuzfakt
+                  textice = {"Potvrdit heslo"}
+          ></Posldenyuzfakt>
         </label>
 
-        <button className="submit">Submit</button>
+
+        <div className='Posldenyuzfakt32'
+        onClick={() => {automatika(),setKontrolaText("prhalsit")}}
+        >
+          <span>Pokracovat</span>
+
+        </div>
+
+
+
+        
         <p className="signin">
-          Already have an account? <a href="#">Signin</a>
+         Už máš účet? <a 
+         onClick={() => {automatika(),setKontrolaText("prhalsit")}}
+         href="#" style={{color:"var(--farba-main)"}}>Prihlás sa</a>
         </p>
       </form>
     </div>

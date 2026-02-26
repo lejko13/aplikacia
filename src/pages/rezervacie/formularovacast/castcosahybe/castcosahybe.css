@@ -78,7 +78,7 @@ flex-direction: column;
     background-color: var(--farba-main);
     font-size: var(--font-size-base69);
   
-     color: var(--farba-biela);
+     color: white;
      height: 100%;
      display: flex;
      border-radius: 12px;

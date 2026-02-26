@@ -13,20 +13,20 @@
   padding: 20px;
   border-radius: 20px;
   position: relative;
-  background-color: #1a1a1a;
+  background-color: var(--farba-biela);
   color: #fff;
-  border: 1px solid #333;
+  border: var( --border);
 }
 
 .title {
   font-size: 28px;
   font-weight: 600;
-  letter-spacing: -1px;
+
   position: relative;
   display: flex;
   align-items: center;
   padding-left: 30px;
-  color: #00bfff;
+  color: var(--farba-cierna)
 }
 
 .title::before,
@@ -37,7 +37,7 @@
   width: 16px;
   border-radius: 50%;
   left: 0;
-  background-color: #00bfff;
+  background-color: var(--farba-main)
 }
 
 .title::after {
@@ -59,7 +59,7 @@
 }
 
 .signin a:hover {
-  text-decoration: underline royalblue;
+  text-decoration: underline var(--farba-main);
 }
 
 .flex {
@@ -131,4 +131,20 @@
     transform: scale(1.8);
     opacity: 0;
   }
+}
+
+
+.Posldenyuzfakt32{
+    border-radius: 12px;
+    height: 45px;
+    width: 100%;
+   
+    background-color: var(--farba-main);
+     outline: none;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+  box-shadow: none;
+  padding: 10px;
+  cursor: pointer;
 }

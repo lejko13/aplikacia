@@ -325,7 +325,7 @@ style={{
     className="obklupuje"
  >
   <div className='obalvnutoroo33'>
-    <div className='vnutorooo33' onClick={() => setPortal("true")}>
+    <div className='vnutorooo33' >
       <div className='ikonaikona'>
        <IkonaMobil
                   sztylicek = {{display:"none"}}
@@ -378,7 +378,8 @@ style={{
 
           style={{
             padding:animacia ? "0px 0px 10px 10px" : "0px 0px 0px 10px",
-            border:animacia ? "var(--border)" : "1px solid var(--farba-biela)"
+            border:animacia ? "var(--border)" : "1px solid transparent",
+            backgroundColor:animacia ? "var(--farba-biela)" : "transparent"
 
           }}
           >
@@ -558,7 +559,7 @@ style={{
 
             <div className='lavastranatexticekt'>   
               <div className='texticektexcicek'>
-                <span style={{fontSize:"var(  --fontspecialny)"}}>{item.name}</span>
+                <span style={{fontSize:"var(  --fontspecialny)",color:"var(--farba-cierna)"}}>{item.name}</span>
 {/* 
                {okono2 &&  <div class="rating-box">
                   <span class="rating-icons"></span>

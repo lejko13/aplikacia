@@ -79,6 +79,7 @@ const Uporoznujes = ({ prisposobujem, children }) => {
            {kontorlaText === "vyberkedy" && <div>Zvoľ dátum príchodu</div>}
 
             {kontorlaText === "zvolobchod" && <div>Zvoľ dátum odchodu</div>}
+            {kontorlaText === "prhalsit" && <div>Zvoľ dátum odchodu</div>}
 
 
             {kontorlaText === "kontolaformularu" && <div>{vypisovaniechyby}</div>}

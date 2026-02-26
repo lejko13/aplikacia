@@ -1,0 +1,12 @@
+.Posldenyuzfakt{
+    border-radius: 12px;
+    height: 45px;
+    width: 100%;
+    border: var(--border);
+    background-color: var(--farba-main2);
+     outline: none;
+  box-shadow: none;
+  padding: 10px;
+  cursor: pointer;
+  color: var(--farba-cierna);
+}

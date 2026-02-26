@@ -158,10 +158,23 @@ const openInstagram = () => {
                   <div className='odkazisaem'>
                   <p className='textsposokfooter'
 
-                    onClick = {() => {navigate("/Centrum"),setAnimacia(false)}}
+                    onClick = {() => {
+                         if (mobilcek) {
+                          handleClick2(),  navigate("/Centrum"),setAnimacia(false)
+                         }
+
+                      navigate("/Centrum"),setAnimacia(false)}}
                   >Centrum pomoci</p>
                   <p className='textsposokfooter'
-                  onClick = {() => {navigate("/Centrum"),setAnimacia(false)}}
+                  onClick = {() => {
+
+
+                      if (mobilcek) {
+                    handleClick2(),navigate("/Centrum"),setAnimacia(false)
+                         }
+
+
+                    navigate("/Centrum"),setAnimacia(false)}}
                   >Pomoc – problém s bezpečnosťou</p>
 
 
