@@ -69,7 +69,7 @@ const Detail = () => {
 );
 
 
- const { suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,unikattne,setUnikatne,meno,dotadok,setDotadok,lepsiedalej,setLepsiedalej} = useContext(MyContext);
+ const { suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,unikattne,setUnikatne,meno,dotadok,setDotadok,lepsiedalej,setLepsiedalej, setMobil} = useContext(MyContext);
 
     const { pocetOblubene, setPocetOblubene, filter, setFilter,owerlap,seTeraz,teraz ,popokno,setPopokno,
        lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene,mala,setMala,
@@ -96,6 +96,12 @@ const openInstagram = () => {
 
 
 
+
+
+// const lentoko = apartman.location === "Šaľa"
+
+const existuje323 = apartman.location === "Šaľa";
+console.log(existuje323);
 
  const smerujem  = useNavigate();
 
@@ -191,7 +197,7 @@ const existuje = majitel[0].ponuka.some(
 
 // console.log(existuje);
 
-console.log(clovek.byvanieotazky);
+
 
 
 
@@ -221,10 +227,35 @@ console.log(clovek.byvanieotazky);
               meno = {clovek.meno}
               priezvisko = {clovek.priezvisko}
               popisek = {clovek.aktivny}
-             onClick2={() => handleClick()}
+           
+             onClick2={() =>{
+                if (existuje323) {
+                  handleProfil()
+                  return null
+                }  
+                handleClick()
+              }}
             //  onClick = {() => handleClick()}
               indo44 = {clovek.pocetrecenzie}
               info20= {clovek.pocethodnoteteni}
+              hodnotenieKliknutie =  {() =>{
+                if (existuje323) {
+                  handleProfil()
+                           return null
+                }  
+                 handleClick()
+              }}
+              recenzieekliknutie =  {() =>{
+                   if (existuje323) {
+                   handleProfil()
+                            return null
+                } 
+                     handleClick()
+
+              }
+
+              }
+               
               >
                 <Fotkapage data = {fotky}></Fotkapage>
               </Lenabybolo>
@@ -432,7 +463,8 @@ console.log(clovek.byvanieotazky);
       {apartman.fotky.map((foto, index) => (
         <SwiperSlide key={index} className="ttotobudewrapper">
           
-          <img className="fotakrazanavzdy2" src={foto} alt="" />
+          <img className="fotakrazanavzdy2" onClick={() =>  {open(),jeden(), setMobil(false)}
+          } src={foto} alt="" />
         </SwiperSlide>
       ))}
     </Swiper>

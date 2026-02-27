@@ -40,7 +40,7 @@ const text = {
   const koko = useMediaQuery({ maxWidth: 1000 });
   const koko2 = useMediaQuery({ minWidth: 1100 });
 
-
+const eemil  = () => window.location.href = "mailto:leo.fudaly@gmail.com"
 
 
 const handleClick = () => {
@@ -258,35 +258,14 @@ const openInstagram = () => {
               }}>LOGO</span> 
             </div>
 
-            <span
-            onMouseEnter={() => setHover(10)}
-            onMouseLeave={() => setHover(null)}
-               onClick = {() => {navigate("/Centrum")}}
-            style={{
-                 fontSize:"var(--font-size-base2)",
-              cursor:"pointer",
-              transition:"var(--transition)",
-              color:hover === 10 ? "var(--farba-cierna)" : "var(--farba-sivaText)"
-            }}
-            >Súkromie</span>
-
-             <span
-    onClick = {() => {navigate("/Centrum")}}
-             onMouseEnter={() => setHover(11)}
-            onMouseLeave={() => setHover(null)}
-            style={{
-              cursor:"pointer",
-               fontSize:"var(--font-size-base2)",
-              transition:"var(--transition)",
-              color:hover === 11 ? "var(--farba-cierna)" : "var(--farba-sivaText)"
-            }}
-             >Podmienky</span>
+            <span className='textsposokfooter' onClick={() => eemil()}>Leo.fudaly@gamil.com</span>
+<span className='textsposokfooter' onClick={() => eemil()}>+421 908 836 584</span>
              
           </div>
 
 {koko &&   <div
           style={{display:"flex" ,gap:"15px"}}
-          > <span className='textsposokfooter'>Leo.fudaly@gamil.com</span> <span className='textsposokfooter'>+421 908 836 584</span>
+          > <span className='textsposokfooter' onClick={() => eemil()}>Leo.fudaly@gamil.com</span> <span className='textsposokfooter' onClick={() => eemil()}>+421 908 836 584</span>
          </div>}
            
 

@@ -20,11 +20,17 @@ import Card from '../portalpop/portalpop'
 import Lajknute from '../lajknute/lajknute'
 import { Children } from 'react';
 
+import { MyContext } from '../../naviac/providertelefon/providertelefon'
+
 const NahladPage = ({kokokokonaupresneie, nazov, klik22,location, hodnotenie, children,krajina, fotky = [],style, kontrola,prepinam ,apartman,setOtvorenie,setFarba,setQuery,otvorenie,zmaz,zmaz2}) => {
   const swiperRef = useRef(null);
   const[hover,setHover] = useState(false)
   const [poslednyLajk, setPoslednyLajk] = useState(null);
     const navigate = useNavigate();
+
+     const { suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,unikattne,setUnikatne,meno,dotadok,setDotadok,lepsiedalej,setLepsiedalej, setMobil} = useContext(MyContext);
+
+
    const { pocetOblubene, setPocetOblubene, filter, setFilter,owerlap,seTeraz,teraz ,popokno,setPopokno,
     lajknute,setLajknute,lajkujem,texdo,setTextdo,kontext,setKontext,oblubene,setOblubene
    } = useContext(GlobalContext);
@@ -55,7 +61,7 @@ const NahladPage = ({kokokokonaupresneie, nazov, klik22,location, hodnotenie, ch
         <div className='fotkaNahlad'>
          {!kontrola &&  
          <div className='wrapperprecelok'
-         onClick={() => {klik() ,setFilter(false)}}
+         onClick={() => {klik() ,setFilter(false),setMobil(false)}}
          >
           <div style={kokokokonaupresneie}>
 
@@ -158,9 +164,11 @@ const NahladPage = ({kokokokonaupresneie, nazov, klik22,location, hodnotenie, ch
     setOtvorenie(false);
     setFarba(false);
     setQuery("");
+    setMobil(false)
   }
   klik();
   setFilter(false)
+  setMobil(false)
 }}
           >
               {nazov}</span>

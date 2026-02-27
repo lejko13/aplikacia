@@ -3,7 +3,7 @@ import './lenabybolo.css'
 import React from 'react'
 import Ukazka from '../ukazka/ukazka'
 
-const Lenabybolo = ({children,fotka,meno,priezvisko,popisek,onClick2,indo44,info20}) => {
+const Lenabybolo = ({hodnotenieKliknutie,recenzieekliknutie,children,fotka,meno,priezvisko,popisek,onClick2,indo44,info20}) => {
   return (
     <div className='lnetakabybolo'>
         {children}
@@ -16,6 +16,8 @@ const Lenabybolo = ({children,fotka,meno,priezvisko,popisek,onClick2,indo44,info
           onClick2 = {onClick2}
           indo44 = {indo44}
           info20= {info20}
+          hodnotenieKliknutie = {hodnotenieKliknutie}
+          recenzieekliknutie = {recenzieekliknutie}
           ></Ukazka>
     </div>
   )
