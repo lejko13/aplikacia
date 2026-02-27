@@ -10,6 +10,9 @@ import { GlobalContext } from '../reactcontext/reactcontext'
 const Form = ({setSuborOpen,setObsahOpen}) => {
 
 
+
+
+
     const { lajknute,texdo,setTextdo,kontext,setKontext,mala,setMala,  kontorla,setKontrola,kontorlaText,setKontrolaText,automatika } = useContext(GlobalContext);
      const { suborOpen,obsahOpen,zobraziekamosa,setZobraziekamosa,
          ukazkameno,setUkazkameno,ukazkamenoODSTRANENEI,setUkazkamenoODSTRANENIE,vypisovaniechyby,setVypisovaniechyby

@@ -1,4 +1,4 @@
-import { useState,useRef,useContext } from 'react'
+import { useState,useRef,useContext,useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import './App.css'
@@ -60,6 +60,7 @@ import Formularovacastposldena from './pages/poslednacast/for'
 
 
 import { GlobalContext } from './naviac/reactcontext/reactcontext'
+import Loading from './pages/loading/loading'
 
 function App() {
     
@@ -128,10 +129,38 @@ const finalna = useMediaQuery({ maxWidth: 750 });
 
 
  
+
+const [show, setShow] = useState(true);
+
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShow(false);
+    }, 2000); // 2 sekundy
+
+    return () => clearTimeout(timer);
+  }, []); // prázdne pole = iba prvý render
+
   
   return (
       <MyProvider>
         <GlobalProvider zmena = {zmena}>  
+
+ <motion.div 
+animate = {{
+ opacity: show ? 1 : 0,
+pointerEvents: show ? "auto" : "none",
+}}
+className='tootjelenloaaderkok'>
+<Loading
+show = {show}
+></Loading>
+  
+  </motion.div >
+ 
+
+
+
 
 {finalna && <>
    <BrowserRouter>
@@ -458,6 +487,7 @@ const finalna = useMediaQuery({ maxWidth: 750 });
             otvorenie = {otvorenie}
             setOtvorenie = {setOtvorenie}
              />} />
+
             <Route path="/Profil" element={<Profil />} />
             <Route path="/Profil/:id" element={<Jednotlivec />} />
             <Route path="/Centrum" element={<Nastavenia />} />

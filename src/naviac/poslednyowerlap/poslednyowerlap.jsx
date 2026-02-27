@@ -2,6 +2,9 @@ import { createPortal } from "react-dom";
 import { MyContext } from '../providertelefon/providertelefon'
 import { useContext } from "react";
 
+
+import React, { useState, useEffect, useRef } from 'react';
+
 import { motion, AnimatePresence } from "framer-motion";
 import './poslednyowerlap.css'
 import Ukazovatelko  from "../ukazovatelko/ukazovatelko";
@@ -35,6 +38,25 @@ const funkce = () => setSubor(prev => prev.filter(item => item.id !== unikattne)
   if (!apartman) return;
   navigate(`/Detail/${apartman.id}`);
 };
+
+
+
+
+
+useEffect(() => {
+  if (suborOpen) {
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "";
+    document.documentElement.style.overflow = "";
+  }
+
+  return () => {
+    document.body.style.overflow = "";
+    document.documentElement.style.overflow = "";
+  };
+}, [suborOpen]);
 
 
 

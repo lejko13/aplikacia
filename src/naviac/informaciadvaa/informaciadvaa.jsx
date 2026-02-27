@@ -4,6 +4,17 @@ import React from 'react'
 import { Children } from 'react';
 
 const Informaciadvaa = ({klik,show,children,setOtvaram}) => {
+
+
+  useEffect(() => {
+  document.body.style.overflow = "hidden";
+
+  return () => {
+    document.body.style.overflow = "auto";
+  };
+}, []);
+
+
   return (
    <AnimatePresence>
      {show && <motion.div
