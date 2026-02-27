@@ -116,7 +116,7 @@ height: calc(100vh - 24px);
     opacity: 1;
     display: flex;
 
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .buttonjetaotakze{

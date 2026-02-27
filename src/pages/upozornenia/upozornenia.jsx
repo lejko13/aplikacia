@@ -15,6 +15,9 @@ import Nahlad  from '../../naviac/nahlad/nahlad'
 import Templatepage from '../tempaltepage/templatepage'
 import Mapovanie2 from '../../naviac/mapovanie2/mapovanie2'
 import { useMediaQuery } from "react-responsive";
+
+
+import { useNavigate } from "react-router-dom";
 import ObluneneSwiper from '../../naviac/oblubeneswiper/ObluneneSwiper'
 const Upozornenia = ({otvorenie,setOtvorenie,lavasipka,pravasipka}) => {
    const { pocetOblubene, setPocetOblubene, filter, setFilter,owerlap,seTeraz,teraz ,popokno,setPopokno,
@@ -39,6 +42,12 @@ const Upozornenia = ({otvorenie,setOtvorenie,lavasipka,pravasipka}) => {
         
       //  }
 
+       const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/"); // presmeruje na domovskú stránku
+  };
+
   return (
     
     <Templatepage 
@@ -52,35 +61,26 @@ hedericek = {{
 
 
         <div className='obshauujuju'>
-          {/* <div className='lentaknoyvskuska'>kokok</div> */}
-{/* {oblubene.length === 0 && subor.length === 0 && (
-  <div className="lentakwrapper"></div>
-)}
-           */}
+
             <div className="lentakwrapper">
-              {isDesktop &&    
-              <div className='lentakzenovnoatopude'
- onClick={() => {
-                setSuborOpen(true);
-                setObsahOpen("Uravitlogika") 
-                }}
-              ><i class='bx bx-plus'></i></div> }
+
+
+       
+
 
            
-              {/* <div className='WRAPPERNABUTTON'>
-       <div className="kruh-button"
-        onClick={() => {
-                setSuborOpen(true);
-                setObsahOpen("Uravitlogika") 
-                }}
-       ><i class='bx bx-plus' ></i></div>
-        </div> */}
+         
+
+
+
 
 
       {(oblubene.length <= 0 && subor.length <= 0 ) && 
 
       <div className='VYTVOERTETEXT'>
-        <div style={{ textAlign: "center" }}>
+
+        <div style={{display:"flex",gap:"10px",flexDirection:"column",gap:"10px",width:"fit-content"}}>
+                  <div style={{ textAlign: "center" }}>
            Pridajte položky do obľúbených alebo vytvorte  <span className='pisemnkolentakm'  
         onClick={() => {
                 setSuborOpen(true);
@@ -90,14 +90,18 @@ hedericek = {{
         </div>
         
 
-       {isMobile && 
+    
         <div className='WRAPPERNABUTTON'   onClick={() => {
                 setSuborOpen(true);
                 setObsahOpen("Uravitlogika") 
                 }}>
     Vytvorte nový
-        </div>}
+        </div>
        
+
+
+        </div>
+
        
 {/*        
 {isDesktop && <button className='vytvoreneinovhych'
@@ -118,7 +122,17 @@ hedericek = {{
         }
       
 
-          {oblubene.length > 0 && <ObluneneSwiper 
+
+      {!isMobile && (oblubene.length > 0 || subor.length > 0) && 
+      <>
+
+        <div className='tootjewrappernaostatne' 
+        >
+        
+<div style={{flex:1}}>
+
+
+         {oblubene.length > 0 && <ObluneneSwiper 
           
           lava={el => lavasipka.current[90] = el} 
           prava={el => pravasipka.current[90] = el} 
@@ -135,16 +149,7 @@ hedericek = {{
           
            
           
-          {/* {subor.length > 0 && <Mapovanie
-            textMobile = "Vaše zoznamy"
-      textTablet = "Prehľad vašich uložených ubytovaní"
-      textDesktop = "Prehľad vašich uložených ubytovaní"
-
-      textMobileMALY = "Prehľad vašich uložených ubytovaní, ktoré ste si vybrali."
-      textTabletMALY = "Prehľad vašich uložených ubytovaní, ktoré ste si vybrali pre budúce cestovanie."
-      textDesktopMALY = "Prehľad vašich uložených ubytovaní, ktoré ste si vybrali pre budúce cestovanie a pohodlný pobyt."
-      subor={subor}
-           ></Mapovanie>} */}
+       
           
           {subor.length > 0 && <Mapovanie2
             textMobile = "Vaše zoznamy"
@@ -156,9 +161,89 @@ hedericek = {{
       textDesktopMALY = "Prehľad vašich uložených ubytovaní, ktoré ste si vybrali pre budúce cestovanie a pohodlný pobyt."
       subor2={subor}
            ></Mapovanie2>}
+
+</div>
+           <div style={{width:"100%",height:"fit-content",padding:"10px 20px",display:"flex",justifyContent: "space-between"}}>
+
+             <div className='WRAPPERNABUTTON'  
+             style={{width:"250px"}}
+              onClick={() => handleClick()
+}>
+  Pridať do obľúbených
+        </div>
+             <div className='WRAPPERNABUTTON'  
+             style={{width:"200px"}}
+              onClick={() => {
+                setSuborOpen(true);
+                setObsahOpen("Uravitlogika") 
+                }}>
+    Vytvorte nový
+        </div>
+
+           </div>
+
+             
+
+
+      </div>
+      
+      </>
+      }
+
+
+      {isMobile && 
+      <>
+
+
+         {oblubene.length > 0 && <ObluneneSwiper 
+          
+          lava={el => lavasipka.current[90] = el} 
+          prava={el => pravasipka.current[90] = el} 
+      textMobile = "Obľúbené apartmány"
+      textTablet = "Vaše obľúbené apartmány"
+      textDesktop = "Vaše obľúbené apartmány"
+
+      textMobileMALY = "Vyberte si svoje obľúbené ubytovanie pre pohodlný pobyt."
+      textTabletMALY = "Vyberte si svoje obľúbené ubytovanie a zažite pohodlný pobyt."
+      textDesktopMALY = "Vyberte si svoje obľúbené ubytovanie a zažite pohodlný pobyt v moderných apartmánoch."
+        // text= 'Lukratívne bývanie na Slovensku'  
+     oblubene2={oblubene}
+          ></ObluneneSwiper>}
+          
+           
+          
+       
+          
+          {subor.length > 0 && <Mapovanie2
+            textMobile = "Vaše zoznamy"
+      textTablet = "Prehľad vašich uložených ubytovaní"
+      textDesktop = "Prehľad vašich uložených ubytovaní"
+
+      textMobileMALY = "Prehľad vašich uložených ubytovaní, ktoré ste si vybrali."
+      textTabletMALY = "Prehľad vašich uložených ubytovaní, ktoré ste si vybrali pre budúce cestovanie."
+      textDesktopMALY = "Prehľad vašich uložených ubytovaní, ktoré ste si vybrali pre budúce cestovanie a pohodlný pobyt."
+      subor2={subor}
+           ></Mapovanie2>}
+
+
+
+      
+      </>
+      }
+    
+
+         
           
   
 </div>
+
+{isMobile && (oblubene.length > 0 || subor.length > 0) &&     
+<div className='WRAPPERNABUTTON434'
+ onClick={() => {
+                setSuborOpen(true);
+                setObsahOpen("Uravitlogika") 
+                }}
+>kokokokok</div>}
         </div>
 
       

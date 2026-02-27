@@ -350,7 +350,8 @@ const malo5         = useMediaQuery({ maxWidth: 750 });
           resizeObserver={true}
           spaceBetween={10}
           slidesPerView={1.5}
-          slidesOffsetAfter={offset}
+                    slidesOffsetAfter={malo5 ? 10 : 20}
+
           preventInteractionOnTransition={true}
           touchStartPreventDefault={true}
           touchMoveStopPropagation={true}

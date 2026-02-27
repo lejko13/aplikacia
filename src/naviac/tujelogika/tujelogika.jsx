@@ -127,8 +127,8 @@ if (subor.some(item => item.nazov === nazovSuboru.trim())) {
             ref={focus}
             onKeyDown={kliknutie2}
             type="text"   
-              maxLength={50}     // určuje typ
-            value={nazovSuboru}      // riadenie hodnoty
+              maxLength={50}    
+            value={nazovSuboru}     
             onChange={e => setNazovSuboru(e.target.value)} />
         </div>
             <div style={{color:"var(--farba-sivaText)",display:"flex",gap:"5px",fontSize:"var(  --font-size-small)"}}>

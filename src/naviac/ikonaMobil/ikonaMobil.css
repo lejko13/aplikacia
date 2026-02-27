@@ -11,7 +11,7 @@
    
     /* box-shadow: var(--box-shadow); */
     color: var(--farba-sivaText);
-    background-color: rgb(54, 54, 54);
+
     position: relative;
     z-index: 2000;
 }

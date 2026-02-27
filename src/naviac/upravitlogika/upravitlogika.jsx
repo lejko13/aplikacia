@@ -26,6 +26,7 @@ const Uravitlogika = ({focus,children,input,fletextsmall,children2,dajhe}) => {
     console.log(subor[0]?.nazov === nazovSuboru)
     console.log(nazovSuboru)
 
+   
   
 
   document.addEventListener("mousedown", handleClickOutside);
@@ -34,10 +35,20 @@ const Uravitlogika = ({focus,children,input,fletextsmall,children2,dajhe}) => {
   };
 }, [setSuborOpen]);
 
+   const isMobile = useMediaQuery({ maxWidth: 750 });
+
+
 useEffect(() => {
-  if (obsahOpen && focus.current) {
+
+  if (!isMobile) {
+    if (obsahOpen && focus.current) {
     focus.current.focus();
   }
+  }
+  
+  
+
+
 }, [obsahOpen]);
 
 
