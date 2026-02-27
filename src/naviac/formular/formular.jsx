@@ -46,7 +46,7 @@ console.log(referencia);
     
       <form className="form">
         <span className="title">Prihlasit sa</span>
-        <p className="message">Zaregistruj sa teraz a získaj plný prístup k našej aplikácii</p>
+        <p className="message" >Zaregistruj sa teraz a získaj plný prístup k našej aplikácii</p>
 
         <div className="flex">
             <Posldenyuzfakt
