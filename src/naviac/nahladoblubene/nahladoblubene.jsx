@@ -20,7 +20,7 @@ import { MyContext } from '../../naviac/providertelefon/providertelefon'
 import Lajknute from '../lajknute/lajknute'
 import { Children } from 'react';
 
-const NahladOblubene = ({unikat, nazov, klik22,location, hodnotenie, children,krajina, fotky = [],style, kontrola,prepinam ,apartman,setOtvorenie,setFarba,setQuery,otvorenie,zmaz,zmaz2}) => {
+const NahladOblubene = ({idecko,unikat, nazov, klik22,location, hodnotenie, children,krajina, fotky = [],style, kontrola,prepinam ,apartman,setOtvorenie,setFarba,setQuery,otvorenie,zmaz,zmaz2}) => {
   const swiperRef = useRef(null);
 
 
@@ -40,6 +40,11 @@ const NahladOblubene = ({unikat, nazov, klik22,location, hodnotenie, children,kr
 const klikam2 = () => {setSuborOpen(true),setObsahOpen("maleokno2")}
 
 
+
+
+const klik = () => {
+    navigate(`/Detail/${idecko}`);
+  };
 
   return (
     
@@ -108,7 +113,9 @@ const klikam2 = () => {setSuborOpen(true),setObsahOpen("maleokno2")}
             backgroundColor: hover=== true ?"var(  --farba-bielaEfekty)" : "transparent"
           }}></div>
          <img className='obrazocekok2'
+
         style={{
+
     transition: "transform 0.3s ease", // hladka animacia
     transform: hover ? "scale(1.05)" : "scale(1)" // mierne zväčšenie pri hover
   }}

@@ -223,7 +223,10 @@ useEffect(() => {
       >
           {oblubene2.map((prev, index) => (
             <SwiperSlide key={prev.id} virtualIndex={index}>
+
               <NahladOblubene
+
+              idecko = {prev.id}
                 klik22={() =>{
                  
              
