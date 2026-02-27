@@ -47,7 +47,7 @@
     display: none;
 }
 
-.textCastmain5{
+.textCastmain90{
     height:fit-content;
     display: flex;
     flex-direction: row;
@@ -146,25 +146,40 @@ flex-direction: row;
 
 
 .ryhslockaaa{
-    height: 100vh;
-    background-color: aqua;
+  height: calc(100vh - 110px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--farba-biela);
 }
+
+
 @media (max-width: 750px) {
 .tujevsetkposlendee{
-   height: calc(100vh - 140px);
+   height: fit-content;
+   min-height: 800px;
     width: 100%;
     display: flex;
-    padding: 0px 20px 10px 20px ;
+    padding: 0px 10px 10px 10px ;
     flex-direction: column;
     /* background-color: rgb(205, 51, 51); */
 }
+.lentekdrhuhjevovnturru {
+    flex: 1;               
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    overflow: hidden;      /* scroll zakázaný */
 }
-@media (max-width: 509px) {
-    .tujevesetkonicviac {
+
+.tujevesetkonicviac {
     height: 100%;
     width: 100%;
-        min-height: 0;  
-    background-color: pink;
+        min-height: 750px;  
+    background-color: var(--farba-biela);
     border-radius: 12px;
     border: none;
     /* umožní scrollovanie ak obsah presahuje výšku */
@@ -172,58 +187,28 @@ flex-direction: row;
     padding: 0px;
 }
 
+}
+
+@media (max-width: 520px) {
 .tujevsetkposlendee{
-   height: calc(100vh - 140px);
+   height: fit-content;
+   min-height: 800px;
     width: 100%;
     display: flex;
-    padding: 0px 0px 10px 20px ;
+    padding: 0px 0px 10px 10px ;
     flex-direction: column;
     /* background-color: rgb(205, 51, 51); */
 }
-.textCastmain5{
+
+.textCastmain90{
     height:fit-content;
     display: flex;
-    padding: 0px 20px 0px 0px;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     /* padding: var(--paddingdvojka); */
     align-items: center;
+    padding: 0px 10px 0px 0px;
     /* background-color: rgb(47, 255, 0); */
-}
-
-.lentekdrhuhjevovnturru {
-    flex: 1;               /* zaberie zostávajúci priestor */
-    /*       veľmi dôležité pre scrollovanie vo flexboxe */
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 10px 0px 0px 10px;
-  background-color: var(--farba-biela);
-
-    overflow-y: auto;      /* scroll len vo vnútri, nepretiahne rodiča */
-
-    /* skrytie scrollbaru */
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE 10+ */
-}
-.vytvorenireacas{
-    /* background-color: aqua; */
-    height: 100%;
-    display: flex;
-    gap: 2.5px;
-    flex-direction: column;
-    width: 120px;
-}
-}
-
-@media (max-width: 450px) {
-.tujevsetkposlendee{
-   height: calc(100vh - 130px);
-    width: 100%;
-    display: flex;
-    padding: 0px 0px 10px 20px ;
-    flex-direction: column;
-    /* background-color: rgb(205, 51, 51); */
 }
 }

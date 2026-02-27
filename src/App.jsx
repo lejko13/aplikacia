@@ -303,9 +303,7 @@ show = {show}
             <Route path="/Detail/:id" element={<Detail />} />
             <Route path="/Detailpagee/:id" element={<Detailpagee />} />
 
-            <Route path="/Detailpagee/:id" element={<Detailpagee />} />
-            <Route path="/Detailpagee/:id" element={<Detailpagee />} />
-            <Route path="/Detailpagee/:id" element={<Detailpagee />} />
+         
             <Route path="/Pokladna" element={<Pokladna />} />
             <Route path="/Formularikceokko" element={<Formularikceokko />} />
             <Route path="/Zhrnutiefinal" element={<Zhrnutie />} />

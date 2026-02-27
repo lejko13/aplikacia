@@ -31,6 +31,7 @@ const lentqk = useMediaQuery({ maxWidth: 350})
   const isDesktop = useMediaQuery({ minWidth: 1050 });
   const akotobube = useMediaQuery({ minWidth: 510 });
   const akotobube2 = useMediaQuery({ maxWidth: 509 });
+  const akotobube2kkok = useMediaQuery({ maxWidth: 750 });
 
 
    const pretipovanie = Number(id)
@@ -45,23 +46,9 @@ const najdeny = subor?.find(item => item.id === pretipovanie)
   console.log(abysomvedel); // tu vypíšeš hodnotu do konzoly
 
 const klik = (ale) => navigate(`/Detail/${ale}`);
+const klik23 = () => navigate(`/`);
 
 
-useEffect(() => {
-  const html = document.documentElement;
-  const body = document.body;
-
-  const prevHtmlOverflow = html.style.overflow;
-  const prevBodyOverflow = body.style.overflow;
-
-  html.style.overflow = "hidden";
-  body.style.overflow = "hidden";
-
-  return () => {
-    html.style.overflow = prevHtmlOverflow;
-    body.style.overflow = prevBodyOverflow;
-  };
-}, []);
 
 // const novy = () => setSubor(item => item.id === pretipovanie ? {...item,zbierka:item.zbierka.filter(x => x.id != abysomvedel)} :subor )
 const novy = (no) => {
@@ -135,16 +122,51 @@ const odsrraneniekazda = (no) => {
     return (
       <Templatepage hedericek={{ display: "none" }}>
         <div className = "ryhslockaaa">
-          ❌ Tento záznam neexistuje
+
+
+        
+
+        
+
+                         <div className='VYTVOERTETEXT' style={{width:"fit-content"}}>
+
+        <div style={{display:"flex",gap:"10px",flexDirection:"column",gap:"10px",width:"fit-content"}}>
+                  <div style={{ textAlign: "center" }}>
+           Tento zaznam neexistuje 
+          
         </div>
+        
+
+    
+        <div className='WRAPPERNABUTTON'   onClick={() => klik23()}>
+    Preskumat ponuku
+        </div>
+       
+
+
+        </div>
+
+       
+
+        
+        </div>
+        </div>
+
+
+
       </Templatepage>
     );
   }
   return (
     <Templatepage hedericek = {{display:"none"}}>
 
+
+
+
+   
+
         <div className='tujevsetkposlendee'>
-            <div className='textCastmain5' style={stilikak}>
+            <div className='textCastmain90' style={stilikak}>
 
 
                 <div>
@@ -192,27 +214,29 @@ const odsrraneniekazda = (no) => {
             </div>
 
 
-        <div className='tujevesetkonicviac'>
+    <div className='tujevesetkonicviac'>
             <div className='lentekdrhuhjevovnturru'>
 
-{najdeny?.zbierka?.length === 0 && (
-  <div className='VYTVOERTETEXT2'>
-    <div style={{ textAlign: "center" }}>
-      {`Pridajte položky do ${najdeny.nazov} zoznamu preskúmaním `}
-      <span
-        className='pisemnkolentakm'
-         onClick={() =>    
-                          {navigate("/"),handleClick(),setDomov("domov")}}
-      >
-        ponuky
-      </span>
-    </div>
-  </div>
-)}
+                  {najdeny?.zbierka?.length === 0 && (
+                    <div className='VYTVOERTETEXT2'>
+                      <div style={{ textAlign: "center" }}>
+                        {`Pridajte položky do ${najdeny.nazov} zoznamu preskúmaním `}
+                        <span
+                          className='pisemnkolentakm'
+                          onClick={() =>    
+                                            {navigate("/"),handleClick(),setDomov("domov")}}
+                        >
+                          ponuky
+                        </span>
+                      </div>
+                    </div>
+                  )}
+
 
 
             {akotobube && <>
-            {najdeny?.zbierka?.map((item) => <Posledny
+            {najdeny?.zbierka?.map((item) => 
+            <Posledny
                 name = {item.nova44.name}
                 location = {item.nova44.location}
 
@@ -232,6 +256,8 @@ const odsrraneniekazda = (no) => {
                 ></Posledny>)}
             
             </>}
+
+
 
             {akotobube2 && <>
             {najdeny?.zbierka?.map((item) => <Posledny2
@@ -262,13 +288,19 @@ const odsrraneniekazda = (no) => {
             
     
            
-</div>
+</div> 
+
+ 
 
 
     
     
 
         </div>
+
+
+
+        
         {/* <Footer></Footer> */}
 
     </Templatepage>
