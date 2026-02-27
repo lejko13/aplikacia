@@ -1,6 +1,6 @@
 import './informaciadvaa.css'
 import { motion, AnimatePresence } from "framer-motion";
-import React from 'react'
+import React, { useEffect } from "react";
 import { Children } from 'react';
 
 const Informaciadvaa = ({klik,show,children,setOtvaram}) => {

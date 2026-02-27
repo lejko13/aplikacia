@@ -61,7 +61,7 @@ veduci:
   {meno:"Leo",
     priezvisko: "Fudaly",
    lokalita:"Bratislava, Slovensko",
-   fotka:"/zena1.jpg",
+   fotka:"/zena1.webp",
    popisek:"Aktívny hostiteľ už 5 rokov.",
    skola:"Ekonomická univerzita v Bratislave",
    praca:"Študent / SUPKK",
@@ -133,7 +133,7 @@ veduci:
     klientMesto: "Viedeň, Rakúsko",
     klientDatum:"29.2 2020",
     klientAkoDlho: "Pobyt trval dva dni",
-    klientFotky: "/zena1.jpg",
+    klientFotky: "/zena1.webp",
     klientHodnotenieVlaste: "4.90",
     klientHodnotenie:
       "Byt mal všetko, čo sme potrebovali  kuchyňu, klimatizáciu a rýchly internet.",
@@ -2538,7 +2538,7 @@ byvanieotazky: [
   {takasi: "Celkovo spokojnosť, drobné nedostatky, ale nič hrozné.", ohodnotenie: 4.5,kdetobolo:"2BE"}
 ],
     recenzie: ["A","H","I","G","F"],
-     fotka:"/zena1.jpg",
+     fotka:"/zena1.webp",
       kamosi:[
     "G","C","B","A"
   ],
@@ -2948,7 +2948,7 @@ byvanieotazky: [
   vyhoda: "Ochotný a spoľahlivý",
   omne: "Som fanúšik dobrodružstiev a cestovania. Rád spoznávam nových ľudí a objavujem skryté ",
     byvanie: ["1PKM","2PKM","3PKM","4PKM","5PKM","6PKM"],
-     fotka:"/zena3.jpg",
+     fotka:"/zena3.webp",
         kdebyva:"Kezmarok",
       lokalita:"Slovensko",
      koment: "Skvelá lokalita rýchla komunikácia s hostiteľom a príjemný pobyt. Určite odporúčam a rád sa vrátim",

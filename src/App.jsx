@@ -133,13 +133,20 @@ const finalna = useMediaQuery({ maxWidth: 750 });
 const [show, setShow] = useState(true);
 
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShow(false);
-    }, 2000); // 2 sekundy
+useEffect(() => {
+  // hneď zablokuje scroll
+  document.body.style.overflow = "hidden";
 
-    return () => clearTimeout(timer);
-  }, []); // prázdne pole = iba prvý render
+  const timer = setTimeout(() => {
+  setShow(false)
+    document.body.style.overflow = "auto";
+  }, 2000);
+
+  return () => {
+    clearTimeout(timer);
+    document.body.style.overflow = "auto";
+  };
+}, []);
 
   
   return (

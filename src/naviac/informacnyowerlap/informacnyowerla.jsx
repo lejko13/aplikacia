@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import React from 'react'
 import { Children } from 'react';
 
-const Informacnyowerla = ({show,children,setOtvaram}) => {
+const Informacnyowerla = ({show,children,setOtvaram,props}) => {
   return (
    <AnimatePresence>
      {show && <motion.div
@@ -12,7 +12,7 @@ const Informacnyowerla = ({show,children,setOtvaram}) => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          onClick={() => {setOtvaram(false)}}
+          onClick={() => {setOtvaram(false),props && props();}}
         >
           
           

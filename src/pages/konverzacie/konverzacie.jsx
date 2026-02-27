@@ -385,36 +385,22 @@ useEffect(() => {
   }
 }, [text])
 
-
-// console.log(tubudechat);
-// console.log(mozno);
-
-// console.log(najdemchat?.konverzacia);
-
+const funkcia322 = () => {
+  document.documentElement.scrollTop = 0; // html
+  document.body.scrollTop = 0; // body
+};
 
 
-// console.log(chat.current);
 
 
 console.log(najdemchat);
 
-// const mapvanie = 
+
 
   return (
     <Templatepage  hedericek = {{display:"none"}}>
 
-      {/* {isDesktop && 
-      <div style={{padding:"0px 10px",backgroundColor:"var(--farba-biela)"}}>
-
-        <div className='textCastmain' style={{backgroundColor:"var(--farba-biela)"}}>
-          <div>
-            <span className='TEXTICEKNEAOVICEK' > Vaše konverzácie</span>
-            <p className='textpodhlavnuym'> Na tomto mieste nájdete všetky svoje správy</p>
-            </div>
-            
-        </div>
-        </div>} */}
-
+     
 
 {isDesktop &&  
 <>
@@ -423,13 +409,15 @@ console.log(najdemchat);
       show = {otovaram}
 
       setOtvaram = {setOtvaram}
+      props={() => funkcia322()}
 
     ></Informacnyowerla> 
 
 
 
      <Overlapiceko
-     klik = {() => setOtvaram(null) }
+     klik = {() => {setOtvaram(null),funkcia322();
+     } }
 
     //  stylecekokok = {{height:"50px"}}
       show = {otovaram}
@@ -728,7 +716,9 @@ console.log(najdemchat);
                    
                   }} */}
 
-{/* toto je chat pre mobil */}      
+{/* toto je chat pre mobil */}    
+
+
  {isDesktop && 
                   <>
                   {ludia.map((item, index) => {
@@ -823,6 +813,8 @@ console.log(najdemchat);
                
                 </>
                 }
+
+                
             
 {/* toto je chat pre mobil */}    
                 {/* <div></div> */}
