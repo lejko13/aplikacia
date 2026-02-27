@@ -89,6 +89,8 @@ const [file, setFile] = useState(null)
 const kliknute = () => referencia2.current.click()
 
 
+const referenciaposladna = useRef(null)
+
   const isMobile = useMediaQuery({ minWidth: 751 });
   const isDesktop = useMediaQuery({ maxWidth: 750 });
    
@@ -572,7 +574,7 @@ console.log(najdemchat);
                                 </div>
 
 
-                                  <input type="file"  style={{display:"none"}}
+                                  <input type="file" ref = {referenciaposladna}  style={{display:"none"}}
                                     onChange={(e) => {
                                                       const vybrany = e.target.files[0]
                                                       setFile(vybrany)
@@ -581,7 +583,7 @@ console.log(najdemchat);
                                   />
 
                                   <input 
-                                    ref={referencia}
+                                    ref={referenciaposladna}
                                     className='inputekckokokodsvnasdj'
                                     value={text}
                                     onChange={e => setText(e.target.value)}
