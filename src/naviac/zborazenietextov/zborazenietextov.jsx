@@ -11,6 +11,12 @@ const Zborazenietextov = ({pat,sets,stiri,halvny,dalsi,cislo,farba,jeden,dva,tri
 
     const[hover,setHover] = useState(null)
  
+
+      const openInstagram = () => {
+  window.open("https://www.instagram.com/leofudaly/", "_blank");
+}
+
+
   return (
 
     <div className='notakkasitootljent'>

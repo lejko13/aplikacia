@@ -10,6 +10,12 @@ const Zborazenietextov = ({pat,sets,stiri,halvny,dalsi,cislo,farba,jeden,dva,tri
     // 950
 
     const[hover,setHover] = useState(null)
+
+
+
+    const openInstagram = () => {
+  window.open("https://www.instagram.com/leofudaly/", "_blank");
+}
  
   return (
 

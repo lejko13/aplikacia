@@ -11,6 +11,13 @@ const Druhezobrazenie = ({obrazok,textpvacast,pat,sets,stiri,halvny,dalsi,cislo,
 
     // 950
 
+
+    const openInstagram = () => {
+  window.open("https://www.instagram.com/leofudaly/", "_blank");
+}
+
+
+
     const[hover,setHover] = useState(null)
  
   return (

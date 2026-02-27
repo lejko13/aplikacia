@@ -83,7 +83,7 @@ const[ano,setAno] = useState(true)
 
 
           <div className='llojvrbvi'  onMouseEnter={onMouseEnter2} onMouseLeave={onMouseLeave2} onClick={onclickokoko} ref={referencia2} ></div>
-            <img className='fotofotkakookopica' src={fotka} alt="" />
+            <img  onClick={onclickokoko} className='fotofotkakookopica' src={fotka} alt="" />
             {children}
             
           <AnimatePresence>
