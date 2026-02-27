@@ -24,6 +24,7 @@
     padding: 0px 20px;
     justify-content: center;
     z-index: 500;
+      pointer-events: all;
     /* justify-content: space-between; */
 }
 .buzna2 {

@@ -7,10 +7,13 @@
     justify-content: center;
     flex-direction: column;
     width: 40px;
+   pointer-events: all; /*
+   
     /* box-shadow: var(--box-shadow); */
     color: var(--farba-sivaText);
-    /* background-color: rgb(54, 54, 54); */
+    background-color: rgb(54, 54, 54);
     position: relative;
+    z-index: 2000;
 }
 .ikkoonnaa{
     transition: var( --transition);

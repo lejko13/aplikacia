@@ -28,7 +28,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-        z-index: 110;
+        z-index: 10;
     transition: var(  --transition);
      border-radius: var(--border-radius-maly);
     /* background-color: aqua; */

@@ -10,6 +10,8 @@ const IkonaMobil = ({zobrazenie,sztylicek,ikona,text,style,stylecek,onClick,celo
   onClick={(e) => {
     e.stopPropagation(); // zabráni "bublaniu" hore
     onClick && onClick(); // spustí vlastný handler
+    console.log("llllbtheuvjvhjhvbhjk");
+    
   }}
 
     >
