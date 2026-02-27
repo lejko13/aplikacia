@@ -572,7 +572,7 @@ console.log(najdemchat);
                                 </div>
 
 
-                                  <input type="file" ref = {referencia2}  style={{display:"none"}}
+                                  <input type="file"  style={{display:"none"}}
                                     onChange={(e) => {
                                                       const vybrany = e.target.files[0]
                                                       setFile(vybrany)
