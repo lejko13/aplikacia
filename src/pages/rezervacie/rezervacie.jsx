@@ -37,7 +37,9 @@ const navigoavanie = () =>
 
 const referencia = useRef(null)
 
-
+ const chodDomov = () => {
+    navigate("/");
+  };
 
 
 
@@ -643,7 +645,18 @@ const funkce = () => {
               {isMobile &&  
               <div className='taktomaleoknoko'>
              
-                <div style={{position:"relative"}}>
+                <div style={{
+                  position:"relative",
+                  display:"flex",
+                  justifyContent:"space-between" ,
+       
+                  width:"100%",
+                  flexDirection:"row"
+                  }}>
+
+                   <div className='buttonjetaotakze'
+                   onClick={() => chodDomov()}
+                    >Pridat polozku</div>
                 <div className='buttonjetaotakze' 
                 onClick={() => {
                   // if (doplnky) {

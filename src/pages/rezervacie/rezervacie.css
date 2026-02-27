@@ -110,12 +110,13 @@ height: calc(100vh - 24px);
     height: fit-content;
     width: 100%;
     /* padding: 10px; */
-    justify-content: end;
-    flex-direction: row;
+    /* justify-content: space-between; */
+
+    /* flex-direction: column; */
     opacity: 1;
     display: flex;
-    
-    /* background-color: aqua; */
+
+    background-color: aqua;
 }
 
 .buttonjetaotakze{
