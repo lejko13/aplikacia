@@ -137,6 +137,18 @@ flex-direction: row;
     color: var(--farba-sivaText);
       white-space: nowrap; 
 }
+
+
+
+
+
+
+
+
+.ryhslockaaa{
+    height: 100vh;
+    background-color: aqua;
+}
 @media (max-width: 750px) {
 .tujevsetkposlendee{
    height: calc(100vh - 140px);

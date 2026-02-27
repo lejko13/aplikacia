@@ -39,7 +39,7 @@ overscroll-behavior-x: auto;
 
   align-items: center;
   overscroll-behavior-y: contain;
-overscroll-behavior-x: auto; 
+overscroll-behavior-x: contain; 
 
   position: relative;
   overflow-y: auto;

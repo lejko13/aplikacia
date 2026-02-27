@@ -134,7 +134,7 @@ const odsrraneniekazda = (no) => {
   if (!najdeny) {
     return (
       <Templatepage hedericek={{ display: "none" }}>
-        <div style={{ textAlign: "center", marginTop: "50px", fontSize: "24px" }}>
+        <div className = "ryhslockaaa">
           ❌ Tento záznam neexistuje
         </div>
       </Templatepage>
