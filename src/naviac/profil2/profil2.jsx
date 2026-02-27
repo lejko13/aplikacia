@@ -70,7 +70,7 @@ import Konverzaciaprava from '../konverzaciaprava/konverzacialava'
 const Profil2 = ({uzivatel,loklitkakdeje,popisek,cislo1,cislo2,celok,superhostile,bloknutypocet,pocetkamosov,vyhoda1,komplexnytext,popiske,recencie,sprava,prezvisko,twiter,link,tel,email,data2,facebok,ig,fotak,pozadie,meno,meno2,textpod,data,lokalita,malytext,hodnotenie,recenzie,titul,poloha,git,ing,fb,link2,block,znacka,zdielat,ing2,fb2,link4,git2,zdielat2,zdielat3,zdielat4,uzivatelMENO,uzivatelEMAIL,uzivatelFOTKA,uzivatelPRIEZVISKO}) => {
 
  const { suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,unikattne,setUnikatne,priatelia,setPriatelia,zobraziekamosa,setZobraziekamosa,
-  okolo,setOkolo,lepsiedalej,setLepsiedalej,
+  okolo,setOkolo,lepsiedalej,setLepsiedalej,farba,setFarba,otovrene2,setOtvorene2,
      ukazkameno,setUkazkameno,ukazkamenoODSTRANENEI,setUkazkamenoODSTRANENIE,tubudechat, setTubudechat,open,setOpen,obsah,setObsah
 } = useContext(MyContext);
 
@@ -94,7 +94,7 @@ const Profil2 = ({uzivatel,loklitkakdeje,popisek,cislo1,cislo2,celok,superhostil
 
   const[otovrene,setOtvorene] = useState(null)
 
-  const[otovrene2,setOtvorene2] = useState("profil")
+
 
   
   const[hover,setHover] = useState(1)
@@ -107,7 +107,7 @@ const Profil2 = ({uzivatel,loklitkakdeje,popisek,cislo1,cislo2,celok,superhostil
 // console.log(recencie);
 
 const[ulozit,setUlozit] = useState("upravit")
-const[farba,setFarba] = useState(6)
+
   
 
 
@@ -811,6 +811,10 @@ console.log(tubudechat);
                           cislo1 ={uzivatel.pocethodnoteteni}
                           cislo2 = {uzivatel.pocetrecenzie}
                           uzivatel = {uzivatel}
+                          hodnotenieKliknutie = {() => {setOpen(true),setObsah("Hodnotenie"),setFarba(1)}}
+                          recenzieekliknutie = {() => {setOpen(true),setObsah("Recenzie"),setFarba(2)} }
+
+                          
        
                 ></Lengrind2MOBIL>
                      {/* <Lengrind
@@ -1428,6 +1432,8 @@ console.log(tubudechat);
                       }}}
 
                     hodnotenie = {() => {
+
+
                       setFarba(1)
                       if (okono) {
                             setVysuvam(true)
@@ -1643,6 +1649,18 @@ console.log(tubudechat);
                           cislo1 ={uzivatel.pocethodnoteteni}
                           cislo2 = {uzivatel.pocetrecenzie}
                           uzivatel = {uzivatel}
+
+                          hodnotenieKliknutie = {() => { 
+                               setFarba(1)
+                    
+                        setOtvorene2("Hodnotim")
+
+                          }}
+                          recenzieekliknutie = {() =>{setFarba(2)
+                     
+                        setOtvorene2("Recenzie")
+
+                      }}
        
                 ></Lengrind2>
 
@@ -1667,39 +1685,7 @@ console.log(tubudechat);
                 text4 = {uzivatel.lokalita}
 
 
-                // podmienkaaa = {lentu}
-
-                //   onMouseEnter2 = {() => setLentu(true)}
-                // onMouseLeave2 = {() => setLentu(false)}
-
-
-                // lentu,setLentu
-
-
-                //    podminkkak2 = {najdem}
-                //   srdieckoko = {{display:"none"}}
-                //    silooook = {{display:"none"}}
-                   
-                //   sprava={() => klik(mozno.ide)}
-                //   textkamos = {najdem ? "Odstrániť z priateľov" : "Pridať do priateľov"}
-                // obmedzit={() => obmezim()}
-                
-                // kamos={() => funkciaee()}
-
-
-                // zdielat={() => formular()}
-                // zablokovat={() => formular()}
-                // pouzivat={() => formular()}
-                 
-                  
-                // fotecakkklentak = {{
-                //   height:"50px",
-                //   width:"50px",
-                // }}
                
-                
-            
-                // style = {{flex:1,height:"100%" ,   padding:"0px",}}
               
                
                 ></Ludiakolonka2>

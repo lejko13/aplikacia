@@ -775,14 +775,14 @@ export const majitel = [ {
   {
      id: "2",
     ide:"C",
-    //  FOTKAMAJITAL:  "/muz.jpg",
+     FOTKAMAJITAL: "/muz.webp",
     klientMeno: "Marek",
       byt:"1NSA",
     klientPriezvisko: "Novak",
     klientMesto: "Bratislava, Slovensko",
     klientDatum: "23.4 2012",
     klientAkoDlho: "Pobyt trval tri dni",
-    klientFotky: "/.jpeg",
+    klientFotky: "/muz3.webp",
     aktivny:"nie",
     klientHodnotenieVlaste: "4.80",
 
@@ -811,7 +811,7 @@ export const majitel = [ {
     klientMesto: "Poprad, Slovensko",
     klientDatum: "23.5 2012",
     klientAkoDlho: "Pobyt trval päť nocí",
-    klientFotky: "/zena1.jpg",
+    klientFotky: "/zena1.webp",
     klientHodnotenieVlaste: "4.52",
 
   

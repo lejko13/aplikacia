@@ -154,9 +154,11 @@ const[vypisovaniechyby,setVypisovaniechyby] = useState("")
    const[obsah,setObsah] = useState("")
    const[farba,setFarba] = useState(6)
    const[ulozit,setUlozit] = useState("upravit")
+  const[otovrene2,setOtvorene2] = useState("profil")
+
 
       return (
-    <MyContext.Provider value={{ portal, setPortal,animacia,setAnimacia,mobil,setMobil,suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,detail,setDetail,meno,setMeno,unikattne,setUnikatne,rezim,setRezim,dotadok,setDotadok,otazka,setOtazka,halava,setHlava ,priatelia,setPriatelia,okolo,setOkolo,zobraziekamosa,setZobraziekamosa,lepsiedalej,setLepsiedalej,
+    <MyContext.Provider value={{ otovrene2,setOtvorene2,portal, setPortal,animacia,setAnimacia,mobil,setMobil,suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,detail,setDetail,meno,setMeno,unikattne,setUnikatne,rezim,setRezim,dotadok,setDotadok,otazka,setOtazka,halava,setHlava ,priatelia,setPriatelia,okolo,setOkolo,zobraziekamosa,setZobraziekamosa,lepsiedalej,setLepsiedalej,
       ukazkameno,setUkazkameno,ukazkamenoODSTRANENEI,setUkazkamenoODSTRANENIE,tubudechat, setTubudechat,kontrlkaaa,setKontrlkaaa,formData, setFormData,otvorenieposldenho,setOtvorenieposldenho,vypisovaniechyby,setVypisovaniechyby,open,setOpen,obsah,setObsah,farba,setFarba,ulozit,setUlozit
     }}>
       {children} {/* všetky deti majú prístup k contextu */}

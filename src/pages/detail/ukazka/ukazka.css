@@ -23,6 +23,7 @@
 
 .tabulececeko252{
     width:fit-content;
+    cursor: pointer;
     display: flex;
     /* padding: 0px 50px; */
     flex-direction: column;

@@ -1130,7 +1130,7 @@ style={{
                             <div className='textHeaderspodok'>
                             <p style={{ fontSize: "var(--font-size-base2)", whiteSpace: "nowrap",color:"var(--farba-cierna)" }}>{lepsiedalej.meno} {lepsiedalej.priezvisko}</p>
 
-                                <p  className='textEmail'  >{lepsiedalej.email}</p>
+                                <p  className='textEmail'  onClick={() => formular()} >{lepsiedalej.email}</p>
                             </div>
                             <div className='ikonaHeaderodhlasenie'>
                                 <i class='ikona2  bx bx-log-in' 

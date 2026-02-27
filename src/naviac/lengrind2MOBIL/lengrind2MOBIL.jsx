@@ -13,7 +13,7 @@ import { BiBorderBottom } from 'react-icons/bi'
 import Blokujme from '../blokujem/blokujem'
 import { useMediaQuery } from "react-responsive";
 
-const Lengrind2MOBIL = ({kontrolaBloku,kontrolaPraitelov,uzivatel,cislo1,cislo2,popisek,prezvisko32,meno43,fotka,celok,farba,setFarba,ulozit,setUlozit}) => {
+const Lengrind2MOBIL = ({hodnotenieKliknutie,recenzieekliknutie,kontrolaBloku,kontrolaPraitelov,uzivatel,cislo1,cislo2,popisek,prezvisko32,meno43,fotka,celok,farba,setFarba,ulozit,setUlozit}) => {
 
  const { suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,unikattne,setUnikatne,meno,
    priatelia,setPriatelia,
@@ -32,127 +32,6 @@ const Lengrind2MOBIL = ({kontrolaBloku,kontrolaPraitelov,uzivatel,cislo1,cislo2,
 
   const final = celok
 
-
-
-
-// const[aleno,setAleno] = useState({meno:lepsiedalej.meno,
-//   priezvisko:lepsiedalej.priezvisko,
-//   email:lepsiedalej.email,
-//   cislo:lepsiedalej.cislo,
-//   datum:lepsiedalej.datum,
-//   krajina:lepsiedalej.krajina,
-//   kraj:lepsiedalej.kraj,
-//   mesto:lepsiedalej.mesto,
-//   uroven:lepsiedalej.uroven,
-//   omne:lepsiedalej.omne,
-//   vyhoda1:lepsiedalej.vyhoda1,
-//   vyhoda2:lepsiedalej.vyhoda2,
-//   vyhoda3:lepsiedalej.vyhoda3,
-//   vyhoda4:lepsiedalej.vyhoda4,
-// })
-
-
-
-
-
-// console.log(typeof lepsiedalej.uroven)
-
-
-// const precivicenie = Object.entries(aleno)
-// // console.log(precivicenie);
-// // console.log(aleno);
-
-
-//         const noveLepsiedalej = { ...lepsiedalej };
-//         console.log(noveLepsiedalej);
-        
-
-
-// const zapnutie = () => {
-
-
-//   const prazdne  = Object.values(aleno).some(i => i.trim() === "")
-
-  
-//   if (prazdne) {
-//     console.log("prazdne");
-//     // console.log(aleno);
-//     automatika()
-//     setKontrolaText("vyplnvsetkyudaje")
-
-//     return 
-//   }
-  
-
-//   else if (prazdne === false) {
-
-
-//   const allEqual = Object.entries(aleno).every(([klic, hodnota]) =>
-//     noveLepsiedalej[klic] === hodnota
-//   );
-
-//   if (allEqual) {
-//     console.log("vsetko plne");
-//       automatika()
-//     setKontrolaText("aktualne")
-//     return null;
-//   } else {
-//     const noveLepsiedalej = { ...lepsiedalej };
-
-//     Object.entries(aleno).forEach(([klic, hodnota]) => {
-//       noveLepsiedalej[klic] = hodnota;
-//     });
-
-//     setLepsiedalej(noveLepsiedalej);
-
-//          automatika()
-//     setKontrolaText("informaciesuulozene")
-//         console.log(lepsiedalej);
-        
-//   }
-// }
-
-
-
-// }
-// useEffect(() => {
-//   console.log("kokokok");
-  
-// },[aleno])
-
-
-// // console.log(aleno);
-// const spat = () => {
-  
-//     setAleno({
-//       meno:lepsiedalej.meno,
-//         priezvisko:lepsiedalej.priezvisko,
-//         email:lepsiedalej.email,
-//         cislo:lepsiedalej.cislo,
-//         datum:lepsiedalej.datum,
-//         krajina:lepsiedalej.krajina,
-//         kraj:lepsiedalej.kraj,
-//         mesto:lepsiedalej.mesto,
-//         uroven:lepsiedalej.uroven,
-//         omne:lepsiedalej.omne,
-//         vyhoda1:lepsiedalej.vyhoda1,
-//         vyhoda2:lepsiedalej.vyhoda2,
-//         vyhoda3:lepsiedalej.vyhoda3,
-//         vyhoda4:lepsiedalej.vyhoda4,
-
-//     })
-    
-  
-
-// }
-
-// const zapinam =  () => {
-//   setLepsiedalej(prev => {...prev,})
-
-
-// }
-
-// console.log(aleno);
 
 const[ano,setAno] = useState("nie")
 
@@ -188,12 +67,14 @@ const[ano,setAno] = useState("nie")
         meno = {meno43}
         priezvisko = {prezvisko32}
         popisek = {popisek}
-        // // onClick2 = 
+     
         indo44 = {cislo1}
         info20 = {cislo2}
         kontrolaPraitelov = {kontrolaPraitelov}
         kontrolaBloku = {kontrolaBloku}
-        // stilozkkkkzk = {{display:isMobile ? "none" : "block"}}
+        hodnotenieKliknutie = {hodnotenieKliknutie}
+        recenzieekliknutie = {recenzieekliknutie}
+    
         ></Ukazka>}
 
 

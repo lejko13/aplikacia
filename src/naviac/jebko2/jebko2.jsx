@@ -20,19 +20,7 @@ const Jebko2 = ({ulozeneee,uzjaneveim,picauprava,odhlasenie,setFarba,farba,detai
     <div className='profilevnvjvnj23'>
 
       <div className='oballspkoko34'>
-        {/* <div className='lattomnsns'>
-          <div className='foteckkkadrziakcik'>
-            <img src={fotka} className='fotkanilentotoanoo' alt="" />
-          </div>
-          <div style={{display: "flex", flexDirection: "column",gap:"1px"}}>
-            <div style={{fontSize:"var(  --font-size-base100)",color:"var(--farba-cierna)"}}>{meno} {prezvisko}</div>
-            <span style={{fontSize:"var( --font-size-small)",color:"var(--farba-sivaText)"}}>{email}</span>
-          </div>
-
-        
-
-        </div>
-        <Linka></Linka> */}
+       
         
        
         <div className='lentakkkokomonvb45'>

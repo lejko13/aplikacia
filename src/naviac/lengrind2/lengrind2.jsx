@@ -13,11 +13,11 @@ import { BiBorderBottom } from 'react-icons/bi'
 import Blokujme from '../../naviac/blokujem/blokujem'
 import { useMediaQuery } from "react-responsive";
 
-const Lengrind2 = ({kontrolaBloku,kontrolaPraitelov,uzivatel,cislo1,cislo2,popisek,prezvisko32,meno43,fotka,celok,farba,setFarba,ulozit,setUlozit}) => {
+const Lengrind2 = ({hodnotenieKliknutie,recenzieekliknutie,kontrolaBloku,kontrolaPraitelov,uzivatel,cislo1,cislo2,popisek,prezvisko32,meno43,fotka,celok,farba,setFarba,ulozit,setUlozit}) => {
 
  const { suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,unikattne,setUnikatne,meno,
    priatelia,setPriatelia,
-   okolo,setOkolo,lepsiedalej,setLepsiedalej
+   okolo,setOkolo,lepsiedalej,setLepsiedalej,otovrene2,setOtvorene2,
  } = useContext(MyContext);
 
 
@@ -29,7 +29,7 @@ const Lengrind2 = ({kontrolaBloku,kontrolaPraitelov,uzivatel,cislo1,cislo2,popis
 
   const final = celok
 
-  // console.log(uzivatel);
+
 
 
 // const[aleno,setAleno] = useState({meno:lepsiedalej.meno,
@@ -191,6 +191,9 @@ const[ano,setAno] = useState("nie")
         kontrolaPraitelov = {kontrolaPraitelov}
         kontrolaBloku = {kontrolaBloku}
         stilozkkkkzk = {{display:isMobile ? "none" : "block"}}
+
+        hodnotenieKliknutie = {hodnotenieKliknutie}
+        recenzieekliknutie =  {recenzieekliknutie}
         ></Ukazka>
 
 

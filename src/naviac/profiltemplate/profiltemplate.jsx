@@ -397,6 +397,14 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
                 celok = {celok}
                 ulozit = {ulozit}
                 setUlozit = {setUlozit}
+
+
+                hodnotenieKliknutie = {() => {setOpen(true),setObsah("Hodnotenie"),setFarba(1)}}
+                recenzieekliknutie = {() => {setOpen(true),setObsah("Recenzie"),setFarba(2)}}
+
+
+
+
                 ></LengrindPROFIL>
 
 
@@ -459,12 +467,18 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
                     // profil={() => {setOpen(true),setFarba(6),setObsah("dalsei")}}
                     uzjaneveim={() => {setOpen(true),setObsah("detail"),setFarba(5),  setUlozit("ulozit")}}
                     bloknutyklick={() => {setOpen(true),setObsah("zablokovany"),setFarba(4)}}
-                    hodnotenie={() => {setOpen(true),setObsah("Hodnotenie"),setFarba(1)}}
+
+                    
+                   
 
                     Lokalituzobraziť={() => {setOpen(true),setObsah("priatelia"),setFarba(3)}}
 
                     
                     recenzie={() => {setOpen(true),setObsah("Recenzie"),setFarba(2)}}
+                     hodnotenie={() => {setOpen(true),setObsah("Hodnotenie"),setFarba(1)}}
+
+
+
                     picauprava = {() => {setOpen(true),setFarba(6),setObsah("dalsei"),setUlozit("upravit")}}
                    
                     
@@ -631,6 +645,19 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
                 celok = {celok}
                 ulozit = {ulozit}
                 setUlozit = {setUlozit}
+
+                  recenzieekliknutie = {() => {
+                   setFarba(1)
+                   
+                            setVysuvam(true)
+                            setOtvorene("Hodnotenia")
+                }}
+       hodnotenieKliknutie = {() =>{
+                  setFarba(2)
+                 
+                            setVysuvam(true)
+                            setOtvorene("Recenzie")
+                }}
                 ></Lengriduprava>
                    </div>
          
@@ -1070,6 +1097,13 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
                 celok = {celok}
                 ulozit = {ulozit}
                 setUlozit = {setUlozit}
+
+                hodnotenieKliknutie = {() => {
+                    setFarba(1),setOtvorene2("Hodnotim")}}
+                recenzieekliknutie = {() => {
+                  setFarba(2),setOtvorene2("Recenzie")
+
+                }}
                 ></Lengrind>
 
               </div>
@@ -1079,13 +1113,13 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
                {otovrene2 === "detail" && 
                <>
               <div className='tujepriateliaaa222'>
-                <Lengrind
+                {/* <Lengrind
                 ulozit = {ulozit}
                 setUlozit = {setUlozit}
                 farba = {farba}
                 setFarba = {setFarba}
                 celok = {celok}
-                ></Lengrind>
+                ></Lengrind> */}
 
              
               </div>

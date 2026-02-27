@@ -12,7 +12,7 @@ import { BiBorderBottom } from 'react-icons/bi'
 import { useMediaQuery } from "react-responsive";
 
 
-const LengrindPROFIL = ({cislo1,cislo2,popisek,prezvisko32,meno43,fotka,celok,farba,setFarba,ulozit,setUlozit}) => {
+const LengrindPROFIL = ({hodnotenieKliknutie,recenzieekliknutie,cislo1,cislo2,popisek,prezvisko32,meno43,fotka,celok,farba,setFarba,ulozit,setUlozit}) => {
 
  const { suborOpen,setSuborOpen,obsahOpen,setObsahOpen,subor,setSubor,nazovSuboru,setNazovSuboru,unikattne,setUnikatne,meno,
    priatelia,setPriatelia,
@@ -195,6 +195,10 @@ const[ano,setAno] = useState("nie")
         // // onClick2 = 
         indo44 = {cislo1}
         info20 = {cislo2}
+
+
+        hodnotenieKliknutie = {hodnotenieKliknutie}
+        recenzieekliknutie = {recenzieekliknutie}
  
         ></Ukazka> }
        
