@@ -7,7 +7,11 @@ const IkonaMobil = ({zobrazenie,sztylicek,ikona,text,style,stylecek,onClick,celo
   return (
     <div className='IkonaMobil' style={celocek}
      onMouseDown={onMouseDown}
-    onClick={onClick}
+  onClick={(e) => {
+    e.stopPropagation(); // zabráni "bublaniu" hore
+    onClick && onClick(); // spustí vlastný handler
+  }}
+
     >
         <div  className = "ikkoonnaa" style={style}>{ikona}</div>
         <div  className = "ikonaaaaloca" style={stylecek}>{text}</div>
