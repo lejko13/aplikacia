@@ -804,6 +804,7 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
 
                     }
                      }
+                 
                     detaili = {() => {
                        if (okono) {
                         console.log("picakk")
@@ -813,6 +814,7 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
                       }else {
                           setOtvorene2("detail"),setFarba(5)
                           setUlozit("ulozit")
+                             console.log("Kpokop")
                           // setOtvorene2("blok")
 
                       }
@@ -1113,13 +1115,13 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
                {otovrene2 === "detail" && 
                <>
               <div className='tujepriateliaaa222'>
-                {/* <Lengrind
+                <Lengrind
                 ulozit = {ulozit}
                 setUlozit = {setUlozit}
                 farba = {farba}
                 setFarba = {setFarba}
                 celok = {celok}
-                ></Lengrind> */}
+                ></Lengrind>
 
              
               </div>
@@ -1141,7 +1143,7 @@ setZobraziekamosa(<div className='horeeedoelnicvi'><span>{item.klientMeno} {item
 
       </div>}
       
-      {/* <Linka></Linka> */}
+
       <div className='dolekokt'>
     
          <Profilswiper
