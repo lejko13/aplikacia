@@ -1,18 +1,47 @@
-# React + Vite
+# Mapová aplikácia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Moderná webová aplikácia založená na práci s mapou a zoznamami, vytvorená s dôrazom na interakciu používateľa, logiku dát a simuláciu reálnych funkcionalít.
 
-Currently, two official plugins are available:
+Aplikácia obsahuje:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- fuzzy search pre rýchle vyhľadávanie v mapovaných zoznamoch  
+- pridávanie položiek do obľúbených  
+- simuláciu chatu medzi používateľmi  
+- custom kalendár s možnosťou rezervácie  
+- formulár s vlastnými údajmi a ich úpravou  
+- správa a úprava mapovaných zoznamov v UI  
+- blokovanie používateľov a ich následné zobrazenie  
+- pridávanie priateľov  
+- prepínanie farebného režimu (color switch)  
+- rezervácie s výberom dátumu a prepočtom ceny  
+- custom filtre a dynamický prepočet celkovej sumy  
+- validácia dátumov (napr. logika pri zadávaní dátumu narodenia a rezervácií)  
+- logika pre správu ubytovaní vrátane obmedzení na neplatné dátumy  
+- možnosť vytvárania a ukladania konkrétnych ubytovaní podľa názvu a výberu používateľa  
 
-## React Compiler
+Projekt je zameraný na komplexnú prácu s UI, dátovou logikou a simuláciu reálnych používateľských interakcií.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-Note: This will impact Vite dev & build performances.
+# Map Application
 
-## Expanding the ESLint configuration
+A modern web application focused on map-based data handling and list management, built with an emphasis on user interaction, data logic, and simulated real-world functionality.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application includes:
+
+- fuzzy search for fast filtering of mapped lists  
+- adding items to favorites  
+- chat simulation between users  
+- custom calendar with reservation functionality  
+- user data form with editable fields  
+- management and updating of mapped lists in the UI  
+- user blocking with visibility handling  
+- adding and managing friends  
+- color theme switching  
+- reservations with date selection and price calculation  
+- custom filters and dynamic total price recalculation  
+- date validation logic (e.g. birth date and reservation constraints)  
+- accommodation management with validation rules for dates  
+- creation and storage of custom accommodations based on user selection and naming  
+
+The project focuses on advanced UI handling, data logic, and simulation of real user interactions.
